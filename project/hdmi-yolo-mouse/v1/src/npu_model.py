@@ -53,8 +53,8 @@ def decode(outputs, threshold=.25):
 class NPUModel:
     def __init__(self,path,core_mask=7):
         self.ctx=C.c_uint64(0)
-        here=Path(__file__).resolve().parent
-        self.lib=C.CDLL(str(here/'librknnrt.so'))
+        project_root=Path(__file__).resolve().parent.parent
+        self.lib=C.CDLL(str(project_root/'lib'/'librknnrt.so'))  # 板端 RKNN 动态库，单独放在 lib
         signatures={
             'rknn_init':([C.POINTER(C.c_uint64),C.c_void_p,C.c_uint32,C.c_uint32,C.c_void_p],C.c_int),
             'rknn_query':([C.c_uint64,C.c_int,C.c_void_p,C.c_uint32],C.c_int),

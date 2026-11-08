@@ -1,0 +1,98 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.9.1+cu128",
+  "epochs": 50,
+  "batch": 16,
+  "seed": 42,
+  "initial_weights": "../weights/yolo26n.pt",
+  "shapes_HW": {
+    "320x320": [
+      320,
+      320
+    ],
+    "320x192": [
+      192,
+      320
+    ],
+    "256x256": [
+      256,
+      256
+    ],
+    "256x160": [
+      160,
+      256
+    ]
+  },
+  "data": {
+    "root": "external data directory, provided with --data-dir",
+    "train_manifest": "split/train.txt",
+    "val_manifest": "split/val.txt",
+    "manifest_paths_relative_to": "dataset root",
+    "train_videos": [
+      "1",
+      "2"
+    ],
+    "val_videos": [
+      "3"
+    ],
+    "names": {
+      "0": "ball"
+    },
+    "train_count": 607,
+    "val_count": 300
+  },
+  "results": {
+    "320x320": {
+      "best": "../weights/320x320.pt",
+      "train_seconds": 531.6782592999953,
+      "metrics_fp32": {
+        "metrics/precision(B)": 0.9988404449536933,
+        "metrics/recall(B)": 0.9822121365132633,
+        "metrics/mAP50(B)": 0.9935363457760314,
+        "metrics/mAP50-95(B)": 0.8873921522174607,
+        "fitness": 0.8873921522174607
+      },
+      "sha256": "6e4009272f8bd001cf655987cf741df28609d3dd2cd8abec091a0db279312775"
+    },
+    "320x192": {
+      "best": "../weights/320x192.pt",
+      "train_seconds": 494.91293260000384,
+      "metrics_fp32": {
+        "metrics/precision(B)": 0.9986490636639465,
+        "metrics/recall(B)": 0.984036488027366,
+        "metrics/mAP50(B)": 0.9933961352657005,
+        "metrics/mAP50-95(B)": 0.8689757940458132,
+        "fitness": 0.8689757940458132
+      },
+      "sha256": "3df3e21226070c36203ad5281f00c76153305507085f289576ad9b08f7145998"
+    },
+    "256x256": {
+      "best": "../weights/256x256.pt",
+      "train_seconds": 500.43619979999494,
+      "metrics_fp32": {
+        "metrics/precision(B)": 0.9988447816550728,
+        "metrics/recall(B)": 0.9859036373985686,
+        "metrics/mAP50(B)": 0.9943844492440604,
+        "metrics/mAP50-95(B)": 0.8583984334654703,
+        "fitness": 0.8583984334654703
+      },
+      "sha256": "6c9e54e01dc84a242dae6d88efc0e657a5b7b85bf63fe82600c6800c2b1dcc57"
+    },
+    "256x160": {
+      "best": "../weights/256x160.pt",
+      "train_seconds": 487.84677779999765,
+      "metrics_fp32": {
+        "metrics/precision(B)": 0.997351586790785,
+        "metrics/recall(B)": 0.9817559863169898,
+        "metrics/mAP50(B)": 0.9849883855981417,
+        "metrics/mAP50-95(B)": 0.8537183101241229,
+        "fitness": 0.8537183101241229
+      },
+      "sha256": "e5b4d20d2090abfbdf503cdb7a45530f7b8829fd218fb28f1fb7057c6c103503"
+    }
+  },
+  "archive_note": "2026-11-08 original measurements; only file references made relative to results/ for this archive. Training args.yaml retains original execution paths.",
+  "experiment_id": "resolution_compare_20261108_113852",
+  "ultralytics": "8.4.204",
+  "initial_weights_sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef"
+}

@@ -13,7 +13,7 @@ import time
 import cv2  # 使用板子已有的无桌面 OpenCV，避免 pip GUI 版本依赖 X11
 import numpy as np
 
-HERE = Path(__file__).resolve().parent
+PROJECT_ROOT = Path(__file__).resolve().parent.parent  # v1 根目录，不依赖启动时所在目录
 from npu_model import NPUModel
 from gst_support import Gst, GError, input_mode, input_format
 from aim_control import AimControl
@@ -34,7 +34,7 @@ class GstBuffer(C.Structure):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--model', default=str(HERE / 'ball320-int8.rknn'))
+    parser.add_argument('--model', default=str(PROJECT_ROOT / 'weights' / 'ball320-int8.rknn'))
     parser.add_argument('--conf', type=float, default=0.25)
     parser.add_argument('--ai-rate', type=int, default=60, help='检测分支最高采集帧率')
     parser.add_argument('--duration', type=float, default=0, help='0 表示持续运行')
