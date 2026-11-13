@@ -1,0 +1,1168 @@
+{
+  "scope": "24 sampled original1080p frames from user three videos, cached in RAM and repeated; excludes file I/O, video decoding, HDMI, mouse and display",
+  "model_changes": "none",
+  "production_application_changes": "none",
+  "clocks": "temporary CPU performance/NPU1GHz/DMC1.56GHz; restored after each experiment",
+  "correctness": "Every measured detection compared to baseline for its source frame. IO variants also checked all raw tensors on all24 frames. Reused preprocessing pixels checked exactly.",
+  "experiments": {
+    "multicore-rtmdet256160.json": {
+      "status": "complete",
+      "restored": true,
+      "model_sha256": "46df509a2e84dbbe931b716ec187bb123db25bd25fa7ce5d9ed964a816efff8e",
+      "max_temp_c": 36.076,
+      "sampled_frequencies": {
+        "/sys/class/devfreq/dmc/cur_freq": [
+          "1560000000"
+        ],
+        "/sys/class/devfreq/fdab0000.npu/cur_freq": [
+          "1000000000"
+        ],
+        "/sys/class/devfreq/fb000000.gpu/cur_freq": [
+          "300000000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy6/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy4/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy0/scaling_cur_freq": [
+          "1800000"
+        ]
+      },
+      "results": [
+        {
+          "core_masks": [
+            7
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 1440,
+          "fps": 142.51339698079028,
+          "latency_mean_ms": 6.933206684027778,
+          "latency_p50_ms": 7.2902345,
+          "latency_p95_ms": 7.44970505,
+          "run_mean_ms": 5.765189982638889,
+          "IO_mean_ms": 0.2339896236111111,
+          "pre_mean_ms": 0.5210372409722223,
+          "post_mean_ms": 0.3696028013888889,
+          "fps_each_round": [
+            138.99337860910597,
+            148.26397755018976,
+            140.6205023685845
+          ]
+        },
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 1440,
+          "fps": 228.37366672723587,
+          "latency_mean_ms": 4.295411663888889,
+          "latency_p50_ms": 4.274768,
+          "latency_p95_ms": 4.419436,
+          "run_mean_ms": 3.1312633006944446,
+          "IO_mean_ms": 0.22978100694444445,
+          "pre_mean_ms": 0.5210787694444444,
+          "post_mean_ms": 0.3705580159722222,
+          "fps_each_round": [
+            227.55308484821225,
+            229.12594849944267,
+            228.44741969710302
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 1440,
+          "fps": 496.65653476528865,
+          "latency_mean_ms": 5.929390858333333,
+          "latency_p50_ms": 5.86847,
+          "latency_p95_ms": 6.7584522,
+          "run_mean_ms": 3.592175678472222,
+          "IO_mean_ms": 0.4300539388888889,
+          "pre_mean_ms": 0.97972278125,
+          "post_mean_ms": 0.87421738125,
+          "fps_each_round": [
+            498.99978248495523,
+            492.5359147594853,
+            498.4860992742731
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 1440,
+          "fps": 799.8264603198604,
+          "latency_mean_ms": 7.337950052777778,
+          "latency_p50_ms": 7.1368115,
+          "latency_p95_ms": 8.796318199999998,
+          "run_mean_ms": 4.5074827583333335,
+          "IO_mean_ms": 0.5931235340277777,
+          "pre_mean_ms": 1.4072721583333334,
+          "post_mean_ms": 0.7670849173611111,
+          "fps_each_round": [
+            796.1141178968415,
+            794.8534655593711,
+            808.6566437640336
+          ]
+        },
+        {
+          "core_masks": [
+            7
+          ],
+          "workers": 1,
+          "mode": "rgb",
+          "io": "baseline",
+          "frames": 1440,
+          "fps": 149.6819183614267,
+          "latency_mean_ms": 6.604512843055556,
+          "latency_p50_ms": 6.7561785,
+          "latency_p95_ms": 6.8943452,
+          "run_mean_ms": 5.989284928472222,
+          "IO_mean_ms": 0.21856370555555557,
+          "pre_mean_ms": 0.0007040736111111111,
+          "post_mean_ms": 0.3603792083333333,
+          "fps_each_round": [
+            148.5618853874482,
+            149.93950142598666,
+            150.55835686420872
+          ]
+        },
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "rgb",
+          "io": "baseline",
+          "frames": 1440,
+          "fps": 261.99757780000743,
+          "latency_mean_ms": 3.7408952326388887,
+          "latency_p50_ms": 3.721753,
+          "latency_p95_ms": 3.855631,
+          "run_mean_ms": 3.1259521097222223,
+          "IO_mean_ms": 0.21823597916666668,
+          "pre_mean_ms": 0.0006864375,
+          "post_mean_ms": 0.3595629444444444,
+          "fps_each_round": [
+            263.06803363875935,
+            260.55080552106875,
+            262.3868611633473
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "rgb",
+          "io": "baseline",
+          "frames": 1440,
+          "fps": 720.7492848301405,
+          "latency_mean_ms": 4.075763913888889,
+          "latency_p50_ms": 4.0224695,
+          "latency_p95_ms": 4.42045755,
+          "run_mean_ms": 3.3929925305555555,
+          "IO_mean_ms": 0.2572337263888889,
+          "pre_mean_ms": 0.0008784701388888889,
+          "post_mean_ms": 0.3878003527777778,
+          "fps_each_round": [
+            716.3698056807053,
+            728.3748599668983,
+            717.6234128154786
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "rgb",
+          "io": "baseline",
+          "frames": 1440,
+          "fps": 873.0537678511507,
+          "latency_mean_ms": 6.74919669375,
+          "latency_p50_ms": 6.7313860000000005,
+          "latency_p95_ms": 7.5461193,
+          "run_mean_ms": 5.605880629166666,
+          "IO_mean_ms": 0.4800295097222222,
+          "pre_mean_ms": 0.0010384520833333333,
+          "post_mean_ms": 0.6209772930555556,
+          "fps_each_round": [
+            874.8358242995478,
+            872.9790827500746,
+            871.3533512799931
+          ]
+        }
+      ]
+    },
+    "io-rtmdet256160.json": {
+      "status": "complete",
+      "restored": true,
+      "model_sha256": "46df509a2e84dbbe931b716ec187bb123db25bd25fa7ce5d9ed964a816efff8e",
+      "max_temp_c": 37.0,
+      "sampled_frequencies": {
+        "/sys/class/devfreq/dmc/cur_freq": [
+          "1560000000"
+        ],
+        "/sys/class/devfreq/fdab0000.npu/cur_freq": [
+          "1000000000"
+        ],
+        "/sys/class/devfreq/fb000000.gpu/cur_freq": [
+          "300000000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy6/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy4/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy0/scaling_cur_freq": [
+          "1800000"
+        ]
+      },
+      "results": [
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 2160,
+          "fps": 227.571455993789,
+          "latency_mean_ms": 4.307496593055555,
+          "latency_p50_ms": 4.284934,
+          "latency_p95_ms": 4.4357863,
+          "run_mean_ms": 3.134078261574074,
+          "IO_mean_ms": 0.22865540092592593,
+          "pre_mean_ms": 0.5227241898148148,
+          "post_mean_ms": 0.37598064861111113,
+          "fps_each_round": [
+            226.9714961194428,
+            227.4935780814146,
+            228.25294101116808
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 2160,
+          "fps": 505.03208250323615,
+          "latency_mean_ms": 5.836440622222222,
+          "latency_p50_ms": 5.7973915,
+          "latency_p95_ms": 6.672868149999999,
+          "run_mean_ms": 3.592797327314815,
+          "IO_mean_ms": 0.4365612990740741,
+          "pre_mean_ms": 0.9782688611111111,
+          "post_mean_ms": 0.7763423013888889,
+          "fps_each_round": [
+            517.2635332020994,
+            506.35963829434195,
+            492.10534935547065
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 2160,
+          "fps": 786.1277237762928,
+          "latency_mean_ms": 7.481148850925926,
+          "latency_p50_ms": 7.273846499999999,
+          "latency_p95_ms": 9.201800349999996,
+          "run_mean_ms": 4.463881635185185,
+          "IO_mean_ms": 0.6255207634259259,
+          "pre_mean_ms": 1.4970579296296296,
+          "post_mean_ms": 0.8272292958333334,
+          "fps_each_round": [
+            780.764251282559,
+            788.6238356671435,
+            789.0506570225914
+          ]
+        },
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 2160,
+          "fps": 233.7391394537259,
+          "latency_mean_ms": 4.195072010185185,
+          "latency_p50_ms": 4.179068,
+          "latency_p95_ms": 4.32899175,
+          "run_mean_ms": 3.131605473148148,
+          "IO_mean_ms": 0.15185264722222222,
+          "pre_mean_ms": 0.5264700273148148,
+          "post_mean_ms": 0.3772505337962963,
+          "fps_each_round": [
+            234.52082187123673,
+            234.73457302086322,
+            231.98215721094678
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 2160,
+          "fps": 543.401091187731,
+          "latency_mean_ms": 5.420540725462963,
+          "latency_p50_ms": 5.3980945,
+          "latency_p95_ms": 6.070525849999998,
+          "run_mean_ms": 3.5642662208333333,
+          "IO_mean_ms": 0.3225486865740741,
+          "pre_mean_ms": 0.908185437037037,
+          "post_mean_ms": 0.6158317731481482,
+          "fps_each_round": [
+            550.1875946750108,
+            534.0604289152792,
+            546.2168431981089
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 2160,
+          "fps": 826.3032757669441,
+          "latency_mean_ms": 7.1173805060185185,
+          "latency_p50_ms": 7.042971,
+          "latency_p95_ms": 8.015661299999998,
+          "run_mean_ms": 4.8297173791666665,
+          "IO_mean_ms": 0.3694353486111111,
+          "pre_mean_ms": 1.2450796092592593,
+          "post_mean_ms": 0.6604918083333333,
+          "fps_each_round": [
+            831.2400764799057,
+            823.6132989324395,
+            824.1004457758469
+          ]
+        },
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "quantized",
+          "frames": 2160,
+          "fps": 229.8855106119138,
+          "latency_mean_ms": 4.264678710185185,
+          "latency_p50_ms": 4.25009,
+          "latency_p95_ms": 4.41678355,
+          "run_mean_ms": 3.1368600722222224,
+          "IO_mean_ms": 0.21920393935185184,
+          "pre_mean_ms": 0.5246354851851852,
+          "post_mean_ms": 0.3756549796296296,
+          "fps_each_round": [
+            231.2384278434972,
+            228.1576677554872,
+            230.28211987241718
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "full",
+          "io": "quantized",
+          "frames": 2160,
+          "fps": 524.0087860174701,
+          "latency_mean_ms": 5.623524587962963,
+          "latency_p50_ms": 5.659722,
+          "latency_p95_ms": 6.3806921999999995,
+          "run_mean_ms": 3.5486007050925927,
+          "IO_mean_ms": 0.489472674537037,
+          "pre_mean_ms": 0.9055030592592592,
+          "post_mean_ms": 0.6694119453703704,
+          "fps_each_round": [
+            516.1689026981659,
+            527.5452019449555,
+            528.4930863396917
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "full",
+          "io": "quantized",
+          "frames": 2160,
+          "fps": 813.9454286210118,
+          "latency_mean_ms": 7.228661706944444,
+          "latency_p50_ms": 7.082365,
+          "latency_p95_ms": 8.55069025,
+          "run_mean_ms": 4.636907900462963,
+          "IO_mean_ms": 0.5867559884259259,
+          "pre_mean_ms": 1.332450174537037,
+          "post_mean_ms": 0.6598180597222222,
+          "fps_each_round": [
+            816.5286918219522,
+            817.2944203325816,
+            808.0776773466417
+          ]
+        },
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "dma",
+          "frames": 2160,
+          "fps": 227.93949872926376,
+          "latency_mean_ms": 4.304981702314815,
+          "latency_p50_ms": 4.298349,
+          "latency_p95_ms": 4.43166605,
+          "run_mean_ms": 3.3805564768518517,
+          "IO_mean_ms": 0.01407733240740741,
+          "pre_mean_ms": 0.5218402361111111,
+          "post_mean_ms": 0.38047898703703703,
+          "fps_each_round": [
+            228.42769664349598,
+            228.57842299860775,
+            226.8207241173616
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "full",
+          "io": "dma",
+          "frames": 2160,
+          "fps": 558.0285386815746,
+          "latency_mean_ms": 5.282444153240741,
+          "latency_p50_ms": 5.240766,
+          "latency_p95_ms": 5.8833336,
+          "run_mean_ms": 3.7451074453703703,
+          "IO_mean_ms": 0.023609863425925925,
+          "pre_mean_ms": 0.8402001537037037,
+          "post_mean_ms": 0.6632124518518518,
+          "fps_each_round": [
+            563.064340032678,
+            554.3605505446097,
+            556.7330476696887
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "full",
+          "io": "dma",
+          "frames": 2160,
+          "fps": 568.0625789834637,
+          "latency_mean_ms": 10.432831575,
+          "latency_p50_ms": 10.367723,
+          "latency_p95_ms": 12.504685349999997,
+          "run_mean_ms": 7.0671663972222225,
+          "IO_mean_ms": 0.07831234583333332,
+          "pre_mean_ms": 1.6246846175925926,
+          "post_mean_ms": 1.6506826685185185,
+          "fps_each_round": [
+            571.1590324151583,
+            558.501780870582,
+            574.7860247857521
+          ]
+        }
+      ]
+    },
+    "multicore-yolo320192.json": {
+      "status": "complete",
+      "restored": true,
+      "model_sha256": "3011635986f967421f53e28ec5bcc7469a0cca1d730ecbede737147302ba4ec9",
+      "max_temp_c": 37.923,
+      "sampled_frequencies": {
+        "/sys/class/devfreq/dmc/cur_freq": [
+          "1560000000"
+        ],
+        "/sys/class/devfreq/fdab0000.npu/cur_freq": [
+          "1000000000"
+        ],
+        "/sys/class/devfreq/fb000000.gpu/cur_freq": [
+          "300000000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy6/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy4/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy0/scaling_cur_freq": [
+          "1800000"
+        ]
+      },
+      "results": [
+        {
+          "core_masks": [
+            7
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 2160,
+          "fps": 104.3845570963605,
+          "latency_mean_ms": 9.496387716203703,
+          "latency_p50_ms": 9.935069,
+          "latency_p95_ms": 10.036391,
+          "run_mean_ms": 7.707720697685185,
+          "IO_mean_ms": 0.24075792685185185,
+          "pre_mean_ms": 1.245224350925926,
+          "post_mean_ms": 0.2542438111111111,
+          "fps_each_round": [
+            102.04112084465442,
+            104.67971750053235,
+            106.53072013171068
+          ]
+        },
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 2160,
+          "fps": 209.2076417908751,
+          "latency_mean_ms": 4.698691643518519,
+          "latency_p50_ms": 4.687149,
+          "latency_p95_ms": 4.7412129499999995,
+          "run_mean_ms": 2.9261899166666665,
+          "IO_mean_ms": 0.23673297962962964,
+          "pre_mean_ms": 1.240169037037037,
+          "post_mean_ms": 0.25009949583333335,
+          "fps_each_round": [
+            209.7735019297847,
+            209.3057804045108,
+            208.54730630918888
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 2160,
+          "fps": 478.9815550374477,
+          "latency_mean_ms": 6.142094986574074,
+          "latency_p50_ms": 6.086607,
+          "latency_p95_ms": 6.91058845,
+          "run_mean_ms": 3.3455817324074073,
+          "IO_mean_ms": 0.45945394212962964,
+          "pre_mean_ms": 1.5644996398148148,
+          "post_mean_ms": 0.7074049773148148,
+          "fps_each_round": [
+            478.28309060915984,
+            480.73693639239525,
+            477.93436226968095
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "full",
+          "io": "baseline",
+          "frames": 2160,
+          "fps": 725.9067028410174,
+          "latency_mean_ms": 8.101808073148149,
+          "latency_p50_ms": 8.005514999999999,
+          "latency_p95_ms": 9.748442099999998,
+          "run_mean_ms": 4.15023779212963,
+          "IO_mean_ms": 0.6974710277777778,
+          "pre_mean_ms": 2.253900299074074,
+          "post_mean_ms": 0.9244246162037038,
+          "fps_each_round": [
+            732.0251454297581,
+            719.4119246357377,
+            726.3931378221384
+          ]
+        },
+        {
+          "core_masks": [
+            7
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 2160,
+          "fps": 106.08303969163231,
+          "latency_mean_ms": 9.345778885648148,
+          "latency_p50_ms": 9.81508,
+          "latency_p95_ms": 9.908976699999998,
+          "run_mean_ms": 7.676976318055556,
+          "IO_mean_ms": 0.1684784805555556,
+          "pre_mean_ms": 1.2364595768518518,
+          "post_mean_ms": 0.2557702050925926,
+          "fps_each_round": [
+            106.7473753682561,
+            105.13503767870439,
+            106.3802187948821
+          ]
+        },
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 2160,
+          "fps": 213.65231890424178,
+          "latency_mean_ms": 4.601057749074074,
+          "latency_p50_ms": 4.593815,
+          "latency_p95_ms": 4.63610705,
+          "run_mean_ms": 2.9349956847222223,
+          "IO_mean_ms": 0.16577402777777778,
+          "pre_mean_ms": 1.239433964351852,
+          "post_mean_ms": 0.25299784583333335,
+          "fps_each_round": [
+            213.72341865739762,
+            214.20997856271026,
+            213.02687123527835
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 2160,
+          "fps": 526.5230137417553,
+          "latency_mean_ms": 5.582199492592593,
+          "latency_p50_ms": 5.508203,
+          "latency_p95_ms": 6.312335799999999,
+          "run_mean_ms": 3.333595116203704,
+          "IO_mean_ms": 0.27501177962962964,
+          "pre_mean_ms": 1.4666084689814816,
+          "post_mean_ms": 0.49433717546296296,
+          "fps_each_round": [
+            528.4234368673104,
+            542.4813326710942,
+            509.69607551457705
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 2160,
+          "fps": 761.182366545572,
+          "latency_mean_ms": 7.722986281944444,
+          "latency_p50_ms": 7.6699475,
+          "latency_p95_ms": 9.2234036,
+          "run_mean_ms": 4.2654256097222225,
+          "IO_mean_ms": 0.44286056805555557,
+          "pre_mean_ms": 2.2566833467592593,
+          "post_mean_ms": 0.7432391120370371,
+          "fps_each_round": [
+            759.6370780263113,
+            753.420979374882,
+            770.689416696083
+          ]
+        }
+      ]
+    },
+    "steady-rtmdet256160.json": {
+      "status": "complete",
+      "restored": true,
+      "model_sha256": "46df509a2e84dbbe931b716ec187bb123db25bd25fa7ce5d9ed964a816efff8e",
+      "max_temp_c": 38.846,
+      "sampled_frequencies": {
+        "/sys/class/devfreq/dmc/cur_freq": [
+          "1560000000"
+        ],
+        "/sys/class/devfreq/fdab0000.npu/cur_freq": [
+          "1000000000"
+        ],
+        "/sys/class/devfreq/fb000000.gpu/cur_freq": [
+          "300000000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy6/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy4/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy0/scaling_cur_freq": [
+          "1800000"
+        ]
+      },
+      "results": [
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 233.1894187556794,
+          "latency_mean_ms": 4.203714732916667,
+          "latency_p50_ms": 4.189589,
+          "latency_p95_ms": 4.33687825,
+          "run_mean_ms": 3.134452427083333,
+          "IO_mean_ms": 0.15619352416666665,
+          "pre_mean_ms": 0.5233950347916667,
+          "post_mean_ms": 0.38128268083333333,
+          "fps_each_round": [
+            232.7026604692138,
+            233.67821767439474
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 548.3467970213305,
+          "latency_mean_ms": 5.37489805375,
+          "latency_p50_ms": 5.3962365,
+          "latency_p95_ms": 6.1126026,
+          "run_mean_ms": 3.5617789760416665,
+          "IO_mean_ms": 0.287593175,
+          "pre_mean_ms": 0.8708880560416666,
+          "post_mean_ms": 0.6442013891666667,
+          "fps_each_round": [
+            538.7550133575584,
+            558.2863082243191
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 825.7042844694382,
+          "latency_mean_ms": 7.138796578541666,
+          "latency_p50_ms": 7.0419995,
+          "latency_p95_ms": 8.11524775,
+          "run_mean_ms": 4.7944537120833335,
+          "IO_mean_ms": 0.38180177770833335,
+          "pre_mean_ms": 1.2627737772916667,
+          "post_mean_ms": 0.6862612135416667,
+          "fps_each_round": [
+            827.1519273201508,
+            824.2616999602905
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4,
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 12,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 838.6174492142144,
+          "latency_mean_ms": 14.148554716041666,
+          "latency_p50_ms": 14.1388335,
+          "latency_p95_ms": 15.682097950000003,
+          "run_mean_ms": 10.949903751875,
+          "IO_mean_ms": 0.5202009754166667,
+          "pre_mean_ms": 1.7039489595833333,
+          "post_mean_ms": 0.96043078625,
+          "fps_each_round": [
+            838.7099604163286,
+            838.52495841815
+          ]
+        },
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "reuse",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 235.33288270619556,
+          "latency_mean_ms": 4.167765261875,
+          "latency_p50_ms": 4.157068,
+          "latency_p95_ms": 4.29313305,
+          "run_mean_ms": 3.1378478935416667,
+          "IO_mean_ms": 0.150060428125,
+          "pre_mean_ms": 0.4956466016666667,
+          "post_mean_ms": 0.3761248185416667,
+          "fps_each_round": [
+            235.7643190707689,
+            234.90302246932472
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "reuse",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 589.8323952934245,
+          "latency_mean_ms": 4.994987358125,
+          "latency_p50_ms": 4.835354,
+          "latency_p95_ms": 5.699201150000001,
+          "run_mean_ms": 3.5411937314583333,
+          "IO_mean_ms": 0.2649387704166667,
+          "pre_mean_ms": 0.6818779504166667,
+          "post_mean_ms": 0.49688003604166664,
+          "fps_each_round": [
+            586.4066827556479,
+            593.2983681724162
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "reuse",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 839.8498674088859,
+          "latency_mean_ms": 7.025822788541666,
+          "latency_p50_ms": 6.990232499999999,
+          "latency_p95_ms": 7.638141050000001,
+          "run_mean_ms": 4.994240870833333,
+          "IO_mean_ms": 0.36853448958333335,
+          "pre_mean_ms": 0.9966552410416667,
+          "post_mean_ms": 0.652985930625,
+          "fps_each_round": [
+            840.5627494058032,
+            839.1381935790012
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4,
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 12,
+          "mode": "reuse",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 838.3131313532017,
+          "latency_mean_ms": 14.169482788333333,
+          "latency_p50_ms": 14.1276145,
+          "latency_p95_ms": 15.4801602,
+          "run_mean_ms": 11.738637713541667,
+          "IO_mean_ms": 0.455590714375,
+          "pre_mean_ms": 1.0939578139583332,
+          "post_mean_ms": 0.8672825729166667,
+          "fps_each_round": [
+            842.5106618469266,
+            834.157219122782
+          ]
+        }
+      ]
+    },
+    "steady-yolo320192.json": {
+      "status": "complete",
+      "restored": true,
+      "model_sha256": "3011635986f967421f53e28ec5bcc7469a0cca1d730ecbede737147302ba4ec9",
+      "max_temp_c": 38.846,
+      "sampled_frequencies": {
+        "/sys/class/devfreq/dmc/cur_freq": [
+          "1560000000"
+        ],
+        "/sys/class/devfreq/fdab0000.npu/cur_freq": [
+          "1000000000"
+        ],
+        "/sys/class/devfreq/fb000000.gpu/cur_freq": [
+          "300000000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy6/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy4/scaling_cur_freq": [
+          "2208000"
+        ],
+        "/sys/devices/system/cpu/cpufreq/policy0/scaling_cur_freq": [
+          "1800000"
+        ]
+      },
+      "results": [
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 213.17536473181406,
+          "latency_mean_ms": 4.61091557875,
+          "latency_p50_ms": 4.60609,
+          "latency_p95_ms": 4.640514550000001,
+          "run_mean_ms": 2.935547873125,
+          "IO_mean_ms": 0.16672343291666666,
+          "pre_mean_ms": 1.2425033683333333,
+          "post_mean_ms": 0.25816105895833336,
+          "fps_each_round": [
+            213.10594425204474,
+            213.24483045455793
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 558.9578746252571,
+          "latency_mean_ms": 5.269748103333334,
+          "latency_p50_ms": 5.18651,
+          "latency_p95_ms": 5.805192600000001,
+          "run_mean_ms": 3.28946182125,
+          "IO_mean_ms": 0.23482401604166667,
+          "pre_mean_ms": 1.4082157316666666,
+          "post_mean_ms": 0.326745733125,
+          "fps_each_round": [
+            560.8984943985876,
+            557.0306370245929
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "full",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 778.025053104015,
+          "latency_mean_ms": 7.568816096458334,
+          "latency_p50_ms": 7.4370519999999996,
+          "latency_p95_ms": 9.01036185,
+          "run_mean_ms": 4.198272970833333,
+          "IO_mean_ms": 0.46568094020833334,
+          "pre_mean_ms": 2.1300433841666666,
+          "post_mean_ms": 0.76000909,
+          "fps_each_round": [
+            781.7164470485881,
+            774.368358047186
+          ]
+        },
+        {
+          "core_masks": [
+            1
+          ],
+          "workers": 1,
+          "mode": "reuse",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 238.41544667954008,
+          "latency_mean_ms": 4.113583952916667,
+          "latency_p50_ms": 4.095366500000001,
+          "latency_p95_ms": 4.18842355,
+          "run_mean_ms": 2.9490608139583334,
+          "IO_mean_ms": 0.17708118020833333,
+          "pre_mean_ms": 0.7137540352083334,
+          "post_mean_ms": 0.2654676972916667,
+          "fps_each_round": [
+            237.1614424901564,
+            239.6827825935894
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4
+          ],
+          "workers": 3,
+          "mode": "reuse",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 584.2994125314083,
+          "latency_mean_ms": 5.033923387708334,
+          "latency_p50_ms": 5.0119454999999995,
+          "latency_p95_ms": 5.415065050000001,
+          "run_mean_ms": 3.375453981666667,
+          "IO_mean_ms": 0.3454702225,
+          "pre_mean_ms": 0.8400005579166666,
+          "post_mean_ms": 0.46126126125,
+          "fps_each_round": [
+            587.1487939825547,
+            581.4775531133536
+          ]
+        },
+        {
+          "core_masks": [
+            1,
+            2,
+            4,
+            1,
+            2,
+            4
+          ],
+          "workers": 6,
+          "mode": "reuse",
+          "io": "prealloc",
+          "frames": 4800,
+          "fps": 851.1855453963208,
+          "latency_mean_ms": 6.919306363333333,
+          "latency_p50_ms": 6.866688,
+          "latency_p95_ms": 7.56139155,
+          "run_mean_ms": 4.720546216041667,
+          "IO_mean_ms": 0.4062400672916667,
+          "pre_mean_ms": 1.2366572677083334,
+          "post_mean_ms": 0.5416727252083333,
+          "fps_each_round": [
+            846.5729392655197,
+            855.8486910465756
+          ]
+        }
+      ]
+    }
+  },
+  "total_measured_frames": 121920,
+  "all_completed": true,
+  "all_restored": true
+}

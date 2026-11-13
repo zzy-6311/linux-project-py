@@ -1,0 +1,1854 @@
+{
+  "count": 36,
+  "video_count": 24,
+  "val_count": 12,
+  "confidence": 0.25,
+  "weights": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\multicore640_20261113\\640x640\\weights\\best.pt",
+  "weights_sha256": "271596d55de645e0aae01f2789a83d438d13ade6654350ea82c56e99bdd37527",
+  "onnx_sha256": "70d6d503df2723aa947af0b97791197c5bf4c6964757ae49e7dff04abf45087e",
+  "reference_sha256": "577740bc0d67846c1391cd2a2e1a06f96acf0c95af56659d5fc9a6065e0272f8",
+  "outputs": {
+    "box8": [
+      1,
+      4,
+      80,
+      80
+    ],
+    "cls8": [
+      1,
+      1,
+      80,
+      80
+    ],
+    "box16": [
+      1,
+      4,
+      40,
+      40
+    ],
+    "cls16": [
+      1,
+      1,
+      40,
+      40
+    ],
+    "box32": [
+      1,
+      4,
+      20,
+      20
+    ],
+    "cls32": [
+      1,
+      1,
+      20,
+      20
+    ]
+  },
+  "boxes_format": "Nx6 xyxy,confidence,class; boxes_i in 640 canvas, boxes_original_i in original image",
+  "input_format": "input_i RGB UINT8 HWC 640x640; do not normalize before RKNN input",
+  "video_frames_path": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\video_frames.npz",
+  "video_frames_sha256": "bc4b7d2b13a4e85f88c870c173dd696c13e4ae6e944aa17b6bf838756e1754fd",
+  "validation_samples": [
+    {
+      "index": 0,
+      "kind": "video",
+      "video_sample_id": 0,
+      "video_source": {
+        "sample_id": 0,
+        "source": "1.mp4",
+        "frame_index": 148,
+        "nominal_time_seconds": 4.940364665226782,
+        "raw_bgr_sha256": "34e0ab018a98ed75995c01db15e77b0f5b5a143b5a2b0a39d54930b1a5dc8434"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        5.4717063903808594e-05,
+        6.866455078125e-05,
+        9.822845458984375e-05,
+        3.337860107421875e-05,
+        6.818771362304688e-05,
+        5.245208740234375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 1,
+      "kind": "video",
+      "video_sample_id": 1,
+      "video_source": {
+        "sample_id": 1,
+        "source": "1.mp4",
+        "frame_index": 666,
+        "nominal_time_seconds": 22.231640993520518,
+        "raw_bgr_sha256": "5bea234f0d7ab1c9f5aeb71c696b946d918a474c224fd2a3bb000fc7bc059cae"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        5.507469177246094e-05,
+        3.62396240234375e-05,
+        0.00012445449829101562,
+        2.765655517578125e-05,
+        6.008148193359375e-05,
+        3.24249267578125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 2,
+      "kind": "video",
+      "video_sample_id": 2,
+      "video_source": {
+        "sample_id": 2,
+        "source": "1.mp4",
+        "frame_index": 1185,
+        "nominal_time_seconds": 39.55629816414687,
+        "raw_bgr_sha256": "ed99c5d129969c2e1972b4f76853d7fc36499f0fe96b52c5779661ff82a1ce85"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        4.601478576660156e-05,
+        3.814697265625e-05,
+        0.00014066696166992188,
+        3.910064697265625e-05,
+        4.839897155761719e-05,
+        5.245208740234375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 3,
+      "kind": "video",
+      "video_sample_id": 3,
+      "video_source": {
+        "sample_id": 3,
+        "source": "1.mp4",
+        "frame_index": 1703,
+        "nominal_time_seconds": 56.84757449244061,
+        "raw_bgr_sha256": "6537110d2a138b3f4f2b36b0d237f3cb5d3fa34e577badb45a233e8324658acf"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        4.506111145019531e-05,
+        5.91278076171875e-05,
+        0.00012922286987304688,
+        7.152557373046875e-05,
+        5.91278076171875e-05,
+        2.002716064453125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 2,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 4,
+      "kind": "video",
+      "video_sample_id": 4,
+      "video_source": {
+        "sample_id": 4,
+        "source": "2.mp4",
+        "frame_index": 151,
+        "nominal_time_seconds": 5.040683602122016,
+        "raw_bgr_sha256": "64d20992cd7c1f608328fd43af69734671ba6503a5c1979d606410c2288be495"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 1,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        5.245208740234375e-05,
+        6.67572021484375e-05,
+        0.00013971328735351562,
+        6.580352783203125e-05,
+        7.05718994140625e-05,
+        8.0108642578125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 1,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 5,
+      "kind": "video",
+      "video_sample_id": 5,
+      "video_source": {
+        "sample_id": 5,
+        "source": "2.mp4",
+        "frame_index": 678,
+        "nominal_time_seconds": 22.633003193633954,
+        "raw_bgr_sha256": "da0c6cec4805b6775542f9c6815aa3fee3310b31d6ef321172befb480f6f2d74"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 1,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        7.557868957519531e-05,
+        0.0001079663634300232,
+        0.00018656253814697266,
+        5.817413330078125e-05,
+        4.673004150390625e-05,
+        7.2479248046875e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 1,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 2.6941299438476562e-05
+      }
+    },
+    {
+      "index": 6,
+      "kind": "video",
+      "video_sample_id": 6,
+      "video_source": {
+        "sample_id": 6,
+        "source": "2.mp4",
+        "frame_index": 1206,
+        "nominal_time_seconds": 40.25870479575597,
+        "raw_bgr_sha256": "7c47c7f5ef190d53ca17fff577a02cf54ffb5f4685041a8922fd425fbcf6536c"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 1,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.910064697265625e-05,
+        3.4332275390625e-05,
+        0.0001659393310546875,
+        3.24249267578125e-05,
+        7.534027099609375e-05,
+        1.52587890625e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 1,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      }
+    },
+    {
+      "index": 7,
+      "kind": "video",
+      "video_sample_id": 7,
+      "video_source": {
+        "sample_id": 7,
+        "source": "2.mp4",
+        "frame_index": 1733,
+        "nominal_time_seconds": 57.851024387267906,
+        "raw_bgr_sha256": "cd4581f6117b687ebcb2d0b2ca1e8ad3f1d4acecfa7172c1f97305fe1db2cb81"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        5.1975250244140625e-05,
+        4.57763671875e-05,
+        0.00013685226440429688,
+        5.340576171875e-05,
+        6.437301635742188e-05,
+        2.09808349609375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 2,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.4901161193847656e-07
+      }
+    },
+    {
+      "index": 8,
+      "kind": "video",
+      "video_sample_id": 8,
+      "video_source": {
+        "sample_id": 8,
+        "source": "3.mp4",
+        "frame_index": 146,
+        "nominal_time_seconds": 4.869756681222707,
+        "raw_bgr_sha256": "0100675990b1a6c9fd19abeec9a2d9aa02fafb16105c6290b594c8c7d219055b"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        2.765655517578125e-05,
+        4.9591064453125e-05,
+        0.00012350082397460938,
+        2.765655517578125e-05,
+        5.459785461425781e-05,
+        2.002716064453125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 9,
+      "kind": "video",
+      "video_sample_id": 9,
+      "video_source": {
+        "sample_id": 9,
+        "source": "3.mp4",
+        "frame_index": 249,
+        "nominal_time_seconds": 8.305269956331879,
+        "raw_bgr_sha256": "83d21fa83112462b3a0a6a17721531f9f415df0a3e54c21a4c4f3a4ab2c140aa"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        4.00543212890625e-05,
+        4.100799560546875e-05,
+        0.00013303756713867188,
+        5.054473876953125e-05,
+        5.245208740234375e-05,
+        1.430511474609375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 2.384185791015625e-07
+      }
+    },
+    {
+      "index": 10,
+      "kind": "video",
+      "video_sample_id": 10,
+      "video_source": {
+        "sample_id": 10,
+        "source": "3.mp4",
+        "frame_index": 352,
+        "nominal_time_seconds": 11.740783231441048,
+        "raw_bgr_sha256": "5c9168cc56be38984ffa94223fdc3ec568fabf5509e398ffbac491b00dcf0d98"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 4,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 5.960464477539063e-08
+      },
+      "onnx_raw_max_abs_error": [
+        4.410743713378906e-05,
+        3.814697265625e-05,
+        0.00010347366333007812,
+        2.574920654296875e-05,
+        5.53131103515625e-05,
+        2.288818359375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 4,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 8.344650268554688e-07
+      }
+    },
+    {
+      "index": 11,
+      "kind": "video",
+      "video_sample_id": 11,
+      "video_source": {
+        "sample_id": 11,
+        "source": "3.mp4",
+        "frame_index": 454,
+        "nominal_time_seconds": 15.142942008733625,
+        "raw_bgr_sha256": "137558ebe5f53ae602faef61d94be0d3ec5fcab6704ebe0bd3531076370c6e3a"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        4.38690185546875e-05,
+        4.76837158203125e-05,
+        0.00017309188842773438,
+        3.147125244140625e-05,
+        5.245208740234375e-05,
+        2.09808349609375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 2.384185791015625e-07
+      }
+    },
+    {
+      "index": 12,
+      "kind": "video",
+      "video_sample_id": 12,
+      "video_source": {
+        "sample_id": 12,
+        "source": "3.mp4",
+        "frame_index": 557,
+        "nominal_time_seconds": 18.578455283842796,
+        "raw_bgr_sha256": "9c6b26f5b0e7b1e28f00612fb24d52fbca19ab165d59f1016cea0c0057193abf"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        2.86102294921875e-05,
+        3.4332275390625e-05,
+        0.00014400482177734375,
+        3.147125244140625e-05,
+        7.343292236328125e-05,
+        1.9073486328125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 13,
+      "kind": "video",
+      "video_sample_id": 13,
+      "video_source": {
+        "sample_id": 13,
+        "source": "3.mp4",
+        "frame_index": 659,
+        "nominal_time_seconds": 21.980614061135373,
+        "raw_bgr_sha256": "be1c66f961fb7a2ab14b17cf911deb40f303254e2f04d43fa937aec47fd68713"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        4.0531158447265625e-05,
+        3.814697265625e-05,
+        0.00017309188842773438,
+        3.337860107421875e-05,
+        4.792213439941406e-05,
+        1.71661376953125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 2.384185791015625e-07
+      }
+    },
+    {
+      "index": 14,
+      "kind": "video",
+      "video_sample_id": 14,
+      "video_source": {
+        "sample_id": 14,
+        "source": "3.mp4",
+        "frame_index": 762,
+        "nominal_time_seconds": 25.416127336244543,
+        "raw_bgr_sha256": "7ee6975dd9f96d3d52603ff6206ef1da2fa13c3b4df7181e6e985dd9a91976be"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.981590270996094e-05,
+        4.1961669921875e-05,
+        0.00012493133544921875,
+        2.384185791015625e-05,
+        4.38690185546875e-05,
+        1.33514404296875e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 1.52587890625e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 15,
+      "kind": "video",
+      "video_sample_id": 15,
+      "video_source": {
+        "sample_id": 15,
+        "source": "3.mp4",
+        "frame_index": 864,
+        "nominal_time_seconds": 28.81828611353712,
+        "raw_bgr_sha256": "426d38c755df754b5884473c0433a6b91364d884db55de4efd37cf8c19705a78"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        4.553794860839844e-05,
+        5.054473876953125e-05,
+        0.000179290771484375,
+        3.147125244140625e-05,
+        8.487701416015625e-05,
+        1.9073486328125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 2,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 16,
+      "kind": "video",
+      "video_sample_id": 16,
+      "video_source": {
+        "sample_id": 16,
+        "source": "3.mp4",
+        "frame_index": 967,
+        "nominal_time_seconds": 32.25379938864629,
+        "raw_bgr_sha256": "c58a7efbf888f10ede6b203dc55edcc6a8426557b090f6198e2e17fe4738d216"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.218650817871094e-05,
+        4.76837158203125e-05,
+        0.00014591217041015625,
+        2.574920654296875e-05,
+        4.76837158203125e-05,
+        1.1444091796875e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 1.7881393432617188e-07
+      }
+    },
+    {
+      "index": 17,
+      "kind": "video",
+      "video_sample_id": 17,
+      "video_source": {
+        "sample_id": 17,
+        "source": "3.mp4",
+        "frame_index": 1069,
+        "nominal_time_seconds": 35.65595816593886,
+        "raw_bgr_sha256": "8c84215c2d420c96d8b8ad1bd1ffab15cff259cbdf66163b5e3b643ae5fbf422"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.4332275390625e-05,
+        6.4849853515625e-05,
+        9.489059448242188e-05,
+        3.24249267578125e-05,
+        7.43865966796875e-05,
+        6.103515625e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 2,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 5.960464477539063e-08
+      }
+    },
+    {
+      "index": 18,
+      "kind": "video",
+      "video_sample_id": 18,
+      "video_source": {
+        "sample_id": 18,
+        "source": "3.mp4",
+        "frame_index": 1172,
+        "nominal_time_seconds": 39.091471441048036,
+        "raw_bgr_sha256": "6aee084e5d78fe94e269227e6c623a9c617ba27628e54208a0ccf03391476974"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.886222839355469e-05,
+        3.4332275390625e-05,
+        0.00012159347534179688,
+        3.147125244140625e-05,
+        4.7206878662109375e-05,
+        2.6702880859375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.7881393432617188e-07
+      }
+    },
+    {
+      "index": 19,
+      "kind": "video",
+      "video_sample_id": 19,
+      "video_source": {
+        "sample_id": 19,
+        "source": "3.mp4",
+        "frame_index": 1274,
+        "nominal_time_seconds": 42.49363021834061,
+        "raw_bgr_sha256": "eda1081f0bf7938159985c210c0e9c11033af3482a097bcfcee4306f7511422b"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.337860107421875e-05,
+        4.76837158203125e-05,
+        0.0001506805419921875,
+        2.765655517578125e-05,
+        5.1975250244140625e-05,
+        3.62396240234375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 20,
+      "kind": "video",
+      "video_sample_id": 20,
+      "video_source": {
+        "sample_id": 20,
+        "source": "3.mp4",
+        "frame_index": 1377,
+        "nominal_time_seconds": 45.929143493449786,
+        "raw_bgr_sha256": "8fa9386fd5b0732d916b3aaf8c14a9059d0879422f3419d223bd6a14ea6693e8"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        4.363059997558594e-05,
+        3.528594970703125e-05,
+        0.00016164779663085938,
+        4.38690185546875e-05,
+        6.175041198730469e-05,
+        3.528594970703125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 2,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 4.172325134277344e-07
+      }
+    },
+    {
+      "index": 21,
+      "kind": "video",
+      "video_sample_id": 21,
+      "video_source": {
+        "sample_id": 21,
+        "source": "3.mp4",
+        "frame_index": 1479,
+        "nominal_time_seconds": 49.33130227074236,
+        "raw_bgr_sha256": "c559f363781dbd45985d2841faad10fb0f3a2bb228bff948fa0871ab476d15e0"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        2.956390380859375e-05,
+        6.866455078125e-05,
+        9.822845458984375e-05,
+        2.47955322265625e-05,
+        4.2438507080078125e-05,
+        2.288818359375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 3.5762786865234375e-07
+      }
+    },
+    {
+      "index": 22,
+      "kind": "video",
+      "video_sample_id": 22,
+      "video_source": {
+        "sample_id": 22,
+        "source": "3.mp4",
+        "frame_index": 1582,
+        "nominal_time_seconds": 52.76681554585153,
+        "raw_bgr_sha256": "e82f80ff4b2cf0161cc51e951268a12ab59f2b34910eab40ab1f8f71e43fa69b"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.409385681152344e-05,
+        4.482269287109375e-05,
+        0.00012493133544921875,
+        3.719329833984375e-05,
+        4.3392181396484375e-05,
+        1.049041748046875e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 4.172325134277344e-07
+      }
+    },
+    {
+      "index": 23,
+      "kind": "video",
+      "video_sample_id": 23,
+      "video_source": {
+        "sample_id": 23,
+        "source": "3.mp4",
+        "frame_index": 1685,
+        "nominal_time_seconds": 56.2023288209607,
+        "raw_bgr_sha256": "ffba347109b412e1665502f0448569d3d441d425d6e4d5f960645c6901e7d269"
+      },
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        2.2172927856445312e-05,
+        6.103515625e-05,
+        0.00014019012451171875,
+        2.288818359375e-05,
+        4.76837158203125e-05,
+        1.1444091796875e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1324882507324219e-06
+      }
+    },
+    {
+      "index": 24,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0000_jpg.rf.27acf4e1cc43be980c4d632b121c776f.jpg",
+      "image_sha256": "81e5da0ab4f44b5be1fe7e5bd31333bd2ca330f56370096cbebb88e10aa71fd9",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.457069396972656e-05,
+        3.910064697265625e-05,
+        0.000156402587890625,
+        4.38690185546875e-05,
+        5.1975250244140625e-05,
+        1.71661376953125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 25,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0029_jpg.rf.acd87818623d861aa82b6b343d465cde.jpg",
+      "image_sha256": "6fa2d67ecb6de8a0acff911bbaa297ebbd46c850564ed2a4b33e60d43b024881",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        4.029273986816406e-05,
+        3.814697265625e-05,
+        0.00015497207641601562,
+        5.054473876953125e-05,
+        6.151199340820312e-05,
+        2.193450927734375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 26,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0058_jpg.rf.62e77a6bed6b47515e8265e404dcecae.jpg",
+      "image_sha256": "2e6fcbd98e8987be190afb22d6977417d110a0a3ac831920dd9e5ed1a875c204",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        4.00543212890625e-05,
+        3.4332275390625e-05,
+        0.00015878677368164062,
+        2.6702880859375e-05,
+        5.91278076171875e-05,
+        2.193450927734375e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 2.384185791015625e-07
+      }
+    },
+    {
+      "index": 27,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0090_jpg.rf.683c5df0681fe872349a13f6816908e5.jpg",
+      "image_sha256": "8e54d7e9bc3fcc2923d838123e0ff8c5a34b0a12b9241b94b15d9cb44cc2f2fa",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.8623809814453125e-05,
+        4.76837158203125e-05,
+        0.00014972686767578125,
+        2.956390380859375e-05,
+        5.030632019042969e-05,
+        1.621246337890625e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 28,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0119_jpg.rf.29308154f7c140d2725dddde5f2509fa.jpg",
+      "image_sha256": "e71be97f50f42535ec398a3f6afa86236e51bc5d5c6d70bcf219da2c07c46279",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.0279159545898438e-05,
+        4.00543212890625e-05,
+        0.00012254714965820312,
+        2.956390380859375e-05,
+        5.7220458984375e-05,
+        4.291534423828125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 2.384185791015625e-07
+      }
+    },
+    {
+      "index": 29,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0150_jpg.rf.4f6e2c0017a532e936f70732cdadcd5f.jpg",
+      "image_sha256": "2f2c89ca455e75fc555068f865d93bc38ca74da961124fe7ef1c7f3557cc22b9",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        2.8133392333984375e-05,
+        6.008148193359375e-05,
+        0.0001277923583984375,
+        2.956390380859375e-05,
+        4.363059997558594e-05,
+        7.62939453125e-06
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 5.424022674560547e-06
+      }
+    },
+    {
+      "index": 30,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0184_jpg.rf.5beb8668c151e8d561206a7c47a2a9d2.jpg",
+      "image_sha256": "7d895fcb5a23f3059f870829a1bb51cda6c37a7e0ae8afcd63a52c72c4a3106c",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        2.7179718017578125e-05,
+        4.00543212890625e-05,
+        0.00015592575073242188,
+        2.09808349609375e-05,
+        7.009506225585938e-05,
+        1.1444091796875e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 2.384185791015625e-07
+      }
+    },
+    {
+      "index": 31,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0215_jpg.rf.83a9a33a4d921c9131ae6e6ec63af273.jpg",
+      "image_sha256": "4db4751421c72d6d32773e9f1a153c8e78a985550987e58283e1504467fbc535",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 4,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.170967102050781e-05,
+        4.00543212890625e-05,
+        0.00013589859008789062,
+        3.0517578125e-05,
+        4.3392181396484375e-05,
+        4.38690185546875e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 4,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 2.384185791015625e-07
+      }
+    },
+    {
+      "index": 32,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0249_jpg.rf.2bb06a38552e6b20735ae7dd7dfa7ffa.jpg",
+      "image_sha256": "12c48e83ec81104f4fdc5cae6ca2d6ce619eee2888a85c16a014127a545c87fd",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        2.6464462280273438e-05,
+        4.792213439941406e-05,
+        0.00011777877807617188,
+        2.6702880859375e-05,
+        4.38690185546875e-05,
+        3.814697265625e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 2,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 1.6093254089355469e-06
+      }
+    },
+    {
+      "index": 33,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0283_jpg.rf.9cc588e3ab261e5f4dfd617d12634443.jpg",
+      "image_sha256": "f56bc7c0c087ba4e7e03b7c8c3892f8a25bf3a6d2b11119f1ea3193464869c2e",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.2901763916015625e-05,
+        3.4332275390625e-05,
+        0.00015306472778320312,
+        3.719329833984375e-05,
+        5.2928924560546875e-05,
+        5.340576171875e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.5497207641601562e-06
+      }
+    },
+    {
+      "index": 34,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\3_mp4-0187_jpg.rf.d0fc1c7769e177ffd40c9a7c10bcc9fb.jpg",
+      "image_sha256": "9aefa20fc8a560078b2432f4df6730409762dd2c9ffc63a85fcdefed0a3e57ef",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.2901763916015625e-05,
+        4.00543212890625e-05,
+        8.821487426757812e-05,
+        3.0517578125e-05,
+        4.863739013671875e-05,
+        1.239776611328125e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 3.0517578125e-05,
+        "max_score_abs_error": 1.1920928955078125e-07
+      }
+    },
+    {
+      "index": 35,
+      "kind": "validation_image",
+      "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\images\\3_mp4-0294_jpg.rf.d262d3ea8c4694c15f008c8077593568.jpg",
+      "image_sha256": "758e359266d7d9d07d5b41b0938cec61581ab64c5fc55ce1c3b24c0c92ff082d",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      },
+      "pt_raw_agreement": {
+        "count": 3,
+        "max_box_abs_error": 0.0,
+        "max_score_abs_error": 0.0
+      },
+      "onnx_raw_max_abs_error": [
+        3.147125244140625e-05,
+        4.1961669921875e-05,
+        8.630752563476562e-05,
+        2.956390380859375e-05,
+        3.4332275390625e-05,
+        3.814697265625e-05
+      ],
+      "pt_onnx_detection_agreement": {
+        "count": 3,
+        "max_box_abs_error": 1.52587890625e-05,
+        "max_score_abs_error": 5.960464477539063e-08
+      }
+    }
+  ]
+}

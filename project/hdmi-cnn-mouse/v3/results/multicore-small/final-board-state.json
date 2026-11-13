@@ -1,0 +1,6 @@
+{
+  "/sys/class/devfreq/fdab0000.npu/governor": "rknpu_ondemand",
+  "/sys/class/devfreq/dmc/governor": "dmc_ondemand",
+  "/sys/kernel/debug/rknpu/load": "NPU load:  Core0:  0%, Core1:  0%, Core2:  0%,",
+  "benchmark_processes": []
+}

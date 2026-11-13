@@ -1,0 +1,2592 @@
+{
+  "files": [
+    {
+      "name": "multicore640-baseline.json",
+      "model_sha256": "7993b641fde1d9fba69d7c20333da636b26b6b572a743e8a02eda8483ddbccbd",
+      "clock_restore_exact": true,
+      "args": {
+        "model": "/root/yolo640-multicore-20261113/yolo640x640-int8.rknn",
+        "family": "yolo",
+        "width": 640,
+        "height": 640,
+        "frames": 480,
+        "warmup": 20,
+        "rounds": 3,
+        "configs": "7;1;3;1,2,4;1,2,4,1,2,4",
+        "modes": "full",
+        "io": "baseline",
+        "output": "multicore640-baseline.json"
+      },
+      "runtime_version": "2.5.0 (74ea630ce8@2026-09-30T09:41:17)",
+      "driver_version": "0.9.8"
+    },
+    {
+      "name": "multicore640-reuse.json",
+      "model_sha256": "7993b641fde1d9fba69d7c20333da636b26b6b572a743e8a02eda8483ddbccbd",
+      "clock_restore_exact": true,
+      "args": {
+        "model": "/root/yolo640-multicore-20261113/yolo640x640-int8.rknn",
+        "family": "yolo",
+        "width": 640,
+        "height": 640,
+        "frames": 960,
+        "warmup": 20,
+        "rounds": 2,
+        "configs": "7;1;3;1,2,4;1,2,4,1,2,4;1,2,4,1,2,4,1,2,4,1,2,4",
+        "modes": "reuse",
+        "io": "prealloc",
+        "output": "multicore640-reuse.json"
+      },
+      "runtime_version": "2.5.0 (74ea630ce8@2026-09-30T09:41:17)",
+      "driver_version": "0.9.8"
+    },
+    {
+      "name": "multicore640-io-pair.json",
+      "model_sha256": "7993b641fde1d9fba69d7c20333da636b26b6b572a743e8a02eda8483ddbccbd",
+      "clock_restore_exact": true,
+      "args": {
+        "model": "/root/yolo640-multicore-20261113/yolo640x640-int8.rknn",
+        "family": "yolo",
+        "width": 640,
+        "height": 640,
+        "frames": 480,
+        "warmup": 20,
+        "rounds": 2,
+        "configs": "1;1,2,4,1,2,4",
+        "modes": "full",
+        "io": "prealloc",
+        "output": "multicore640-io-pair.json"
+      },
+      "runtime_version": "2.5.0 (74ea630ce8@2026-09-30T09:41:17)",
+      "driver_version": "0.9.8"
+    }
+  ],
+  "total_measured_frames": 20640,
+  "rows": [
+    {
+      "core_masks": [
+        7
+      ],
+      "workers": 1,
+      "mode": "full",
+      "io": "baseline",
+      "frames": 1440,
+      "rounds": 3,
+      "fps": 34.46210904955871,
+      "per_round_fps": [
+        34.52124308351729,
+        34.47503237462307,
+        34.39030773944776
+      ],
+      "latency_ms": {
+        "mean": 28.897011070833333,
+        "median": 29.027751000000002,
+        "p95": 29.1367483
+      },
+      "preprocess_ms": {
+        "mean": 6.084218022222222,
+        "median": 6.10997,
+        "p95": 6.15579115
+      },
+      "call_ms": {
+        "mean": 22.337343304861115,
+        "median": 22.471959,
+        "p95": 22.517168
+      },
+      "run_ms": {
+        "mean": 21.883659059027778,
+        "median": 22.0271565,
+        "p95": 22.05196355
+      },
+      "postprocess_ms": {
+        "mean": 0.40376599583333334,
+        "median": 0.401051,
+        "p95": 0.41739955
+      },
+      "api_io_overhead_ms": 0.4536842458333334,
+      "max_board_temperature_C": 35.153
+    },
+    {
+      "core_masks": [
+        1
+      ],
+      "workers": 1,
+      "mode": "full",
+      "io": "baseline",
+      "frames": 1440,
+      "rounds": 3,
+      "fps": 40.54368815867391,
+      "per_round_fps": [
+        40.56996583053539,
+        40.51522563179462,
+        40.54591015116947
+      ],
+      "latency_ms": {
+        "mean": 24.54559729097222,
+        "median": 24.5545045,
+        "p95": 24.65397955
+      },
+      "preprocess_ms": {
+        "mean": 6.079575362500001,
+        "median": 6.105303,
+        "p95": 6.156928049999999
+      },
+      "call_ms": {
+        "mean": 17.999261430555556,
+        "median": 17.990692,
+        "p95": 18.026014149999998
+      },
+      "run_ms": {
+        "mean": 17.551342004166663,
+        "median": 17.550265,
+        "p95": 17.56368205
+      },
+      "postprocess_ms": {
+        "mean": 0.3996041645833333,
+        "median": 0.39755,
+        "p95": 0.412426
+      },
+      "api_io_overhead_ms": 0.44791942638888893,
+      "max_board_temperature_C": 35.153
+    },
+    {
+      "core_masks": [
+        3
+      ],
+      "workers": 1,
+      "mode": "full",
+      "io": "baseline",
+      "frames": 1440,
+      "rounds": 3,
+      "fps": 34.18996056259302,
+      "per_round_fps": [
+        34.170893131017316,
+        34.17763966993908,
+        34.2213928385975
+      ],
+      "latency_ms": {
+        "mean": 29.130971531249997,
+        "median": 29.251172,
+        "p95": 29.3554605
+      },
+      "preprocess_ms": {
+        "mean": 6.094769904861111,
+        "median": 6.120761,
+        "p95": 6.161610550000001
+      },
+      "call_ms": {
+        "mean": 22.566484693055553,
+        "median": 22.6695675,
+        "p95": 22.75343755
+      },
+      "run_ms": {
+        "mean": 22.116366986805556,
+        "median": 22.225495,
+        "p95": 22.300163
+      },
+      "postprocess_ms": {
+        "mean": 0.4020501673611111,
+        "median": 0.398426,
+        "p95": 0.41505004999999995
+      },
+      "api_io_overhead_ms": 0.4501177062499999,
+      "max_board_temperature_C": 36.076
+    },
+    {
+      "core_masks": [
+        1,
+        2,
+        4
+      ],
+      "workers": 3,
+      "mode": "full",
+      "io": "baseline",
+      "frames": 1440,
+      "rounds": 3,
+      "fps": 107.35209463438183,
+      "per_round_fps": [
+        107.30331917304262,
+        107.46890949020766,
+        107.28424729183683
+      ],
+      "latency_ms": {
+        "mean": 27.800004896527778,
+        "median": 27.9422875,
+        "p95": 28.91506175
+      },
+      "preprocess_ms": {
+        "mean": 6.517228070138889,
+        "median": 6.510291,
+        "p95": 6.7811965
+      },
+      "call_ms": {
+        "mean": 20.431431488888887,
+        "median": 20.5176025,
+        "p95": 21.1597638
+      },
+      "run_ms": {
+        "mean": 19.686623227777776,
+        "median": 19.749626499999998,
+        "p95": 20.33082975
+      },
+      "postprocess_ms": {
+        "mean": 0.764069836111111,
+        "median": 0.733267,
+        "p95": 1.1922581999999997
+      },
+      "api_io_overhead_ms": 0.7448082611111111,
+      "max_board_temperature_C": 37.923
+    },
+    {
+      "core_masks": [
+        1,
+        2,
+        4,
+        1,
+        2,
+        4
+      ],
+      "workers": 6,
+      "mode": "full",
+      "io": "baseline",
+      "frames": 1440,
+      "rounds": 3,
+      "fps": 145.60545589079157,
+      "per_round_fps": [
+        145.42212649988485,
+        145.92761288246,
+        145.46770106853776
+      ],
+      "latency_ms": {
+        "mean": 40.830801388194445,
+        "median": 40.848388,
+        "p95": 41.497462
+      },
+      "preprocess_ms": {
+        "mean": 7.562253115972222,
+        "median": 7.170931,
+        "p95": 11.092927949999998
+      },
+      "call_ms": {
+        "mean": 32.54589582777778,
+        "median": 32.9231915,
+        "p95": 33.462582499999996
+      },
+      "run_ms": {
+        "mean": 31.614942131944442,
+        "median": 32.0598385,
+        "p95": 32.6279156
+      },
+      "postprocess_ms": {
+        "mean": 0.5962159826388889,
+        "median": 0.559429,
+        "p95": 0.8079933499999999
+      },
+      "api_io_overhead_ms": 0.9309536958333334,
+      "max_board_temperature_C": 38.846
+    },
+    {
+      "core_masks": [
+        7
+      ],
+      "workers": 1,
+      "mode": "reuse",
+      "io": "prealloc",
+      "frames": 1920,
+      "rounds": 2,
+      "fps": 39.574494522079114,
+      "per_round_fps": [
+        39.62969565881829,
+        39.51944695335918
+      ],
+      "latency_ms": {
+        "mean": 25.169792065104165,
+        "median": 25.3052695,
+        "p95": 25.35862505
+      },
+      "preprocess_ms": {
+        "mean": 2.5917523104166666,
+        "median": 2.591806,
+        "p95": 2.611349
+      },
+      "call_ms": {
+        "mean": 22.202194971354167,
+        "median": 22.342163,
+        "p95": 22.375396849999998
+      },
+      "run_ms": {
+        "mean": 21.857721063020836,
+        "median": 21.9997385,
+        "p95": 22.02744455
+      },
+      "postprocess_ms": {
+        "mean": 0.3650286973958333,
+        "median": 0.36255,
+        "p95": 0.377425
+      },
+      "api_io_overhead_ms": 0.3444739083333333,
+      "max_board_temperature_C": 35.153
+    },
+    {
+      "core_masks": [
+        1
+      ],
+      "workers": 1,
+      "mode": "reuse",
+      "io": "prealloc",
+      "frames": 1920,
+      "rounds": 2,
+      "fps": 47.77074432259424,
+      "per_round_fps": [
+        47.78573786415733,
+        47.755760187008086
+      ],
+      "latency_ms": {
+        "mean": 20.834754186979165,
+        "median": 20.8302745,
+        "p95": 20.870686499999998
+      },
+      "preprocess_ms": {
+        "mean": 2.5972546604166666,
+        "median": 2.596183,
+        "p95": 2.621266
+      },
+      "call_ms": {
+        "mean": 17.863726016666668,
+        "median": 17.862063499999998,
+        "p95": 17.88073
+      },
+      "run_ms": {
+        "mean": 17.520006244791666,
+        "median": 17.518764,
+        "p95": 17.53102855
+      },
+      "postprocess_ms": {
+        "mean": 0.36300256822916666,
+        "median": 0.360508,
+        "p95": 0.377134
+      },
+      "api_io_overhead_ms": 0.3437197718749999,
+      "max_board_temperature_C": 35.153
+    },
+    {
+      "core_masks": [
+        3
+      ],
+      "workers": 1,
+      "mode": "reuse",
+      "io": "prealloc",
+      "frames": 1920,
+      "rounds": 2,
+      "fps": 39.278265370402764,
+      "per_round_fps": [
+        39.31928590634577,
+        39.2373303360486
+      ],
+      "latency_ms": {
+        "mean": 25.3603728234375,
+        "median": 25.492232,
+        "p95": 25.526956499999997
+      },
+      "preprocess_ms": {
+        "mean": 2.5767529140625003,
+        "median": 2.576932,
+        "p95": 2.593557
+      },
+      "call_ms": {
+        "mean": 22.407685122395833,
+        "median": 22.542542,
+        "p95": 22.563542
+      },
+      "run_ms": {
+        "mean": 22.061088253124996,
+        "median": 22.196909,
+        "p95": 22.214701
+      },
+      "postprocess_ms": {
+        "mean": 0.3650682838541666,
+        "median": 0.362841,
+        "p95": 0.377425
+      },
+      "api_io_overhead_ms": 0.34659686927083333,
+      "max_board_temperature_C": 36.076
+    },
+    {
+      "core_masks": [
+        1,
+        2,
+        4
+      ],
+      "workers": 3,
+      "mode": "reuse",
+      "io": "prealloc",
+      "frames": 1920,
+      "rounds": 2,
+      "fps": 126.66784053624899,
+      "per_round_fps": [
+        126.71771892038136,
+        126.61800140273357
+      ],
+      "latency_ms": {
+        "mean": 23.550180796354166,
+        "median": 23.520522,
+        "p95": 23.74602875
+      },
+      "preprocess_ms": {
+        "mean": 2.8711466567708337,
+        "median": 2.8573755,
+        "p95": 3.06433255
+      },
+      "call_ms": {
+        "mean": 20.191429721354165,
+        "median": 20.2095945,
+        "p95": 20.400537749999998
+      },
+      "run_ms": {
+        "mean": 19.718661436458333,
+        "median": 19.725854,
+        "p95": 19.94843015
+      },
+      "postprocess_ms": {
+        "mean": 0.4701871171875,
+        "median": 0.463761,
+        "p95": 0.578388
+      },
+      "api_io_overhead_ms": 0.47276828489583334,
+      "max_board_temperature_C": 37.0
+    },
+    {
+      "core_masks": [
+        1,
+        2,
+        4,
+        1,
+        2,
+        4
+      ],
+      "workers": 6,
+      "mode": "reuse",
+      "io": "prealloc",
+      "frames": 1920,
+      "rounds": 2,
+      "fps": 148.06836355552628,
+      "per_round_fps": [
+        147.46247549113752,
+        148.6792510598857
+      ],
+      "latency_ms": {
+        "mean": 40.27182661822917,
+        "median": 40.237038999999996,
+        "p95": 40.67209915
+      },
+      "preprocess_ms": {
+        "mean": 3.5340747500000003,
+        "median": 3.382387,
+        "p95": 4.331724899999997
+      },
+      "call_ms": {
+        "mean": 36.156677605729165,
+        "median": 36.27918,
+        "p95": 36.84709715
+      },
+      "run_ms": {
+        "mean": 35.476069897916666,
+        "median": 35.617519,
+        "p95": 36.21893525
+      },
+      "postprocess_ms": {
+        "mean": 0.5612470244791666,
+        "median": 0.525595,
+        "p95": 0.7895736
+      },
+      "api_io_overhead_ms": 0.6806077078125,
+      "max_board_temperature_C": 37.923
+    },
+    {
+      "core_masks": [
+        1,
+        2,
+        4,
+        1,
+        2,
+        4,
+        1,
+        2,
+        4,
+        1,
+        2,
+        4
+      ],
+      "workers": 12,
+      "mode": "reuse",
+      "io": "prealloc",
+      "frames": 1920,
+      "rounds": 2,
+      "fps": 148.54371291499783,
+      "per_round_fps": [
+        148.77309499499597,
+        148.31503708015282
+      ],
+      "latency_ms": {
+        "mean": 80.16243978802082,
+        "median": 80.484869,
+        "p95": 80.84830855
+      },
+      "preprocess_ms": {
+        "mean": 3.930007971875,
+        "median": 3.522828,
+        "p95": 7.061916749999999
+      },
+      "call_ms": {
+        "mean": 75.56486429479166,
+        "median": 76.231546,
+        "p95": 76.8004832
+      },
+      "run_ms": {
+        "mean": 74.87003159895833,
+        "median": 75.56026,
+        "p95": 76.10218805
+      },
+      "postprocess_ms": {
+        "mean": 0.6460927578125,
+        "median": 0.564387,
+        "p95": 0.9737936499999998
+      },
+      "api_io_overhead_ms": 0.6948326958333333,
+      "max_board_temperature_C": 37.923
+    },
+    {
+      "core_masks": [
+        1
+      ],
+      "workers": 1,
+      "mode": "full",
+      "io": "prealloc",
+      "frames": 960,
+      "rounds": 2,
+      "fps": 40.78622860026936,
+      "per_round_fps": [
+        40.870144033920454,
+        40.70265705438405
+      ],
+      "latency_ms": {
+        "mean": 24.402843290625,
+        "median": 24.3959595,
+        "p95": 24.52301315
+      },
+      "preprocess_ms": {
+        "mean": 6.065826745833334,
+        "median": 6.0880885,
+        "p95": 6.147021550000001
+      },
+      "call_ms": {
+        "mean": 17.917900502083334,
+        "median": 17.931613499999997,
+        "p95": 17.958593
+      },
+      "run_ms": {
+        "mean": 17.565308051041665,
+        "median": 17.5725635,
+        "p95": 17.58905855
+      },
+      "postprocess_ms": {
+        "mean": 0.406148153125,
+        "median": 0.405717,
+        "p95": 0.419426
+      },
+      "api_io_overhead_ms": 0.35259245104166664,
+      "max_board_temperature_C": 36.076
+    },
+    {
+      "core_masks": [
+        1,
+        2,
+        4,
+        1,
+        2,
+        4
+      ],
+      "workers": 6,
+      "mode": "full",
+      "io": "prealloc",
+      "frames": 960,
+      "rounds": 2,
+      "fps": 145.26083698111302,
+      "per_round_fps": [
+        145.02899057913612,
+        145.4934258390881
+      ],
+      "latency_ms": {
+        "mean": 40.92107965520833,
+        "median": 40.82647849999999,
+        "p95": 42.53213759999999
+      },
+      "preprocess_ms": {
+        "mean": 8.046922641666667,
+        "median": 7.205341499999999,
+        "p95": 12.39434865
+      },
+      "call_ms": {
+        "mean": 32.14188997708333,
+        "median": 32.92783,
+        "p95": 33.6585734
+      },
+      "run_ms": {
+        "mean": 31.307342979166666,
+        "median": 32.204043999999996,
+        "p95": 32.9512369
+      },
+      "postprocess_ms": {
+        "mean": 0.7041992958333334,
+        "median": 0.5931175,
+        "p95": 0.9600855999999991
+      },
+      "api_io_overhead_ms": 0.8345469979166665,
+      "max_board_temperature_C": 37.923
+    }
+  ],
+  "timing_scope": "24 cached decoded 1080p video frames repeated; full/reuse includes preprocessing, RKNN IO/run and final boxes. No video decoding, disk reading, HDMI, display or mouse. Throughput is concurrent completed frames/elapsed wall time.",
+  "training": {
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch": "2.9.1+cu128",
+    "data": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\resolution_compare_20261108_113852\\split\\data.yaml",
+    "initial_weights": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\weights\\yolo26n.pt",
+    "epochs": 50,
+    "shape_HW": [
+      640,
+      640
+    ],
+    "batch": 16,
+    "seed": 42,
+    "train_seconds": 992.8478693999932,
+    "best": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\multicore640_20261113\\640x640\\weights\\best.pt",
+    "metrics_fp32": {
+      "metrics/precision(B)": 0.9988568294287482,
+      "metrics/recall(B)": 0.9963059357299525,
+      "metrics/mAP50(B)": 0.995,
+      "metrics/mAP50-95(B)": 0.9758175956641566,
+      "fitness": 0.9758175956641566
+    }
+  },
+  "conversion": {
+    "status": "built",
+    "kind": "yolo26n",
+    "shape_WH": "640x640",
+    "precision": "int8",
+    "toolkit": "2.5.0",
+    "onnx_sha256": "70d6d503df2723aa947af0b97791197c5bf4c6964757ae49e7dff04abf45087e",
+    "weights_sha256": "271596d55de645e0aae01f2789a83d438d13ade6654350ea82c56e99bdd37527",
+    "calibration_count": 160,
+    "calibration_dataset_sha256": "1297a40b3a1a2428471e6280ef0ca7233a05f25e15a81093eeb7c5ad9f699979",
+    "disabled_fusion_rules": [
+      "fuse_exmatmul_add_mul_exsoftmax13_exmatmul_to_sdpa"
+    ],
+    "optimization_level": 3,
+    "graph_weights_modified": false,
+    "quantized_dtype": "asymmetric_quantized-8",
+    "quantized_algorithm": "normal",
+    "quantization_recipe": "Toolkit default normal/minmax, matching prior YOLO320x192",
+    "mean_values": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "std_values": [
+      [
+        255,
+        255,
+        255
+      ]
+    ],
+    "workaround_source": "https://github.com/airockchip/rknn-toolkit2/issues/581",
+    "bytes": 4518475,
+    "sha256": "7993b641fde1d9fba69d7c20333da636b26b6b572a743e8a02eda8483ddbccbd",
+    "seconds": 64.946203551
+  },
+  "board_validation": {
+    "images": 36,
+    "reference_boxes": 95,
+    "actual_boxes": 98,
+    "matched": 94,
+    "missed": 1,
+    "extra": 4,
+    "mean_iou": 0.9852495871959849,
+    "max_center_error_input_px": 0.2511771023273468
+  },
+  "sampled_ground_truth_audit": {
+    "description": "Independent audit against existing ground-truth labels for the 12 held-out validation images. No board or GPU task was started.",
+    "confidence_threshold": 0.25,
+    "iou_match_threshold": 0.5,
+    "matching": "Sort predictions by descending confidence; for each prediction choose the highest-IoU unmatched same-class ground-truth box; match if IoU >= 0.5. Single class ball=0. Report TP, FP, FN at this operating point, not mAP.",
+    "coordinate_system": "GT normalized xywh -> original pixels -> same 640x640 centered letterbox used by PT and RKNN. Predictions are already 640 canvas xyxy.",
+    "inputs": {
+      "references_json_sha256": "d7a6d50fe734311c754a32a11d4651f08af626169f16ee543f70d918502f2371",
+      "references_npz_sha256": "577740bc0d67846c1391cd2a2e1a06f96acf0c95af56659d5fc9a6065e0272f8",
+      "board_validation_sha256": "78003f95eb42521e3df0867bffdc1b2614e4a14084a28ea9c4b9a74c0231a826",
+      "pt_weights_sha256": "271596d55de645e0aae01f2789a83d438d13ade6654350ea82c56e99bdd37527",
+      "rknn_weights_sha256": "7993b641fde1d9fba69d7c20333da636b26b6b572a743e8a02eda8483ddbccbd"
+    },
+    "samples": [
+      {
+        "index": 24,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0000_jpg.rf.27acf4e1cc43be980c4d632b121c776f.jpg",
+        "image_sha256": "81e5da0ab4f44b5be1fe7e5bd31333bd2ca330f56370096cbebb88e10aa71fd9",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0000_jpg.rf.27acf4e1cc43be980c4d632b121c776f.txt",
+        "label_sha256": "b447491c5eb11fc894074a7111df98b51d559cebfad4f95aaf90b7a32dd42313",
+        "gt_count": 3,
+        "gt_xyxy_640": [
+          [
+            318.33333333333326,
+            305.3333333333333,
+            339.99999999999994,
+            327.0
+          ],
+          [
+            291.3333333333333,
+            332.0,
+            313.3333333333333,
+            354.0
+          ],
+          [
+            318.33333333333337,
+            359.0,
+            340.6666666666667,
+            381.66666666666663
+          ]
+        ],
+        "pt": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 1,
+              "iou": 0.9804484062652091,
+              "prediction_xyxy_score": [
+                291.2704772949219,
+                332.0494689941406,
+                313.3941650390625,
+                354.26336669921875,
+                0.9687609672546387
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9774712919576838,
+              "prediction_xyxy_score": [
+                318.2579345703125,
+                305.1409606933594,
+                339.97637939453125,
+                327.20648193359375,
+                0.9574931263923645
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9677056875277495,
+              "prediction_xyxy_score": [
+                318.146484375,
+                358.954345703125,
+                340.2865295410156,
+                381.79058837890625,
+                0.9411962032318115
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 1,
+              "iou": 0.9779212358329064,
+              "prediction_xyxy_score": [
+                291.27569580078125,
+                331.9300231933594,
+                313.5226745605469,
+                354.1769714355469,
+                0.9612932205200195
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9579030293971552,
+              "prediction_xyxy_score": [
+                318.111083984375,
+                305.0946350097656,
+                340.13995361328125,
+                327.3415832519531,
+                0.9288932085037231
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9698332068524305,
+              "prediction_xyxy_score": [
+                318.111083984375,
+                358.9135437011719,
+                340.3580627441406,
+                381.59674072265625,
+                0.9133830666542053
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 25,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0029_jpg.rf.acd87818623d861aa82b6b343d465cde.jpg",
+        "image_sha256": "6fa2d67ecb6de8a0acff911bbaa297ebbd46c850564ed2a4b33e60d43b024881",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0029_jpg.rf.acd87818623d861aa82b6b343d465cde.txt",
+        "label_sha256": "0c4cd18d8d8bcd6407cd16e425f348f1c3dcf332c13b6e9d277f4a953c0042cd",
+        "gt_count": 3,
+        "gt_xyxy_640": [
+          [
+            205.0,
+            217.33333333333331,
+            230.0,
+            241.66666666666666
+          ],
+          [
+            265.0,
+            276.66666666666663,
+            287.3333333333333,
+            299.3333333333333
+          ],
+          [
+            318.66666666666663,
+            331.0,
+            339.99999999999994,
+            352.3333333333333
+          ]
+        ],
+        "pt": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 1,
+              "iou": 0.954702613672069,
+              "prediction_xyxy_score": [
+                264.5164794921875,
+                276.984130859375,
+                287.25494384765625,
+                299.507080078125,
+                0.9727358222007751
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9545769560242592,
+              "prediction_xyxy_score": [
+                204.7259521484375,
+                216.9445037841797,
+                229.9878692626953,
+                242.1475067138672,
+                0.958954393863678
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.963625964674435,
+              "prediction_xyxy_score": [
+                318.61114501953125,
+                331.18658447265625,
+                339.6815185546875,
+                352.565185546875,
+                0.9387761354446411
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 1,
+              "iou": 0.9480003279389971,
+              "prediction_xyxy_score": [
+                264.5102844238281,
+                276.9505920410156,
+                287.1934509277344,
+                299.6337585449219,
+                0.9612932205200195
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9582279823881661,
+              "prediction_xyxy_score": [
+                204.80245971679688,
+                216.87652587890625,
+                229.8848114013672,
+                241.95887756347656,
+                0.9524887800216675
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.954021408527403,
+              "prediction_xyxy_score": [
+                318.54730224609375,
+                331.0575866699219,
+                339.4856262207031,
+                352.6502380371094,
+                0.9288932085037231
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 26,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0058_jpg.rf.62e77a6bed6b47515e8265e404dcecae.jpg",
+        "image_sha256": "2e6fcbd98e8987be190afb22d6977417d110a0a3ac831920dd9e5ed1a875c204",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0058_jpg.rf.62e77a6bed6b47515e8265e404dcecae.txt",
+        "label_sha256": "1efceabe13d4075429bbb860466b4f03ea7b6c3ed2ba8a1d3977b7bd0972fe45",
+        "gt_count": 2,
+        "gt_xyxy_640": [
+          [
+            315.0,
+            314.0,
+            336.33333333333337,
+            335.3333333333333
+          ],
+          [
+            286.3333333333333,
+            395.66666666666663,
+            309.3333333333333,
+            420.0
+          ]
+        ],
+        "pt": {
+          "TP": 2,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9703661204179748,
+              "prediction_xyxy_score": [
+                314.7752380371094,
+                313.72576904296875,
+                336.2855224609375,
+                335.234130859375,
+                0.9720797538757324
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9949667145730074,
+              "prediction_xyxy_score": [
+                286.3487854003906,
+                395.5815734863281,
+                309.3243713378906,
+                419.9879150390625,
+                0.9314848780632019
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 2,
+          "FP": 1,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9660379056550426,
+              "prediction_xyxy_score": [
+                314.8394775390625,
+                313.74896240234375,
+                336.2140197753906,
+                335.12347412109375,
+                0.9524887800216675
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9903029154331441,
+              "prediction_xyxy_score": [
+                286.3291931152344,
+                395.7119140625,
+                309.2304992675781,
+                419.9218444824219,
+                0.4466659426689148
+              ]
+            }
+          ],
+          "unmatched_predictions": [
+            [
+              286.111083984375,
+              395.423828125,
+              309.2304992675781,
+              420.0699768066406,
+              0.29804936051368713
+            ]
+          ],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 27,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0090_jpg.rf.683c5df0681fe872349a13f6816908e5.jpg",
+        "image_sha256": "8e54d7e9bc3fcc2923d838123e0ff8c5a34b0a12b9241b94b15d9cb44cc2f2fa",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0090_jpg.rf.683c5df0681fe872349a13f6816908e5.txt",
+        "label_sha256": "f8ba14ec93eefb2f1507a9135865874dbe0c2ca2443085a985e71a08ad993169",
+        "gt_count": 3,
+        "gt_xyxy_640": [
+          [
+            303.0,
+            313.3333333333333,
+            324.3333333333333,
+            335.0
+          ],
+          [
+            301.3333333333333,
+            393.66666666666663,
+            324.3333333333333,
+            418.0
+          ],
+          [
+            329.3333333333333,
+            394.0,
+            352.66666666666663,
+            418.66666666666663
+          ]
+        ],
+        "pt": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 2,
+              "iou": 0.9642340259020106,
+              "prediction_xyxy_score": [
+                328.96588134765625,
+                394.0583190917969,
+                352.3818359375,
+                418.5126037597656,
+                0.9730818867683411
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9518598616702619,
+              "prediction_xyxy_score": [
+                302.7080993652344,
+                313.5024719238281,
+                324.04364013671875,
+                334.68975830078125,
+                0.963492751121521
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9662787826816623,
+              "prediction_xyxy_score": [
+                301.55340576171875,
+                393.8824768066406,
+                324.02593994140625,
+                417.9471435546875,
+                0.9588531255722046
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 2,
+              "iou": 0.9705390541786577,
+              "prediction_xyxy_score": [
+                329.0946350097656,
+                394.1851501464844,
+                352.43212890625,
+                418.6131896972656,
+                0.9685199856758118
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9381756394636843,
+              "prediction_xyxy_score": [
+                302.54730224609375,
+                313.5308532714844,
+                323.9218444824219,
+                334.687255859375,
+                0.941802978515625
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9630333086527858,
+              "prediction_xyxy_score": [
+                301.456787109375,
+                393.967041015625,
+                323.9218444824219,
+                417.9588623046875,
+                0.941802978515625
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 28,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0119_jpg.rf.29308154f7c140d2725dddde5f2509fa.jpg",
+        "image_sha256": "e71be97f50f42535ec398a3f6afa86236e51bc5d5c6d70bcf219da2c07c46279",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0119_jpg.rf.29308154f7c140d2725dddde5f2509fa.txt",
+        "label_sha256": "6c53486f9ad007a17d44f34f8d941beff6039ac2acaf5f398ca3ea52aa8d8a62",
+        "gt_count": 3,
+        "gt_xyxy_640": [
+          [
+            329.0,
+            232.0,
+            351.3333333333333,
+            255.33333333333331
+          ],
+          [
+            412.0,
+            255.66666666666666,
+            437.3333333333333,
+            279.3333333333333
+          ],
+          [
+            302.66666666666663,
+            286.3333333333333,
+            324.66666666666663,
+            308.66666666666663
+          ]
+        ],
+        "pt": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9601647900795188,
+              "prediction_xyxy_score": [
+                328.6944885253906,
+                232.0866241455078,
+                350.98809814453125,
+                255.14991760253906,
+                0.9666157960891724
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9597861522265176,
+              "prediction_xyxy_score": [
+                412.17413330078125,
+                255.88491821289062,
+                436.9424743652344,
+                279.55767822265625,
+                0.9565286636352539
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9676257450124103,
+              "prediction_xyxy_score": [
+                302.7773132324219,
+                286.5030517578125,
+                324.4242248535156,
+                308.4658508300781,
+                0.9447879791259766
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9537787421722014,
+              "prediction_xyxy_score": [
+                328.7283935546875,
+                232.00408935546875,
+                350.7572326660156,
+                255.12347412109375,
+                0.9612932205200195
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.967453942670694,
+              "prediction_xyxy_score": [
+                412.14813232421875,
+                255.78598022460938,
+                437.01239013671875,
+                279.5596923828125,
+                0.9133830666542053
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9673540994502788,
+              "prediction_xyxy_score": [
+                302.54730224609375,
+                286.4773254394531,
+                324.3580627441406,
+                308.5061950683594,
+                0.9133830666542053
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 29,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0150_jpg.rf.4f6e2c0017a532e936f70732cdadcd5f.jpg",
+        "image_sha256": "2f2c89ca455e75fc555068f865d93bc38ca74da961124fe7ef1c7f3557cc22b9",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0150_jpg.rf.4f6e2c0017a532e936f70732cdadcd5f.txt",
+        "label_sha256": "4117322ed7460a6a9ca2c234371349f34a9c99721f3dd3084642d84a05bf8b12",
+        "gt_count": 3,
+        "gt_xyxy_640": [
+          [
+            239.0,
+            280.3333333333333,
+            262.0,
+            303.0
+          ],
+          [
+            347.66666666666663,
+            255.33333333333331,
+            369.3333333333333,
+            277.3333333333333
+          ],
+          [
+            321.0,
+            308.3333333333333,
+            343.3333333333333,
+            330.0
+          ]
+        ],
+        "pt": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9795487306995978,
+              "prediction_xyxy_score": [
+                238.75262451171875,
+                280.50946044921875,
+                261.9621276855469,
+                303.01361083984375,
+                0.9746429920196533
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.970822356786101,
+              "prediction_xyxy_score": [
+                347.3951416015625,
+                255.32904052734375,
+                369.5606384277344,
+                277.4802551269531,
+                0.9583582878112793
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9496596823941943,
+              "prediction_xyxy_score": [
+                321.1883544921875,
+                308.1783447265625,
+                343.1898193359375,
+                330.6667175292969,
+                0.7872180342674255
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9568746846791818,
+              "prediction_xyxy_score": [
+                238.5473175048828,
+                280.4403076171875,
+                261.6667175292969,
+                303.12347412109375,
+                0.9612932205200195
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9523618373972123,
+              "prediction_xyxy_score": [
+                347.27569580078125,
+                255.34976196289062,
+                369.74078369140625,
+                277.59674072265625,
+                0.9288932085037231
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.933814745843118,
+              "prediction_xyxy_score": [
+                321.3827209472656,
+                308.0781555175781,
+                343.1934509277344,
+                330.7613220214844,
+                0.8729567527770996
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 30,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0184_jpg.rf.5beb8668c151e8d561206a7c47a2a9d2.jpg",
+        "image_sha256": "7d895fcb5a23f3059f870829a1bb51cda6c37a7e0ae8afcd63a52c72c4a3106c",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0184_jpg.rf.5beb8668c151e8d561206a7c47a2a9d2.txt",
+        "label_sha256": "61b65f352f04e124c332a008c5057e772cf794ee52270365b1ac92c161d0d020",
+        "gt_count": 2,
+        "gt_xyxy_640": [
+          [
+            324.3333333333333,
+            311.3333333333333,
+            345.3333333333333,
+            332.66666666666663
+          ],
+          [
+            324.66666666666663,
+            420.3333333333333,
+            349.0,
+            446.66666666666663
+          ]
+        ],
+        "pt": {
+          "TP": 2,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9772866916311278,
+              "prediction_xyxy_score": [
+                324.03997802734375,
+                311.32513427734375,
+                345.1766662597656,
+                332.6400146484375,
+                0.9514918327331543
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9642315351853251,
+              "prediction_xyxy_score": [
+                324.73687744140625,
+                420.60858154296875,
+                348.62579345703125,
+                446.4723815917969,
+                0.9492880702018738
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 2,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9663088242457398,
+              "prediction_xyxy_score": [
+                323.9300231933594,
+                311.3497619628906,
+                345.0864562988281,
+                332.72430419921875,
+                0.9288932085037231
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9717913070509181,
+              "prediction_xyxy_score": [
+                324.8024597167969,
+                420.5143737792969,
+                348.7942810058594,
+                446.4691467285156,
+                0.9133830666542053
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 31,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0215_jpg.rf.83a9a33a4d921c9131ae6e6ec63af273.jpg",
+        "image_sha256": "4db4751421c72d6d32773e9f1a153c8e78a985550987e58283e1504467fbc535",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0215_jpg.rf.83a9a33a4d921c9131ae6e6ec63af273.txt",
+        "label_sha256": "3c03fb7dbcbb41e9fc32410e833f55d6d2d424f094f4b9ad9c5eec2a0b07b0b2",
+        "gt_count": 3,
+        "gt_xyxy_640": [
+          [
+            219.33333333333331,
+            283.3333333333333,
+            243.66666666666666,
+            306.66666666666663
+          ],
+          [
+            303.66666666666663,
+            285.0,
+            325.66666666666663,
+            307.3333333333333
+          ],
+          [
+            303.66666666666663,
+            312.0,
+            325.66666666666663,
+            334.3333333333333
+          ]
+        ],
+        "pt": {
+          "TP": 3,
+          "FP": 1,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 1,
+              "iou": 0.9454868048508395,
+              "prediction_xyxy_score": [
+                304.00750732421875,
+                285.506591796875,
+                325.4573669433594,
+                307.51239013671875,
+                0.9783823490142822
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9698255442598069,
+              "prediction_xyxy_score": [
+                219.34979248046875,
+                283.78070068359375,
+                243.46731567382812,
+                306.6124572753906,
+                0.9610148072242737
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9541167463943907,
+              "prediction_xyxy_score": [
+                304.0623474121094,
+                311.71746826171875,
+                325.543701171875,
+                334.0926513671875,
+                0.9549558162689209
+              ]
+            }
+          ],
+          "unmatched_predictions": [
+            [
+              438.58544921875,
+              435.37567138671875,
+              455.97186279296875,
+              449.6648864746094,
+              0.3191407024860382
+            ]
+          ],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 1,
+              "iou": 0.9513358979726517,
+              "prediction_xyxy_score": [
+                304.0740661621094,
+                285.3868103027344,
+                325.4486083984375,
+                307.4156494140625,
+                0.9612932205200195
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9408164992985488,
+              "prediction_xyxy_score": [
+                304.0740661621094,
+                311.56787109375,
+                325.4486083984375,
+                334.032958984375,
+                0.9524887800216675
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9626862563387886,
+              "prediction_xyxy_score": [
+                219.27569580078125,
+                283.9300231933594,
+                243.48562622070312,
+                306.6131896972656,
+                0.941802978515625
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 32,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0249_jpg.rf.2bb06a38552e6b20735ae7dd7dfa7ffa.jpg",
+        "image_sha256": "12c48e83ec81104f4fdc5cae6ca2d6ce619eee2888a85c16a014127a545c87fd",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0249_jpg.rf.2bb06a38552e6b20735ae7dd7dfa7ffa.txt",
+        "label_sha256": "3bd87150247475a9e979381d89908ac54a87264277e01c566c8893cd73d57a39",
+        "gt_count": 2,
+        "gt_xyxy_640": [
+          [
+            254.66666666666666,
+            395.66666666666663,
+            278.3333333333333,
+            420.0
+          ],
+          [
+            311.33333333333326,
+            395.66666666666663,
+            334.66666666666663,
+            420.0
+          ]
+        ],
+        "pt": {
+          "TP": 2,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9760150598142008,
+              "prediction_xyxy_score": [
+                254.57640075683594,
+                395.5565490722656,
+                277.9936828613281,
+                420.038818359375,
+                0.9568089246749878
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9775238018906944,
+              "prediction_xyxy_score": [
+                311.644287109375,
+                395.65869140625,
+                334.5496826171875,
+                419.9052734375,
+                0.8720269203186035
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 2,
+          "FP": 1,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9815117654974062,
+              "prediction_xyxy_score": [
+                254.5473175048828,
+                395.6419372558594,
+                278.1029052734375,
+                420.0699768066406,
+                0.9612932205200195
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9584920339111331,
+              "prediction_xyxy_score": [
+                311.6378479003906,
+                395.7119140625,
+                334.3210144042969,
+                419.7037353515625,
+                0.7447404265403748
+              ]
+            }
+          ],
+          "unmatched_predictions": [
+            [
+              311.85595703125,
+              395.2057189941406,
+              334.53912353515625,
+              420.0699768066406,
+              0.34469228982925415
+            ]
+          ],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 33,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\3_mp4-0283_jpg.rf.9cc588e3ab261e5f4dfd617d12634443.jpg",
+        "image_sha256": "f56bc7c0c087ba4e7e03b7c8c3892f8a25bf3a6d2b11119f1ea3193464869c2e",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\labels\\3_mp4-0283_jpg.rf.9cc588e3ab261e5f4dfd617d12634443.txt",
+        "label_sha256": "86e387acb23bd5a4327590d0fe1a1b338fdd0e1e5ee60cda54331533c5eea190",
+        "gt_count": 3,
+        "gt_xyxy_640": [
+          [
+            317.66666666666663,
+            313.66666666666663,
+            340.0,
+            335.66666666666663
+          ],
+          [
+            400.66666666666663,
+            286.0,
+            425.66666666666663,
+            310.0
+          ],
+          [
+            431.66666666666663,
+            256.0,
+            458.66666666666663,
+            281.0
+          ]
+        ],
+        "pt": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.93336099436885,
+              "prediction_xyxy_score": [
+                317.9354553222656,
+                313.7569580078125,
+                339.1928405761719,
+                335.3302307128906,
+                0.9457778930664062
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9695839479282848,
+              "prediction_xyxy_score": [
+                400.7411804199219,
+                286.27972412109375,
+                425.40057373046875,
+                309.87115478515625,
+                0.8994377255439758
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9423632665853094,
+              "prediction_xyxy_score": [
+                431.9863586425781,
+                256.2277526855469,
+                458.0283508300781,
+                280.65350341796875,
+                0.8513926267623901
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 3,
+          "FP": 1,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9489306821336188,
+              "prediction_xyxy_score": [
+                317.6748962402344,
+                313.74896240234375,
+                339.26751708984375,
+                335.3415832519531,
+                0.9288932085037231
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9738796508692895,
+              "prediction_xyxy_score": [
+                400.7283935546875,
+                286.25921630859375,
+                425.3745422363281,
+                310.032958984375,
+                0.8729567527770996
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9392962453624717,
+              "prediction_xyxy_score": [
+                432.0740661621094,
+                256.2221984863281,
+                458.02886962890625,
+                280.6502380371094,
+                0.7019506096839905
+              ]
+            }
+          ],
+          "unmatched_predictions": [
+            [
+              431.7859802246094,
+              256.00408935546875,
+              458.1769714355469,
+              280.86834716796875,
+              0.4466659426689148
+            ]
+          ],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 34,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\3_mp4-0187_jpg.rf.d0fc1c7769e177ffd40c9a7c10bcc9fb.jpg",
+        "image_sha256": "9aefa20fc8a560078b2432f4df6730409762dd2c9ffc63a85fcdefed0a3e57ef",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\labels\\3_mp4-0187_jpg.rf.d0fc1c7769e177ffd40c9a7c10bcc9fb.txt",
+        "label_sha256": "21d9ad9a05a1f541875a7cd1cb78a78e91ee44724f98302c83f4ebb3c64148c2",
+        "gt_count": 3,
+        "gt_xyxy_640": [
+          [
+            280.66666666666663,
+            203.0,
+            303.3333333333333,
+            227.33333333333331
+          ],
+          [
+            362.66666666666663,
+            287.0,
+            385.66666666666663,
+            309.3333333333333
+          ],
+          [
+            390.0,
+            286.66666666666663,
+            413.66666666666663,
+            309.3333333333333
+          ]
+        ],
+        "pt": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 2,
+              "iou": 0.9910416999068237,
+              "prediction_xyxy_score": [
+                390.0557861328125,
+                286.6239318847656,
+                413.6856689453125,
+                309.423583984375,
+                0.9763674139976501
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9670765208027208,
+              "prediction_xyxy_score": [
+                362.4586486816406,
+                286.6210021972656,
+                385.6353759765625,
+                309.47723388671875,
+                0.9587000012397766
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9748733687449901,
+              "prediction_xyxy_score": [
+                280.4546813964844,
+                203.111572265625,
+                303.2200012207031,
+                227.49459838867188,
+                0.9327771663665771
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 2,
+              "iou": 0.9920676672886058,
+              "prediction_xyxy_score": [
+                390.111083984375,
+                286.6954345703125,
+                413.6667175292969,
+                309.3786315917969,
+                0.9524887800216675
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9610950625090289,
+              "prediction_xyxy_score": [
+                362.40325927734375,
+                286.4773254394531,
+                385.74078369140625,
+                309.3786315917969,
+                0.941802978515625
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9720593174436796,
+              "prediction_xyxy_score": [
+                280.29217529296875,
+                203.05758666992188,
+                303.41156005859375,
+                227.48562622070312,
+                0.7832837104797363
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        }
+      },
+      {
+        "index": 35,
+        "image_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\images\\3_mp4-0294_jpg.rf.d262d3ea8c4694c15f008c8077593568.jpg",
+        "image_sha256": "758e359266d7d9d07d5b41b0938cec61581ab64c5fc55ce1c3b24c0c92ff082d",
+        "label_path": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\labels\\3_mp4-0294_jpg.rf.d262d3ea8c4694c15f008c8077593568.txt",
+        "label_sha256": "cf40f87f8944a23acad5a9133ec72a8c410e0423d482080ea3f557e5be2c81f0",
+        "gt_count": 3,
+        "gt_xyxy_640": [
+          [
+            340.3333333333333,
+            226.66666666666666,
+            363.0,
+            250.66666666666666
+          ],
+          [
+            313.33333333333326,
+            310.0,
+            334.99999999999994,
+            331.66666666666663
+          ],
+          [
+            424.0,
+            311.3333333333333,
+            450.0,
+            335.0
+          ]
+        ],
+        "pt": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 1,
+              "iou": 0.9354525086034657,
+              "prediction_xyxy_score": [
+                313.20257568359375,
+                310.28045654296875,
+                334.58917236328125,
+                332.3076171875,
+                0.95967036485672
+              ]
+            },
+            {
+              "gt_index": 0,
+              "iou": 0.9675786558292194,
+              "prediction_xyxy_score": [
+                340.0451354980469,
+                226.82601928710938,
+                363.1475830078125,
+                250.84439086914062,
+                0.9579793214797974
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9497555347094744,
+              "prediction_xyxy_score": [
+                424.0870666503906,
+                311.8213806152344,
+                449.3128967285156,
+                335.0118408203125,
+                0.9444252848625183
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        },
+        "int8": {
+          "TP": 3,
+          "FP": 0,
+          "FN": 0,
+          "matched_predictions": [
+            {
+              "gt_index": 0,
+              "iou": 0.9668615354441419,
+              "prediction_xyxy_score": [
+                339.9300231933594,
+                226.83949279785156,
+                363.0494079589844,
+                250.83131408691406,
+                0.941802978515625
+              ]
+            },
+            {
+              "gt_index": 1,
+              "iou": 0.9522969848200841,
+              "prediction_xyxy_score": [
+                313.16461181640625,
+                310.0411376953125,
+                334.7572326660156,
+                332.2880859375,
+                0.941802978515625
+              ]
+            },
+            {
+              "gt_index": 2,
+              "iou": 0.9505928078765203,
+              "prediction_xyxy_score": [
+                424.0740661621094,
+                311.7859802246094,
+                449.3745422363281,
+                334.9053649902344,
+                0.941802978515625
+              ]
+            }
+          ],
+          "unmatched_predictions": [],
+          "unmatched_gt_indices": []
+        }
+      }
+    ],
+    "summary": {
+      "pt": {
+        "TP": 33,
+        "FP": 1,
+        "FN": 0
+      },
+      "int8": {
+        "TP": 33,
+        "FP": 3,
+        "FN": 0
+      },
+      "images": 12,
+      "gt_total": 33
+    },
+    "interpretation": [
+      "12 held-out labeled images contain 33 ball annotations. PT: 33 TP, 1 FP, 0 FN; INT8: 33 TP, 3 FP, 0 FN at confidence 0.25 and IoU 0.5.",
+      "The one missing INT8 detection relative to PT, sample31, is an unmatched PT box at confidence about 0.319 in background/hand area, not a missed annotated ball. All three ground-truth balls are detected by both.",
+      "The three extra INT8 predictions in validation samples26,32,33 overlap balls already detected and count as duplicate false positives.",
+      "Video sample17 is not included in this labeled-image audit. Its additional INT8 box visually corresponds to a visible ball absent from the thresholded PT output.",
+      "This is a small sampled operating-point check using existing annotations; it is not full-validation mAP, proof of generalization, or proof that quantization improves accuracy."
+    ]
+  },
+  "previous_320x192": {
+    "files": [
+      {
+        "name": "multicore-yolo320192.json",
+        "model_sha256": "3011635986f967421f53e28ec5bcc7469a0cca1d730ecbede737147302ba4ec9",
+        "clock_restore_exact": true,
+        "args": {
+          "model": "/root/model-bench250-20261112/yolo320x192-int8.rknn",
+          "family": "yolo",
+          "width": 320,
+          "height": 192,
+          "frames": 720,
+          "warmup": 20,
+          "rounds": 3,
+          "configs": "7;1;1,2,4;1,2,4,1,2,4",
+          "modes": "full",
+          "io": "baseline,prealloc",
+          "output": "multicore-yolo320192.json"
+        },
+        "runtime_version": "2.5.0 (74ea630ce8@2026-09-30T09:41:17)",
+        "driver_version": "0.9.8"
+      },
+      {
+        "name": "steady-yolo320192.json",
+        "model_sha256": "3011635986f967421f53e28ec5bcc7469a0cca1d730ecbede737147302ba4ec9",
+        "clock_restore_exact": true,
+        "args": {
+          "model": "/root/model-bench250-20261112/yolo320x192-int8.rknn",
+          "family": "yolo",
+          "width": 320,
+          "height": 192,
+          "frames": 2400,
+          "warmup": 20,
+          "rounds": 2,
+          "configs": "1;1,2,4;1,2,4,1,2,4",
+          "modes": "full,reuse",
+          "io": "prealloc",
+          "output": "steady-yolo320192.json"
+        },
+        "runtime_version": "2.5.0 (74ea630ce8@2026-09-30T09:41:17)",
+        "driver_version": "0.9.8"
+      }
+    ],
+    "total_measured_frames": 46080,
+    "rows": [
+      {
+        "core_masks": [
+          7
+        ],
+        "workers": 1,
+        "mode": "full",
+        "io": "baseline",
+        "frames": 2160,
+        "rounds": 3,
+        "fps": 104.3845570963605,
+        "per_round_fps": [
+          102.04112084465442,
+          104.67971750053235,
+          106.53072013171068
+        ],
+        "latency_ms": {
+          "mean": 9.496387716203703,
+          "median": 9.935069,
+          "p95": 10.036391
+        },
+        "preprocess_ms": {
+          "mean": 1.245224350925926,
+          "median": 1.2445635,
+          "p95": 1.267893
+        },
+        "call_ms": {
+          "mean": 7.948478624537037,
+          "median": 8.401924,
+          "p95": 8.47689685
+        },
+        "run_ms": {
+          "mean": 7.707720697685184,
+          "median": 8.166982,
+          "p95": 8.23649015
+        },
+        "postprocess_ms": {
+          "mean": 0.2542438111111111,
+          "median": 0.252003,
+          "p95": 0.262796
+        },
+        "api_io_overhead_ms": 0.24075792685185182,
+        "max_board_temperature_C": 34.23
+      },
+      {
+        "core_masks": [
+          1
+        ],
+        "workers": 1,
+        "mode": "full",
+        "io": "baseline",
+        "frames": 2160,
+        "rounds": 3,
+        "fps": 209.20764179087513,
+        "per_round_fps": [
+          209.7735019297847,
+          209.3057804045108,
+          208.54730630918888
+        ],
+        "latency_ms": {
+          "mean": 4.698691643518519,
+          "median": 4.687149,
+          "p95": 4.7412129499999995
+        },
+        "preprocess_ms": {
+          "mean": 1.240169037037037,
+          "median": 1.240768,
+          "p95": 1.258276
+        },
+        "call_ms": {
+          "mean": 3.1629228962962963,
+          "median": 3.156191,
+          "p95": 3.17775405
+        },
+        "run_ms": {
+          "mean": 2.926189916666667,
+          "median": 2.925477,
+          "p95": 2.933353
+        },
+        "postprocess_ms": {
+          "mean": 0.2500994958333333,
+          "median": 0.24792,
+          "p95": 0.259587
+        },
+        "api_io_overhead_ms": 0.23673297962962966,
+        "max_board_temperature_C": 34.23
+      },
+      {
+        "core_masks": [
+          1,
+          2,
+          4
+        ],
+        "workers": 3,
+        "mode": "full",
+        "io": "baseline",
+        "frames": 2160,
+        "rounds": 3,
+        "fps": 478.9815550374477,
+        "per_round_fps": [
+          478.28309060915984,
+          480.73693639239525,
+          477.93436226968095
+        ],
+        "latency_ms": {
+          "mean": 6.142094986574073,
+          "median": 6.086607,
+          "p95": 6.91058845
+        },
+        "preprocess_ms": {
+          "mean": 1.5644996398148148,
+          "median": 1.543824,
+          "p95": 1.8821666
+        },
+        "call_ms": {
+          "mean": 3.805035674537037,
+          "median": 3.7611075,
+          "p95": 4.17475575
+        },
+        "run_ms": {
+          "mean": 3.3455817324074073,
+          "median": 3.330881,
+          "p95": 3.5427162999999995
+        },
+        "postprocess_ms": {
+          "mean": 0.7074049773148148,
+          "median": 0.6749285,
+          "p95": 1.2081292
+        },
+        "api_io_overhead_ms": 0.45945394212962964,
+        "max_board_temperature_C": 36.076
+      },
+      {
+        "core_masks": [
+          1,
+          2,
+          4,
+          1,
+          2,
+          4
+        ],
+        "workers": 6,
+        "mode": "full",
+        "io": "baseline",
+        "frames": 2160,
+        "rounds": 3,
+        "fps": 725.9067028410174,
+        "per_round_fps": [
+          732.0251454297581,
+          719.4119246357377,
+          726.3931378221384
+        ],
+        "latency_ms": {
+          "mean": 8.101808073148149,
+          "median": 8.005514999999999,
+          "p95": 9.748442099999998
+        },
+        "preprocess_ms": {
+          "mean": 2.2539002990740737,
+          "median": 2.0370295,
+          "p95": 3.6611977999999996
+        },
+        "call_ms": {
+          "mean": 4.847708819907407,
+          "median": 4.6438524999999995,
+          "p95": 6.466403099999998
+        },
+        "run_ms": {
+          "mean": 4.150237792129629,
+          "median": 3.8704845,
+          "p95": 5.87351415
+        },
+        "postprocess_ms": {
+          "mean": 0.9244246162037036,
+          "median": 0.860137,
+          "p95": 1.6762721999999999
+        },
+        "api_io_overhead_ms": 0.6974710277777778,
+        "max_board_temperature_C": 37.0
+      },
+      {
+        "core_masks": [
+          7
+        ],
+        "workers": 1,
+        "mode": "full",
+        "io": "prealloc",
+        "frames": 2160,
+        "rounds": 3,
+        "fps": 106.08303969163231,
+        "per_round_fps": [
+          106.7473753682561,
+          105.13503767870439,
+          106.3802187948821
+        ],
+        "latency_ms": {
+          "mean": 9.345778885648148,
+          "median": 9.81508,
+          "p95": 9.908976699999998
+        },
+        "preprocess_ms": {
+          "mean": 1.2364595768518518,
+          "median": 1.237851,
+          "p95": 1.255935
+        },
+        "call_ms": {
+          "mean": 7.845454798611112,
+          "median": 8.3151245,
+          "p95": 8.40332605
+        },
+        "run_ms": {
+          "mean": 7.676976318055555,
+          "median": 8.146656,
+          "p95": 8.2348088
+        },
+        "postprocess_ms": {
+          "mean": 0.25577020509259263,
+          "median": 0.254045,
+          "p95": 0.263962
+        },
+        "api_io_overhead_ms": 0.1684784805555556,
+        "max_board_temperature_C": 35.153
+      },
+      {
+        "core_masks": [
+          1
+        ],
+        "workers": 1,
+        "mode": "full",
+        "io": "prealloc",
+        "frames": 6960,
+        "rounds": 5,
+        "fps": 213.32315694583846,
+        "per_round_fps": [
+          213.72341865739762,
+          214.20997856271026,
+          213.02687123527835,
+          213.10594425204474,
+          213.24483045455793
+        ],
+        "latency_ms": {
+          "mean": 4.60785625229885,
+          "median": 4.602882,
+          "p95": 4.639625349999999
+        },
+        "preprocess_ms": {
+          "mean": 1.2415507946839082,
+          "median": 1.2419384999999998,
+          "p95": 1.258856
+        },
+        "call_ms": {
+          "mean": 3.1018052942528738,
+          "median": 3.100473,
+          "p95": 3.114181
+        },
+        "run_ms": {
+          "mean": 2.935376504310345,
+          "median": 2.933349,
+          "p95": 2.944145
+        },
+        "postprocess_ms": {
+          "mean": 0.2565586824712644,
+          "median": 0.254338,
+          "p95": 0.265422
+        },
+        "api_io_overhead_ms": 0.16642878994252874,
+        "max_board_temperature_C": 36.076
+      },
+      {
+        "core_masks": [
+          1,
+          2,
+          4
+        ],
+        "workers": 3,
+        "mode": "full",
+        "io": "prealloc",
+        "frames": 6960,
+        "rounds": 5,
+        "fps": 548.4722607663533,
+        "per_round_fps": [
+          528.4234368673104,
+          542.4813326710942,
+          509.69607551457705,
+          560.8984943985876,
+          557.0306370245929
+        ],
+        "latency_ms": {
+          "mean": 5.366715775862069,
+          "median": 5.210138,
+          "p95": 6.096644499999998
+        },
+        "preprocess_ms": {
+          "mean": 1.4263376156609193,
+          "median": 1.393901,
+          "p95": 1.6966496
+        },
+        "call_ms": {
+          "mean": 3.5504544416666666,
+          "median": 3.5181485,
+          "p95": 3.7952358999999998
+        },
+        "run_ms": {
+          "mean": 3.3031583610632187,
+          "median": 3.2894769999999998,
+          "p95": 3.4251054499999998
+        },
+        "postprocess_ms": {
+          "mean": 0.3787568704022989,
+          "median": 0.28788,
+          "p95": 0.8838824499999983
+        },
+        "api_io_overhead_ms": 0.24729608060344827,
+        "max_board_temperature_C": 37.923
+      },
+      {
+        "core_masks": [
+          1,
+          2,
+          4,
+          1,
+          2,
+          4
+        ],
+        "workers": 6,
+        "mode": "full",
+        "io": "prealloc",
+        "frames": 6960,
+        "rounds": 5,
+        "fps": 772.7187917953713,
+        "per_round_fps": [
+          759.6370780263113,
+          753.420979374882,
+          770.689416696083,
+          781.7164470485881,
+          774.368358047186
+        ],
+        "latency_ms": {
+          "mean": 7.616662016091954,
+          "median": 7.49801,
+          "p95": 9.111781099999996
+        },
+        "preprocess_ms": {
+          "mean": 2.1693454415229887,
+          "median": 1.930142,
+          "p95": 3.5803481499999985
+        },
+        "call_ms": {
+          "mean": 4.677712200718391,
+          "median": 4.4907245,
+          "p95": 6.150214699999999
+        },
+        "run_ms": {
+          "mean": 4.219113444971264,
+          "median": 3.9833555,
+          "p95": 5.721846649999998
+        },
+        "postprocess_ms": {
+          "mean": 0.7548046140804597,
+          "median": 0.6467825,
+          "p95": 1.4887367499999995
+        },
+        "api_io_overhead_ms": 0.4585987557471264,
+        "max_board_temperature_C": 38.846
+      },
+      {
+        "core_masks": [
+          1
+        ],
+        "workers": 1,
+        "mode": "reuse",
+        "io": "prealloc",
+        "frames": 4800,
+        "rounds": 2,
+        "fps": 238.4154466795401,
+        "per_round_fps": [
+          237.1614424901564,
+          239.6827825935894
+        ],
+        "latency_ms": {
+          "mean": 4.113583952916667,
+          "median": 4.095366500000001,
+          "p95": 4.18842355
+        },
+        "preprocess_ms": {
+          "mean": 0.7137540352083334,
+          "median": 0.712263,
+          "p95": 0.727138
+        },
+        "call_ms": {
+          "mean": 3.126141994166667,
+          "median": 3.116807,
+          "p95": 3.165807
+        },
+        "run_ms": {
+          "mean": 2.9490608139583334,
+          "median": 2.94472,
+          "p95": 2.97069355
+        },
+        "postprocess_ms": {
+          "mean": 0.2654676972916667,
+          "median": 0.257838,
+          "p95": 0.292838
+        },
+        "api_io_overhead_ms": 0.17708118020833336,
+        "max_board_temperature_C": 36.076
+      },
+      {
+        "core_masks": [
+          1,
+          2,
+          4
+        ],
+        "workers": 3,
+        "mode": "reuse",
+        "io": "prealloc",
+        "frames": 4800,
+        "rounds": 2,
+        "fps": 584.2994125314083,
+        "per_round_fps": [
+          587.1487939825547,
+          581.4775531133536
+        ],
+        "latency_ms": {
+          "mean": 5.033923387708334,
+          "median": 5.0119454999999995,
+          "p95": 5.415065050000001
+        },
+        "preprocess_ms": {
+          "mean": 0.8400005579166667,
+          "median": 0.809098,
+          "p95": 1.0602562000000002
+        },
+        "call_ms": {
+          "mean": 3.720924204166667,
+          "median": 3.694901,
+          "p95": 3.93932105
+        },
+        "run_ms": {
+          "mean": 3.3754539816666664,
+          "median": 3.353061,
+          "p95": 3.5680677
+        },
+        "postprocess_ms": {
+          "mean": 0.46126126125000005,
+          "median": 0.416507,
+          "p95": 0.8061810500000001
+        },
+        "api_io_overhead_ms": 0.3454702225,
+        "max_board_temperature_C": 37.0
+      },
+      {
+        "core_masks": [
+          1,
+          2,
+          4,
+          1,
+          2,
+          4
+        ],
+        "workers": 6,
+        "mode": "reuse",
+        "io": "prealloc",
+        "frames": 4800,
+        "rounds": 2,
+        "fps": 851.1855453963208,
+        "per_round_fps": [
+          846.5729392655197,
+          855.8486910465756
+        ],
+        "latency_ms": {
+          "mean": 6.919306363333334,
+          "median": 6.866688,
+          "p95": 7.56139155
+        },
+        "preprocess_ms": {
+          "mean": 1.2366572677083334,
+          "median": 1.131396,
+          "p95": 1.9463562
+        },
+        "call_ms": {
+          "mean": 5.126786283333333,
+          "median": 5.203428,
+          "p95": 5.6596759
+        },
+        "run_ms": {
+          "mean": 4.720546216041666,
+          "median": 4.806900499999999,
+          "p95": 5.2760978000000005
+        },
+        "postprocess_ms": {
+          "mean": 0.5416727252083333,
+          "median": 0.4503415,
+          "p95": 1.040394
+        },
+        "api_io_overhead_ms": 0.4062400672916667,
+        "max_board_temperature_C": 38.846
+      }
+    ]
+  },
+  "comparison_note": "640 vs 320x192 uses independent training from same pretrained weights, same video split and 50 epochs, batch1 INT8 Toolkit2/Runtime2.5, same test frames/clocks. One-to-one head is explicitly selected for export; training mAP is the original validation path."
+}

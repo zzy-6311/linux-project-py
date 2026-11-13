@@ -1,0 +1,37 @@
+{
+  "status": "built",
+  "kind": "yolo26n",
+  "shape_WH": "640x640",
+  "precision": "int8",
+  "toolkit": "2.5.0",
+  "onnx_sha256": "70d6d503df2723aa947af0b97791197c5bf4c6964757ae49e7dff04abf45087e",
+  "weights_sha256": "271596d55de645e0aae01f2789a83d438d13ade6654350ea82c56e99bdd37527",
+  "calibration_count": 160,
+  "calibration_dataset_sha256": "1297a40b3a1a2428471e6280ef0ca7233a05f25e15a81093eeb7c5ad9f699979",
+  "disabled_fusion_rules": [
+    "fuse_exmatmul_add_mul_exsoftmax13_exmatmul_to_sdpa"
+  ],
+  "optimization_level": 3,
+  "graph_weights_modified": false,
+  "quantized_dtype": "asymmetric_quantized-8",
+  "quantized_algorithm": "normal",
+  "quantization_recipe": "Toolkit default normal/minmax, matching prior YOLO320x192",
+  "mean_values": [
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "std_values": [
+    [
+      255,
+      255,
+      255
+    ]
+  ],
+  "workaround_source": "https://github.com/airockchip/rknn-toolkit2/issues/581",
+  "bytes": 4518475,
+  "sha256": "7993b641fde1d9fba69d7c20333da636b26b6b572a743e8a02eda8483ddbccbd",
+  "seconds": 64.946203551
+}

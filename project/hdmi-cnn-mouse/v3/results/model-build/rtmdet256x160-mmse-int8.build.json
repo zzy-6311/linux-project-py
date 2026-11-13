@@ -1,0 +1,32 @@
+{
+  "config": {
+    "target_platform": "rk3588",
+    "mean_values": [
+      [
+        123.675,
+        116.28,
+        103.53
+      ]
+    ],
+    "std_values": [
+      [
+        58.395,
+        57.12,
+        57.375
+      ]
+    ],
+    "quantized_dtype": "asymmetric_quantized-8",
+    "optimization_level": 3,
+    "quantized_algorithm": "mmse"
+  },
+  "bytes": 6979667,
+  "seconds": 257.413626617,
+  "shape_WH": "256x160",
+  "sha256": "46df509a2e84dbbe931b716ec187bb123db25bd25fa7ce5d9ed964a816efff8e",
+  "algorithm": "mmse",
+  "calibration_images": 60,
+  "target": "rk3588",
+  "validation_pending": false,
+  "validation_summary": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\speed_accuracy_summary.json",
+  "candidate_decision": "recommended over normal INT8 for this resolution; not lossless"
+}

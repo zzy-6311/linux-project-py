@@ -1,0 +1,318 @@
+{
+  "variant": "quantized",
+  "frames": [
+    {
+      "index": 0,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 1,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 2,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 3,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 4,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 5,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 6,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 7,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 8,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 9,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 10,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 11,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 12,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 13,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 14,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 15,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 16,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 17,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 18,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 19,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 20,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 21,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 22,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    },
+    {
+      "index": 23,
+      "max_abs": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tensors_equal": true,
+      "boxes_equal": true
+    }
+  ],
+  "status": "pass"
+}

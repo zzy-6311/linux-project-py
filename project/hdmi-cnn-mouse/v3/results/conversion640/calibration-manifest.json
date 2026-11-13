@@ -1,0 +1,4649 @@
+{
+  "seed": 42,
+  "count": 160,
+  "split": "train only",
+  "source_list": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\resolution_compare_20261108_113852\\split\\train.txt",
+  "samples": [
+    {
+      "index": 0,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0213_jpg.rf.a5203977816b32fd2f23a6b452472bf2.jpg",
+      "source_sha256": "f724b4517c69f29dafe14f536d10e85e23a10f9cae6eb485b868336b1010eba6",
+      "png": "000.png",
+      "png_sha256": "6cdc86cbef7040547144fd70c786afd182660985c053123a8f6d8c4f5ef8c45b",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 1,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\2_mp4-0039_jpg.rf.cd8d3b0854cd512f02f6ec6c0fec8b2c.jpg",
+      "source_sha256": "3139f47a0937097f7b47339a6e16fc63f19fe6114ef760da763e0ac9b927d246",
+      "png": "001.png",
+      "png_sha256": "05b660364b826403e35c3b8c4fc6e3aa58d9cf7a3b1b04d6764d0d13d5aad3a8",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 2,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0275_jpg.rf.66b7e21d029727a93fadd549d567f120.jpg",
+      "source_sha256": "df22404000a75fb2fd4b6311041320e1023eae2478eb45735a8def89974ea0e6",
+      "png": "002.png",
+      "png_sha256": "7028c2e6b669d0996b3f688ba2b570b005cea35b5f10a75de274732a509f0ba4",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 3,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0174_jpg.rf.a3565a5245e16e045a60a5b9c578299e.jpg",
+      "source_sha256": "169ec9f5b87c2fe27230bedf8f72f038338dcdfbc7d68de0091ae9b8ffab65a9",
+      "png": "003.png",
+      "png_sha256": "a25c6a1155b643d2c1ae781ad83b4ae17452aca8d9d5d02e586b2c247a477ecc",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 4,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0084_jpg.rf.f404819a73514c80751fa936611b7239.jpg",
+      "source_sha256": "d66925598398a6aa4a9ea81c857f9d5f44e118168a58f3586965909e85811cb8",
+      "png": "004.png",
+      "png_sha256": "3b0d0d236229d5db71b7816a54ed81bcf8f6e1490386beee5b80c06c057cafad",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 5,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\1_mp4-0206_jpg.rf.221b126a7ac57d30ed99d84a9e078e1c.jpg",
+      "source_sha256": "54846fbab404e6beb197caa788ee73bfea61ddbd14a97bf605c3570c52291a01",
+      "png": "005.png",
+      "png_sha256": "69e163a46caf68a38c29d686d3f8d3c7922bf9cbe87a77108de1722a85113ce1",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 6,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\images\\1_mp4-0212_jpg.rf.c93fd8316ba91ccc570bf309bb8e1698.jpg",
+      "source_sha256": "1e58e93fceb364b0f69c83f877e4ab9f2732ce9130314451822a4c672819fc61",
+      "png": "006.png",
+      "png_sha256": "89fbc45dc1e5da35c0214125fd33c6dafddbe6fb727b487865644054af68b8d2",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 7,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0123_jpg.rf.c943b19809c27aad6a37b4a5b0811847.jpg",
+      "source_sha256": "c424aca3c8e47665c27ba6746704ef13bf682f3be36adc00674f87caf05d0f51",
+      "png": "007.png",
+      "png_sha256": "5d8dc462326d4b3abb2b0b600c446202f30420c3d96bb5d2be8b6efb2aff1027",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 8,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0098_jpg.rf.dc34261b427f5497dafc9c1bbeb730f1.jpg",
+      "source_sha256": "de90fef73abef5689fa8b9c46f74cf67713b26d31811f3d05a9721659a446080",
+      "png": "008.png",
+      "png_sha256": "c65f752cc7065bd32666956b05b0be6412a220d94dc377b9f68d479d7bb8de99",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 9,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0044_jpg.rf.210ad5522caa386e40f7f2f473b5392d.jpg",
+      "source_sha256": "d445472726e5dc505dfae57bb4fb89c4fd73a0d2b24b27964a0500cf38846c2d",
+      "png": "009.png",
+      "png_sha256": "d81abe1c79440d556e32bdfaa8a36e3b018ec10548602a44fd628d5ec6cd4854",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 10,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0029_jpg.rf.379dddc2fed893b2fd024cd6e99e9689.jpg",
+      "source_sha256": "e0172e7f6009ca583214e920fea3cf1e478cac2efc343e53135f6460110a8594",
+      "png": "010.png",
+      "png_sha256": "47081ede29293b639e026f99a25530067395f87ae45d03853dfe4f010330f808",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 11,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0101_jpg.rf.45dc817afab1c3a44811f18de861c0a0.jpg",
+      "source_sha256": "29e1eb73cee8bf0923f3d8407a168f35a5e1aa7b7496c5d555c1e2dba57bf980",
+      "png": "011.png",
+      "png_sha256": "27df358165b93c64d44291010125b350eef7a5c30e48dbbbed099ca02905038e",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 12,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0062_jpg.rf.4f5a40eb56f57d8707fec4f5f01b1660.jpg",
+      "source_sha256": "80a1b6951411c3d6c20dfeb4bda7fbba4119b7dbac0a3f0aea4e5c4faac74707",
+      "png": "012.png",
+      "png_sha256": "b18f9d7d1f5bcc253f15d147f40f32a7d1c3961e208f11d2b9597d7795cc78b7",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 13,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0236_jpg.rf.8be0b4fecf3c3aacad2d333f60c386ab.jpg",
+      "source_sha256": "df611866e07c9a9691be9e92ae36033eb9fb477943d92e6e31eb370bb91553db",
+      "png": "013.png",
+      "png_sha256": "0fb495d1427e6a7e0199990b439641d5380492108e83e2d8839cefdf686a8488",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 14,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0228_jpg.rf.874518a15c91b48aa8875068323a7bf4.jpg",
+      "source_sha256": "19cfdfb01897a8422ad38e711cfabaa5e7a22999f02d3a82ececd96c5caee0ad",
+      "png": "014.png",
+      "png_sha256": "9dd74829c06b569fa1dbf788ad2a055c990100929573ea0a5d86d3010e0e1e69",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 15,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0162_jpg.rf.48f69ea6548011b4c91a82fe578a4ac0.jpg",
+      "source_sha256": "27e90c7a44fb975b0d9f15ca4b0cff0ed43e21f036f592483819ee8300dbc6f2",
+      "png": "015.png",
+      "png_sha256": "18286c89082c9e33df558851325dba9f79a722e6fb826151483ba07a7a1e0dc2",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 16,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0137_jpg.rf.aed3df44d7e769454b5938df0fe9aed0.jpg",
+      "source_sha256": "c151b5f11596cb9c6e47823b92113ec2f6a215e6dcb79755f27185c216cb6229",
+      "png": "016.png",
+      "png_sha256": "f0977246f248a41c9b6bf92be57366f70cf6b17e3964a173316067116eed29b7",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 17,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0196_jpg.rf.c451af83b2c126af65dc35e27b589b82.jpg",
+      "source_sha256": "a6b46bee6c076fd802b73c74a32811dcb90364f0b7a0abfc775f3312ab796cff",
+      "png": "017.png",
+      "png_sha256": "5c5d6368184f4eaa699c4fe852e404d86558377af83efa0bebe677d3462c9a22",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 18,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0247_jpg.rf.621fbf6e64c4ed5636e0c6950ecab3df.jpg",
+      "source_sha256": "e4640fff2d3d2e18045843190ee59d8d39f48b3d96217a85167e3e7d8de0c35f",
+      "png": "018.png",
+      "png_sha256": "8a36db3f7e715156a8769d4bb9e084d4221883b55138a04db8b908141439cabb",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 19,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0220_jpg.rf.d6baf92572126fa05eb2b54e8709e9d0.jpg",
+      "source_sha256": "a9fa3427e4e2483e7994f8eec097627061792325f20247fd2775580925d1db72",
+      "png": "019.png",
+      "png_sha256": "84e09cf1a90d3a8984d759581d42fc2569b4a5bd5a9365830e3c3fbdec918f07",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 20,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0051_jpg.rf.95f717e9b80b7238b3944a980513d063.jpg",
+      "source_sha256": "64266360f79950781d8ba49adc24739370472103f67bde7ce6bfdaa4396f0909",
+      "png": "020.png",
+      "png_sha256": "56428508e9f102a1f3d4628c24321019bf7aedfb5da4b81017bad638b80060e0",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 21,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0222_jpg.rf.a5ac8edda7101ec8a83704db4d8db77d.jpg",
+      "source_sha256": "b2b2e18c2f12324576d3527ce79794efdf053064f9568bca199114d567934de7",
+      "png": "021.png",
+      "png_sha256": "560fffabd140fad721c20644553c9ef090a33f4a899b07ea61caf68ffb6455c4",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 22,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0099_jpg.rf.4182e7d48b8aaf14ae09ca827278a44a.jpg",
+      "source_sha256": "811f6ff4b22e156b5b13d8c1083726dea5d01d446f0cacf56a45acb63462d686",
+      "png": "022.png",
+      "png_sha256": "319a720a75d7fa5b1b3e8c68e76cacc29abaab748c06d7be7c0cfebbdc2a0949",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 23,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\images\\2_mp4-0214_jpg.rf.9e3af14fadf395e8fd636517e97694f6.jpg",
+      "source_sha256": "6a81aac89f77d659c2724fead2e0987af429bc735f141f00641601451085c88c",
+      "png": "023.png",
+      "png_sha256": "95e5b30899593dd7d1a4c56b112bccd2151a6e17e7e2e1afb4c2e4e3e67ce187",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 24,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\images\\2_mp4-0114_jpg.rf.2156c4d88b01dbc35d51921fd5918189.jpg",
+      "source_sha256": "e4dbcc27fe3e5b1414f2d2c0b8c79c22fecffe113233c587a827f6ea45d8afea",
+      "png": "024.png",
+      "png_sha256": "765a33a6acbff19c287a7530aeeea8ed73199d230bf6674ef0118c1bffb75e2f",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 25,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0132_jpg.rf.4447db590943cc812d28622cdadc1beb.jpg",
+      "source_sha256": "6394302a76701a2f60bcfac5828978cc52e3e29fa28978158592ef95c00b92d9",
+      "png": "025.png",
+      "png_sha256": "67be74a4a2ffab940ccc82a0e0ce6fdeb5953968a4851a3bc65f86989176dcb6",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 26,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\images\\2_mp4-0016_jpg.rf.0db6ea6a12b794d8f823f232cc3968bd.jpg",
+      "source_sha256": "bd104d63c4484906033619e33a276bf2afd5ce756aa29522cd94ad093c6d8c91",
+      "png": "026.png",
+      "png_sha256": "e0f883170b6e2f10557cee12b452341969d11cbe41d0ec872349d9696a96824f",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 27,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0228_jpg.rf.c237c8ffe266ba13fd98e5a567b8f627.jpg",
+      "source_sha256": "c5013606cf6522fab6fe7ad43f6502291bd83553f73f6284304d36a5410119c0",
+      "png": "027.png",
+      "png_sha256": "e4d9544afaa9b48ec6c777d4ae9158951fc99a3fbbca028d30ff6a8024f8586c",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 28,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0107_jpg.rf.1d8f3a8ac9a59affd5b49c81f4aadf97.jpg",
+      "source_sha256": "593b22b5478c8ba1ffebb92fb12c53f7df5a376e12330212750b3265b7a67456",
+      "png": "028.png",
+      "png_sha256": "aeda4e328217798c92c518341b4e15dbb9a501e633ebd6503f176a268716cade",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 29,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0239_jpg.rf.abdbac1683816f4067757ced428aed36.jpg",
+      "source_sha256": "9887cd3dee59feba769b4318a2b2619e65090d269823b12f9bec22833df90058",
+      "png": "029.png",
+      "png_sha256": "5a6f50df105d09b1effb8bf2d0fb8e4882251e2120fac52878d1bc8f9805b8ff",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 30,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0211_jpg.rf.db723178ca9edc169f47b5f1eb067d85.jpg",
+      "source_sha256": "f71dc9155598e07d88794e5b926eddbd4ab8166828ca32ea4adf604779f3ea3c",
+      "png": "030.png",
+      "png_sha256": "2be226ba61985688d79afd5351ea802dedaef57493b778db412ceb63517c4495",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 31,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0096_jpg.rf.f5cb8ba2a7ec8632eab40eac02763f75.jpg",
+      "source_sha256": "0a526dbb7a8992acb42db79af8af553c0999f5cd4af66499e753d7478c3c3810",
+      "png": "031.png",
+      "png_sha256": "4b37830bcc6d7ec1f8bdf261e3f50807fec2fe9c34d35c98633e77aa5d003e7f",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 32,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0188_jpg.rf.2ae41464a9a6cee34f433f156d39fee5.jpg",
+      "source_sha256": "5a6aa07225ae72ad3c2d3c32b394999464ad0d7edf3e009f745683c91ba718d2",
+      "png": "032.png",
+      "png_sha256": "95c6dadc4fc35168dd7aeb60433865f46a35ab12bd4bdca911dcb034c931764d",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 33,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0159_jpg.rf.60d697579a9b29f101a2ccc03b2e81bc.jpg",
+      "source_sha256": "06174af05f160b9eae2a2cfc4742ac89253b0e4666da30520a34310691f7730d",
+      "png": "033.png",
+      "png_sha256": "4edbbcbdf9d2b218888fdf6b98c9009e1bf1e6458ddd1ed3cfa250b9652a39d3",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 34,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0059_jpg.rf.5413d7d0dd264457f1455ac1ee752ea1.jpg",
+      "source_sha256": "1b55b76d74ebe54d5f49446767bf2c217472766f56061d6ca62cdf350d2c0d99",
+      "png": "034.png",
+      "png_sha256": "d7aa5cbe318d0ae9bad412eb7f7cd73da26e9c1aec7c48a70900e5360d402267",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 35,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0045_jpg.rf.9cb498580174a12d163e178501d4a343.jpg",
+      "source_sha256": "0124d4c8dc237f593eecf05ae33ea5a9228db2a34154742653d8181a08e28709",
+      "png": "035.png",
+      "png_sha256": "d0b0aae6431205f16ee468ef84bf4024a3f4998303bcbec1daadd69fedfe08a2",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 36,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0162_jpg.rf.e614159ecccb76297186130a0dc8200d.jpg",
+      "source_sha256": "5c7dcf3ba151504eb568fde864715f37bbc7fda50a0751ed18f622041f302221",
+      "png": "036.png",
+      "png_sha256": "fc1aa0c6ee826a52eefef907e0033ea89a7d9a735044da0bd55dca09417a2952",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 37,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0081_jpg.rf.616c5902f495fdb39176a36bd23315ad.jpg",
+      "source_sha256": "7a6725e7a5b1656dd3a752bd9846663a17e4f1099e7cd81d8c6d833ecfde78f1",
+      "png": "037.png",
+      "png_sha256": "d943d4ec6690f83336a388408d036d4c6fe2a658b2afe0e489699faf0f22ff3b",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 38,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0124_jpg.rf.ce28d53f5bf614207b3a4d4f8a97d475.jpg",
+      "source_sha256": "62a42fe88e060cc512cd1b890a620c918d6ccd1f1d2aa6673364cc82ea1850e9",
+      "png": "038.png",
+      "png_sha256": "b1434df1ad3242b939bb3c39cb11dde023d4ddac5374a7106cacd1e41769ff06",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 39,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0113_jpg.rf.91731f0d40ece871fe786fc055f0820e.jpg",
+      "source_sha256": "dca2ef6fd60074e96330fa014b5ba2216f1813a0541095fcba4668cdf9c79dbf",
+      "png": "039.png",
+      "png_sha256": "cb7bc98d6ef732e6cff74c5b666c072a64b356ea33b5fa9b452b70c643457f7e",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 40,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\images\\2_mp4-0124_jpg.rf.b23b2ef875c1b1bcca41c79ed2d733f4.jpg",
+      "source_sha256": "f04896bf6a97250670e3d8eaccd0f03794a90b73d6053c9bf22d9851b3f613a2",
+      "png": "040.png",
+      "png_sha256": "ce84132a6eb0b4ee370e16d03c6e43619c356a28996246e757febb86e11cf83d",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 41,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\2_mp4-0304_jpg.rf.7d13fef11c14774472753964fc988731.jpg",
+      "source_sha256": "c895be536dac497f1e8a6c455b4cc3766d35e32090c30e6d351c24adf1d9d3d2",
+      "png": "041.png",
+      "png_sha256": "5a600bda1a9ad7011cd069460c3bfb258f5c72ebb295857ac58381ef902a0aa3",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 42,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0015_jpg.rf.994ef5fc2ebe1c0cf49a4f7b060697db.jpg",
+      "source_sha256": "412aa8c1bcc409bf3781305c63a45a360aa9219319bd06f6183e686f37de65cf",
+      "png": "042.png",
+      "png_sha256": "a81d39d4099eb539d9fd62d4d6e2b58524bb82375f349d4f9445091dbac1e2e5",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 43,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0284_jpg.rf.47ba770af71c144b4cbe4fba4b0153ee.jpg",
+      "source_sha256": "f44350533a421e9bf3f64b76dedc358d1e542c61c029ab43ba636b556fb90489",
+      "png": "043.png",
+      "png_sha256": "e953f027ed27004736c1fb7b74d2422d48c9fabf975667073033615879613694",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 44,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0245_jpg.rf.0e0e57d609459d665b06dd69e7b5f981.jpg",
+      "source_sha256": "eb971ceaa2b4dfb162d789fca6f74d7d35a8d45ade7d1341c670c9b4d3f9ce7a",
+      "png": "044.png",
+      "png_sha256": "279bc8f737797cc6ead1a7e800f32a1feaae24405b3dab7bf8b079ff28bf3596",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 45,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0158_jpg.rf.e4e126d28c2a5326b441c0d40866b9f3.jpg",
+      "source_sha256": "3ab7d999352de420df45df4a788a705d409c00d9dbb2d275deaa1d5823cb2673",
+      "png": "045.png",
+      "png_sha256": "c59f5e9ead16b29641a548ac1944e0ec37f1bb4ed23b352ecb104616ab683721",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 46,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\1_mp4-0270_jpg.rf.85f431eb18f55e065ed8d42d23c7565e.jpg",
+      "source_sha256": "e7bc599d943521bd7472caf55115bf2aeca9e56e46cc1c5d1e91e2b76e17cc5e",
+      "png": "046.png",
+      "png_sha256": "20c9249acdec190099589e4aa2b10b88c2116b193a85958f06dbd9611749d13b",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 47,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0154_jpg.rf.7f538588b27ba90e24f4ad50dab95a82.jpg",
+      "source_sha256": "b9fd0988c434298fa6a8db4d4f5846af23c377e7c31b7694af97d13aa3ce2070",
+      "png": "047.png",
+      "png_sha256": "d2cad6798b44b12efdedf6315263c0c50bee512b597d13882041fc547a87085c",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 48,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0004_jpg.rf.422981f29b39c4e7a840e03d945b1e53.jpg",
+      "source_sha256": "9e5c2f156169aa0d5e490afa04626e194397cab53c247a826580c9ba2bbdc37e",
+      "png": "048.png",
+      "png_sha256": "92e8807af7c9133b2bd210fadba2803bcab749185ced774a246549ee79121753",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 49,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\2_mp4-0233_jpg.rf.e6f1c39a6ced22d2966c4583bb6aa519.jpg",
+      "source_sha256": "c4a42874ef3db86c456560f6504d3c24488c9ca16844d94556c884f6ad7bd356",
+      "png": "049.png",
+      "png_sha256": "551e6a13190395214bc07ef25af2030f03c59d037a673743f9673939dde533d6",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 50,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0290_jpg.rf.c35351febb1e547f9247039a650b97ba.jpg",
+      "source_sha256": "b052d656473ab12cff9577be2c2fd5927b3deaceefc99329e8e14ce3270af104",
+      "png": "050.png",
+      "png_sha256": "3fe533ab2a4d38135dda164e150e7bb902a0336cc135256933141ceb7da23441",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 51,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0299_jpg.rf.e22d2847f8526e5236043e6f7c39e2a0.jpg",
+      "source_sha256": "c1a088eb4a206166189a274b06008193b1417bfaed1d23431db53e9accd94758",
+      "png": "051.png",
+      "png_sha256": "2b92dbfdb1f6325f97d556d63b0af9dc752effd4e1824478f63921d10e6f1bea",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 52,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0163_jpg.rf.390e4187a4034a072c5f26b6646f59e9.jpg",
+      "source_sha256": "9b26b020227dd34e1634562ed93f6f37271187ad23d08167020c31af5060f176",
+      "png": "052.png",
+      "png_sha256": "86d553882024d350f0649aee8f62189a53169fdeb86da50e3882611f3b3a8b62",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 53,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0134_jpg.rf.c00382fa04363329f5207a1bf5ed9d8e.jpg",
+      "source_sha256": "8fef6f5039e937e56b7a212fe46a4e29ceb1605f2591e4ef9132b19971c6ca69",
+      "png": "053.png",
+      "png_sha256": "70f6b9817a7e957131aafe7697572bcc155595c0ed8d2ae4dbfabd4e028e32b5",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 54,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0003_jpg.rf.67ec54a2866dd80a9834b7f001c399d1.jpg",
+      "source_sha256": "470ac2ba845b601511e3b4e2e531fb7ac1d5d74402f9c6260393ee0f35c80f8c",
+      "png": "054.png",
+      "png_sha256": "7e3c32a4d660c9cadeb786e18549b5b45504b362a58c358d7eb0e0a8d1f27734",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 55,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\1_mp4-0116_jpg.rf.f81af3bddf1fa0a8484cb0fac36a1159.jpg",
+      "source_sha256": "70ababd7eaf2955dee5e989e6edc5b91d8b4d29e1a8b65450a3752ac93dff596",
+      "png": "055.png",
+      "png_sha256": "d1dee5215b773ca42d0eeac82fd711955c463de961ef0895d351ece889878e21",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 56,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0217_jpg.rf.a23e4e2257e9cd6f9cdccd7ab629343a.jpg",
+      "source_sha256": "a28333130536a77b96fdd6f12f9d7e330b48834b882839bd7928140123b7b2e3",
+      "png": "056.png",
+      "png_sha256": "6d3a9605bf1c173b4e8b25ac081456b2ebffc960bfa89c54f1187f86df4b103b",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 57,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0076_jpg.rf.7fe0c73e3ed90b03b118fbd77afb5826.jpg",
+      "source_sha256": "aeaad2c68061fcf3e39dfce57835a14806fbcf1ad234e7f0cbf135a0397743b0",
+      "png": "057.png",
+      "png_sha256": "0e45aecb905d1583be58ff9d8214c226c4a4f0209ba13a9abc4bd9c3f0be9353",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 58,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0095_jpg.rf.08e684cc2cbfae03a1e90de9036db9d3.jpg",
+      "source_sha256": "0f8e4dc5929a6cf7fd7ee3f3132f445051c6376cef4697334a5d4c409f74f6f0",
+      "png": "058.png",
+      "png_sha256": "913f36666ee550896bc15b927beec1a0cfea7896237c2c456e2ff7b1fedeade4",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 59,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0298_jpg.rf.4271778a09b37e1967f96faf85d641fc.jpg",
+      "source_sha256": "63d3e82db1e9c484b05efb0ac55b9c192d2ff74a4278cbb1b9f0f64cac361f11",
+      "png": "059.png",
+      "png_sha256": "b256544ea79307220f8009ba5ee19855390dc9177322c6b77a9c568a24967432",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 60,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\1_mp4-0109_jpg.rf.80733b28f4439f66c862c96bf336c659.jpg",
+      "source_sha256": "5bbe143dcbc7652c6b457ebb036eedc4e60c35346f4d5dfbdfe5d9c50bbf1c27",
+      "png": "060.png",
+      "png_sha256": "ad21b55abd2303734f68b73590508f16dc7642533e1cc1047f5202b2030548ab",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 61,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0278_jpg.rf.9d5a04d118a8f053a4aa04bb5cb6df65.jpg",
+      "source_sha256": "86058cab247a6eab0a7f5abcdb0cfad41de0ccd0fd859769de47663c71be5908",
+      "png": "061.png",
+      "png_sha256": "c4f3beeef443b6dca96a50fd200e469bd99e9061e3e3ed3bcc21a949480c7a7e",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 62,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0122_jpg.rf.abb16b3707f3ee266a6497e0993212e8.jpg",
+      "source_sha256": "7bfdbc9ea685ba2f00f8a9b5d888e566d2642e7e6f1cf571bf7734802730e169",
+      "png": "062.png",
+      "png_sha256": "d59b5610cd4c2dfb23e0416394d87c215be0d408eca9f864a26e96cde6cab9b4",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 63,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0185_jpg.rf.db23585a3f3d6511ac3d586e3475f963.jpg",
+      "source_sha256": "3198f2f1454989d071886dec49d3fa50c8e97d8363e20c36b6cf37866a9a7f59",
+      "png": "063.png",
+      "png_sha256": "fa875cbe6ccfec4ab9a18a1cbe5287f6632123cf063037ef138c89ad000d469e",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 64,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\1_mp4-0278_jpg.rf.a5616c6de397bdad39463e2de8425f61.jpg",
+      "source_sha256": "c92b90301c6910d32583f75a09f74d0f5c938a4ad941e8452c05c575a816af19",
+      "png": "064.png",
+      "png_sha256": "5b5a8cb0d6cf88dd7d756a1bc1e4f94c704ea54a8c39411e9cf4d87d644b6479",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 65,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0082_jpg.rf.1a308c71274c0f1060b4003315511dc2.jpg",
+      "source_sha256": "d34fb697ac1b2f557480bd4782012bf382d0e241addf4e1014f10ed10a691e90",
+      "png": "065.png",
+      "png_sha256": "7484b2e206739affe41a6a9db0990273fe815f940e7c474e20dc8086127968ed",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 66,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0082_jpg.rf.1fc3e5dd2fe5865c3d7fd3f325dfbd9a.jpg",
+      "source_sha256": "45c8fb5800a7801d047dc393953bda62eb4610d0da9509fd3ce1ce4653f6e808",
+      "png": "066.png",
+      "png_sha256": "57706257f0307b7f65723b82f628760a2eb12d5e9183a9d94a2d8227225dd561",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 67,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\images\\1_mp4-0114_jpg.rf.6b580f80a170d5869ddd5a2dc4723f25.jpg",
+      "source_sha256": "11e09592b06db8a5afce2824d48685e31d8d6d6e595b8c81daf7a57320e2ff5c",
+      "png": "067.png",
+      "png_sha256": "e13b5b08cc21647a220f728fc2eb1935ff249d9e44248b82035e81b55fa57fb3",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 68,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0203_jpg.rf.dd419c8cb9a4c4780f5075f1c06fe389.jpg",
+      "source_sha256": "37783b628d0bb80c35861af116cb21e826bb325c43a294e0dc7ceb85416b6412",
+      "png": "068.png",
+      "png_sha256": "b91055ae617e7b5a3adfd09ec99f4bc9909f6c339944b8f4c9cc227e82a79544",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 69,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0095_jpg.rf.a2678c7fc9c61adf03890c10d32b1638.jpg",
+      "source_sha256": "07e4a0c0d04325cb92cf94a1c4c727c474928f872b1d202b2a8391c1eac82b11",
+      "png": "069.png",
+      "png_sha256": "bef4cf4a16af7e5fd91d2ff38902071fcc31eb8cfccf644bc32309003fec4a99",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 70,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0049_jpg.rf.40547336265130fc86f218d1942ebabf.jpg",
+      "source_sha256": "8b833f52dd3851a540032d828879e494f384294cef616542a0ed6fe399de4204",
+      "png": "070.png",
+      "png_sha256": "1f759935c8a2234ff07da6345ab286726d3f278ecd6acaab367da6347d0742d8",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 71,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0085_jpg.rf.87f5802a42b7995f1ce0bd87f685a7a3.jpg",
+      "source_sha256": "4a2991940dfcda38f1dabf608a6f46ffb20930ea3e8fd7038453ede121a8de36",
+      "png": "071.png",
+      "png_sha256": "93e9d8473a3ca8afeff9efa803d12576033861485cf33c7270bab69be92def4f",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 72,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0168_jpg.rf.0fa88dd5f1f82054114ffecea23fb29c.jpg",
+      "source_sha256": "6b07c9547230182267d28f1222ae7deefb9531cce5ec0822ec639629f9830740",
+      "png": "072.png",
+      "png_sha256": "018dd23684aa4a7006476bc4c52b1a1c03a54fb53261662cd71fa1bd231df391",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 73,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0028_jpg.rf.d49965074b92d1b47309b00ef7fe143f.jpg",
+      "source_sha256": "a5bedd9d5461db205e32fcd050359be6e3d2eac1b36029329485a94b3dcfd7d6",
+      "png": "073.png",
+      "png_sha256": "ea8407a5f5f684dc2bd8dcb1a69d761cf193910502f931a22533e70a6d4d5fae",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 74,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0237_jpg.rf.294405544f4e133f4c129c3a1c93e9df.jpg",
+      "source_sha256": "2ce9ec13a176dc1f314f1e68198f8e1e7d2b8f90b40f9957845931c7fbd63601",
+      "png": "074.png",
+      "png_sha256": "8c2daf67d4e0fda792c1d5502a57cf7b95b4f8ce641921ce48aa88427da8a384",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 75,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0224_jpg.rf.ad4f56e6ea7b1c5b761262f2fd4eb58f.jpg",
+      "source_sha256": "eca3205be9f8b470af4769df5cea326b6cb6660f58226751f4a1a0a4706ae10b",
+      "png": "075.png",
+      "png_sha256": "639deddc61dd43e54543cceb392fd894fa6a9a2072fb473a393b1983741ec91e",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 76,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0286_jpg.rf.3e15d2e91c9ea6aaa4c67d59a95f85bd.jpg",
+      "source_sha256": "5cf3b9403f492fe980b1f1016697f16382a48039c0ae2fe09a53d154223d6ddd",
+      "png": "076.png",
+      "png_sha256": "8663eef754707996b09ef330c7b23094d687087438fd149a898fd88c964a865a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 77,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0074_jpg.rf.509c65c58958a394ffb16e7a25695762.jpg",
+      "source_sha256": "0e018ccd6e5fb5af86194bb9b8804089dbb5281f02954102041085912f8d9a20",
+      "png": "077.png",
+      "png_sha256": "2f269ec5c9d10fc1907e26baa5f76911626f3a665ebae7809a2ec348e34ec1bb",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 78,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0264_jpg.rf.e77f1a850fc69ad9ad019ee9ff92f989.jpg",
+      "source_sha256": "fa113e677611771c944a3c63ddd9f0e9a43f64880b8bf0181d470dabc994b381",
+      "png": "078.png",
+      "png_sha256": "d177b40f51a72d8580a15c91ccc1fba988566d14f09e0c8136945fa0cd800959",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 79,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0229_jpg.rf.c787513cd7155534b034935933dacb3a.jpg",
+      "source_sha256": "acabd2caff5aa0cbf2d8815ef2b4fbd4903df9a959cd4da9ac26ad8aa2d5f757",
+      "png": "079.png",
+      "png_sha256": "4124c43f6dfeae015c276fe73b4edee6895851028b003ba08c30d17953e8786a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 80,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0241_jpg.rf.b4bbd415ab1669b3706c21ceb140f2e2.jpg",
+      "source_sha256": "45df548c9591fa01f5de37610883e1e52b4f7a1e6524f6636bcaba8b3488fb35",
+      "png": "080.png",
+      "png_sha256": "b2861b52cc39c4ee7e28b140332ce0f0c0ede3740848b2977a27e43052729d35",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 81,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\2_mp4-0008_jpg.rf.a2e2bd7319ce15ea9411cb0662d30d19.jpg",
+      "source_sha256": "4c10b1c5941f0e61192d72885d067027a0d5313ef89d5e5827dc13815175bd5a",
+      "png": "081.png",
+      "png_sha256": "18b1ed7ec49a4b8f7bedaf6e6c28bb59587a7b2c9e88e22724177ba3a145a759",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 82,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0041_jpg.rf.204d181d67d14cecc185cd3573428432.jpg",
+      "source_sha256": "fcdb93ecd7e67aca004cdeac145ef2dfc061f669862ba5b8474d2854b3faae83",
+      "png": "082.png",
+      "png_sha256": "73bf1eb7bba2a0379557716a9543125c3614e423285f4359d1cbbfc2ee515785",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 83,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0031_jpg.rf.a9901b1a9ec19c56ffe52fb9b557f0cb.jpg",
+      "source_sha256": "933dec3f48dca84fba3a626798b871d8b8987e644ead6dc6a9fedfd6565f2bef",
+      "png": "083.png",
+      "png_sha256": "eed320faebd847a3e01076fab713e7a6b378e2db1f898a45112da0510262f44b",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 84,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0146_jpg.rf.00ef46e1c76e14481bf2d27c212315e3.jpg",
+      "source_sha256": "14a92018335f72f1f0dde113bf47de4cf9ef29d3e7fc85071c474cda786bd8d4",
+      "png": "084.png",
+      "png_sha256": "af03faf382865dbbf03f9ff39adaadcbcda42568c653f779db9c6ac1d7d69af3",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 85,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0018_jpg.rf.972c23ce4d1dfa59c670110cde128c63.jpg",
+      "source_sha256": "75bd9cf5ccc19927b5975b2b16100f5adce262926dec6def1e938ee18b95beb1",
+      "png": "085.png",
+      "png_sha256": "e4ce9af3355d4bef43197558d53207051a4962c865144ab17fabfbf1032a6689",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 86,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0172_jpg.rf.811738653d8c3a7e6552aa9eee236901.jpg",
+      "source_sha256": "8cc490dd128a9306eee6f5ab98f3a9d3beb20fa50b7f4306da696e7cefb9b7b7",
+      "png": "086.png",
+      "png_sha256": "1292851c57090be436b36ab5b25186fb9d946461fdb9e11bb2d755028a6e8cd5",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 87,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0108_jpg.rf.1b147eca38e58464e4e3ee82b05e6e8d.jpg",
+      "source_sha256": "f9fb63a00206185cb8085773b3b508c0f68e6a1e9abea799bbe3cb78f6d9281d",
+      "png": "087.png",
+      "png_sha256": "0dbf00b6f960fb4fb7d3ae7d6942b815f98b051e77e52b7b8d75396181389b82",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 88,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0251_jpg.rf.e8dda601b650743293b7fdd148074baf.jpg",
+      "source_sha256": "eadecb20d3214b7b500e0afac92d3e2cbe72880237f4cd70078bbbb99f4f315c",
+      "png": "088.png",
+      "png_sha256": "c5ef1d075fa1bffbb19855f6bbd264a77ab737acd8e218d04e75739b2a1ea091",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 89,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0147_jpg.rf.6142cbb4e5058bf76677e0cb02e52a58.jpg",
+      "source_sha256": "6d320d0754a6de322176e1eff58189bfe0715f9592590cd8c660586bb93100d4",
+      "png": "089.png",
+      "png_sha256": "84acd1a4b9f1aab9d2537291c7e9cdce26cfb09af8a6ad4771f12cf5a4b30236",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 90,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0288_jpg.rf.90e43be33e69b4a0d5e077ddca7f4b88.jpg",
+      "source_sha256": "c7e2226e5f5307df9aa3578eee65368db4901af3ddbaea19d3b8d3f305138a47",
+      "png": "090.png",
+      "png_sha256": "e5d9059e2471b0647b43ccb86b848116bb849eab172c08b3290c1140b75b41a7",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 91,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0068_jpg.rf.1608f6e4ad08bf1e6a123f84bd61a0ab.jpg",
+      "source_sha256": "091c0cdc9d7172d2eb7f32f4a7d91e4cb69c2a091e79033cc5aebbc70057c460",
+      "png": "091.png",
+      "png_sha256": "c0625731bf1dd22115b1a68bb0a22cc6ddcd092e4cd1d78d1a8cc12ddf75cc44",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 92,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0078_jpg.rf.fa494fbc11b8283f074e8eb95038a0ea.jpg",
+      "source_sha256": "ef14e69b2fe803674e03992bf912aeea8dd59c89cdf6452b33b09742ef3bdbf9",
+      "png": "092.png",
+      "png_sha256": "b375c50e992e094336a01bb4033d8a75c9754a73d4bac131157d79b89ad5c77c",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 93,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\1_mp4-0057_jpg.rf.310359db170b07fc3f98807003999f1c.jpg",
+      "source_sha256": "91bf5d2189a4c0193ce20210862f47ec009d30f9d0e3a444bc2e68c71f12bb98",
+      "png": "093.png",
+      "png_sha256": "3fc160f7a91e3f0383bb1e70384fcad4ea07e143ccb1df136710abf1a0c9f290",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 94,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\2_mp4-0096_jpg.rf.10a4e8963ba5b13a57580ce36ec391da.jpg",
+      "source_sha256": "d04aa5af5cd956c174397190f863eb4357505f96ccedc774a3d332c883e612fd",
+      "png": "094.png",
+      "png_sha256": "602f917d1f58c9ff061b19da3c12f356c5cdd45b9b465de1de73cbe0fb9ac683",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 95,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0292_jpg.rf.e4309e09773575789ef85ce3d755116b.jpg",
+      "source_sha256": "2c3ccb0eb3bf4d591f9d77b9f012fb5f9f2c5a6c37531fd2238c07015b67512c",
+      "png": "095.png",
+      "png_sha256": "795c0cb7ccf7559d216bb2826e855c02a1718c871139f1afaf662ca249ce4076",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 96,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0252_jpg.rf.66d6acea664b751c00d4363370a40777.jpg",
+      "source_sha256": "e4befbe03739718770ba1f0c936c62cb74bce2ec8b6dba216c24f0b6161e461b",
+      "png": "096.png",
+      "png_sha256": "9e0c9f63309a20195d1fe402ce8412b64c0e0b407eda67cf99b7947f1664a9c8",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 97,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0026_jpg.rf.4f7c330c013eba08c3c05e4404e127fd.jpg",
+      "source_sha256": "8e0a438224b5e42764036c50d8592a3242266fd2bf586db00391c5edf4ce1e5c",
+      "png": "097.png",
+      "png_sha256": "5e04f3d847edf6d3f83cafdbc81e3778e6316597f2789dfba4b278caf0806853",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 98,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0297_jpg.rf.af608a9b24ca34ba805b979e268ea10e.jpg",
+      "source_sha256": "9b92151b8710d92f6f7a6c9db182abf911a4c8379ffbc43118cff9d9a03f6a0b",
+      "png": "098.png",
+      "png_sha256": "22fc91aa4dcc18481f0fa3cae698b00276a98b4c55593512398d5688362855e2",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 99,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0099_jpg.rf.8b90b4f79b4ac7ce078defe399091067.jpg",
+      "source_sha256": "1ab7bd23816bea1332afb5978b2379055b84632fa847354973e43ca6cb9c09e9",
+      "png": "099.png",
+      "png_sha256": "ff9ad72271b4d09dd4b1bc494469811797b261f0566d7856e06162e6c69917a6",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 100,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0210_jpg.rf.75f9c63a3a0ec48c3a8f632ad9c01f6c.jpg",
+      "source_sha256": "47d00430d327e6b7e082d54f45511eadfd186acc3d01f0ed050b4f80ac00a71b",
+      "png": "100.png",
+      "png_sha256": "61b6b31772ec7909b9468e1caa492a627dc6e13dd6ee46cfd12d513ef469e7f7",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 101,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0009_jpg.rf.abe9fd60cecfbc0118caf77f8c4c9aab.jpg",
+      "source_sha256": "679b7d31ca058ba0a234537fe1567d0471fb21d169753fc250494a798c1481fc",
+      "png": "101.png",
+      "png_sha256": "043842be5ea0defd279adec777796d6c1ce3e72d37b733daf2e17c2bfaf30e3a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 102,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0058_jpg.rf.ffd834c5764b7be2dfbde60f4198221b.jpg",
+      "source_sha256": "4fe9b623fe5151a642e91931947099b628cb9938158e486ee88dff78d897e3c9",
+      "png": "102.png",
+      "png_sha256": "10157409ddd30e09ef96ccceac91d24f47e0b52637ec0dab38d5dca48866029a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 103,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0117_jpg.rf.f155e76ecfb224e49d9fcd2b6cba9559.jpg",
+      "source_sha256": "d85ce9ce20df657e19923f2a9b54b1b58081e39b04e29a39526744c414066409",
+      "png": "103.png",
+      "png_sha256": "1792f60e2d6a90b87db2668f26d8fb415dd4575574d9dda439fb1336aa51a246",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 104,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0068_jpg.rf.7a8a7048e5aa871a757b6d159224d67a.jpg",
+      "source_sha256": "79bec6f52d2a360627d0ae958d2256cd8ca9b4839dcb15522d816246a1f6fe99",
+      "png": "104.png",
+      "png_sha256": "d91106cde4804cd467f8ac5bc8b0254ebd4430a8a5264668fdab647713e102a5",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 105,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0167_jpg.rf.e6515a4080091a7a7c3c44997c58fc01.jpg",
+      "source_sha256": "bdbe019f7aaaed468fdd55979cf892fce2e86c3960ec1d470c329df46a340990",
+      "png": "105.png",
+      "png_sha256": "c39a386fc9fa0ead316ac5d8b62348375adbd949d2583001240348569e34e5b9",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 106,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0097_jpg.rf.e8a81dda7f7ec85a6e705f8cc98af51e.jpg",
+      "source_sha256": "7390e7bc22936f543e9e6346b8155960ef315fe4e9aeb321ae6ecb7fa7779649",
+      "png": "106.png",
+      "png_sha256": "01d338500a990b06d4337e188474c95dd944ec791cc368a9e1ff5b4709ff3479",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 107,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0139_jpg.rf.e456945f4c60d436b4e180ba5ee39a9b.jpg",
+      "source_sha256": "c7606b3e18b4e5c1b6988337a4062b181c69a19b15997ca86d98ef2081c414ac",
+      "png": "107.png",
+      "png_sha256": "b5ab08f6828b912d50cf8b92f48502ae775cff53266d324a0009ad47fa6b9847",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 108,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0051_jpg.rf.655b85c85b41fb8e3584634a654d5355.jpg",
+      "source_sha256": "e165a41a33bf4e2b6bb60905a29f652b1b34c7746b5a2a8286f5d74ea480f146",
+      "png": "108.png",
+      "png_sha256": "a9c7b9154a79181b656947b39a6ac42b3876cecd051f43346d9740e2d88319a0",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 109,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0006_jpg.rf.154a48e74d050dc36a0de406ae857f41.jpg",
+      "source_sha256": "f426a03c376b2bda236c57eeacdb260d3f95030a6f86df1c0d5a5833dc750657",
+      "png": "109.png",
+      "png_sha256": "076efe54f566551719dc48db634fb5eabb91bd6c7c11e32e5cb3bf93eb1eb5dd",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 110,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0067_jpg.rf.791815fdba8a57705a24addcb663e700.jpg",
+      "source_sha256": "b36ad3cfbf98e1a057e7df2e0224473ad3d661f1849883e84631b01aa7c1e02b",
+      "png": "110.png",
+      "png_sha256": "14429ddcf6f99e4ab8e815ea27aff281e569291c830ac20df9d4bc65631e52ae",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 111,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0253_jpg.rf.606633543e097f06ac57fbae806b8121.jpg",
+      "source_sha256": "96eb665104c1a8a7488446b6934a13f4b1642054dca7a3edaa9f5da4e8d0f9a9",
+      "png": "111.png",
+      "png_sha256": "d3e2dc3611139261d304fbf3bf4b9d3703ed0f5cbb238b8c64d2b51f5bc2f519",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 112,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0164_jpg.rf.1effead7a77a44f2e53575ab54f73bdb.jpg",
+      "source_sha256": "6d11b1d424dadc485af664e64e469f0d68b01a85d8f626d6b011440a17dd0f56",
+      "png": "112.png",
+      "png_sha256": "6dd650ed3e2862387e09fbfdf5f63e3ec44195a86b6ae64ba851e7ee26972ae7",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 113,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\1_mp4-0181_jpg.rf.2bfeed7e53f45ea0d574b3615c70a4d4.jpg",
+      "source_sha256": "8fb5089684722f060fd4b2962452c58834dcb6dc0413d53f9dccb5c75df1270d",
+      "png": "113.png",
+      "png_sha256": "6c869aeef73486f5d5c2ff505a90e80284ec07b9f6a22116991f5625e395b511",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 114,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0257_jpg.rf.f82179ed21028f2fc20473c6783bea47.jpg",
+      "source_sha256": "1c36a0c5c3a296943bda4318cb8d177a6bbdeb9aaaabe465efa833cd0a453193",
+      "png": "114.png",
+      "png_sha256": "f1d35099aa4d3bda4a7f59fa1d4727b9370012deff6ede7f5e04385c6020760f",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 115,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0283_jpg.rf.f44f4f67513a8799807f98f31001aa65.jpg",
+      "source_sha256": "b09089332b508e6f464c0669f08e8847a875c0e967dc5005ad68a35bf9d9ce3d",
+      "png": "115.png",
+      "png_sha256": "5466eb02118f58299e0320734570d8b92a3469b9ca9f9bd4e0ad413b2ef71332",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 116,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0089_jpg.rf.bab0512f11dd5db98ffd20d4a36c0f78.jpg",
+      "source_sha256": "da0813e52235ee7ff73bf25fa255ce7f38b8eaff290efa325a6802b244b74c04",
+      "png": "116.png",
+      "png_sha256": "4147ded4024c79c6c8670d843e291840e38a43754d6bda19b3ffe6c8358d0a90",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 117,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0143_jpg.rf.9722fd0413f9433d674762fcd7aaf807.jpg",
+      "source_sha256": "6eedb233dd0702782820ec06fe2ef3b43a1e72cd05e3d954c92dafb4f9d9c5f9",
+      "png": "117.png",
+      "png_sha256": "0e3d9ea21bf0a0a9f83e85c8ea6515c50a01a38c928059483af79e4cabad6be1",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 118,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0010_jpg.rf.106150533d40043f70122f510cf751bf.jpg",
+      "source_sha256": "19ebb3ec376e1999915c23e8e4ce22d64db33bc849a02d4395ee8c2ef28ab97c",
+      "png": "118.png",
+      "png_sha256": "7baa800c0c27709a48bc4b11a81e632d144a6bfeabb7734ab2daed49ed58767a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 119,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0209_jpg.rf.d6ca1ec24d188d1cb01fd906420c7a4f.jpg",
+      "source_sha256": "33ea0e27dca199c6841db3dd002d6925d8550f088117b8633f000ae3bf351142",
+      "png": "119.png",
+      "png_sha256": "68f6632e0b97f5194d646a52c297a25a67c0589c14fba9119c51bb1925aa13ce",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 120,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0030_jpg.rf.005aceaf5f45856923a601eafc61476c.jpg",
+      "source_sha256": "b8bfede7225277d91edcf5fdda0af3f1c9bef3039a1c8749efd6ab06ce47b378",
+      "png": "120.png",
+      "png_sha256": "5d075f66a4966ebaecc48908311a13d64c6f2bb5305b56d8027ea2fbc0f5b74a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 121,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0136_jpg.rf.e24ab107ee439394da48b6052772cc67.jpg",
+      "source_sha256": "7c05d8dd81fe34374e7d4c43e3adbe1c95a1da6c1507225789fe92ecae797739",
+      "png": "121.png",
+      "png_sha256": "cfe916029ac794ba94660313654d3c8e952af027a849c87f7e0bcb39f476a409",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 122,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0090_jpg.rf.1844dfe33759529529c31704b93a16f9.jpg",
+      "source_sha256": "964c613390931fb9b52efb221993dc575eef9b8836e2ac9a89f62dfbb1992af3",
+      "png": "122.png",
+      "png_sha256": "166e659e15a334a5c2d2a7b9322b8465015f4850199efae0386db0b4ea66de35",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 123,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0104_jpg.rf.6daf0c046f1f9dec06ee0508db47e536.jpg",
+      "source_sha256": "a3548641f0d27de800a3cd92dc64ad959bdb93f0afacda264023cb2e26c960d5",
+      "png": "123.png",
+      "png_sha256": "1c8b3078f65bdd6d053a51264f20ce4cf6664479179084d779f83bf7ccfc3daf",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 124,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0291_jpg.rf.9ba7aa938f8630a458dad4cacb3a9168.jpg",
+      "source_sha256": "36d9f8166219306618e9c8fa2b6d32788e27e5d0496780a82733810e1df95c7f",
+      "png": "124.png",
+      "png_sha256": "b94d2041e96ae9e9e1b4cebe63a558a1e96715c8df4bf7503a699904066a1366",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 125,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\2_mp4-0212_jpg.rf.8eec65dbfef2f095dac1775f1e1b15be.jpg",
+      "source_sha256": "3bd5eaed30f561ae10a0a17a8caef737dbae4db64e19f1cfc2bec6ec54b0240b",
+      "png": "125.png",
+      "png_sha256": "4071884ae080cff6af4bb81965a5ce3326cdb8b9a79adfb9a123ea81e9209dbf",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 126,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0266_jpg.rf.36f8ccedbc651f63ec70e8318c5abe58.jpg",
+      "source_sha256": "5619be5a974b8549d4620907ff28a478c609dbfa472e51dac514828c3a45e330",
+      "png": "126.png",
+      "png_sha256": "7ed5e5de791ab5ac581c9d0e2b639545a1011204eb16f83f22c00491dc7c429e",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 127,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0146_jpg.rf.76eed16e7b045c2f27ede606d84d6b77.jpg",
+      "source_sha256": "2a01c99a609b8a8db8e24f19d7ecf245ce3550eaddc88bbf61313ee053b00ed2",
+      "png": "127.png",
+      "png_sha256": "da4849dc000b8e7fbf9adec0c72acad94b775190ac39dcaf10a5688ea6f70285",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 128,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0281_jpg.rf.e3bb62fca6da51cab27ed5a1a7bed399.jpg",
+      "source_sha256": "26fe839971469d46536ba8ceca8c45d2d9895a93bdfd25b740d7caa28756b908",
+      "png": "128.png",
+      "png_sha256": "1c3fe7f7af7b1cdf5972db246b4f8ff2a81e2a56786d039be766b6fd12cc1892",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 129,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0184_jpg.rf.9fa2367c7f78951febc53aa1e6523a4b.jpg",
+      "source_sha256": "c234455bb7ae897e1f61cd5d4e08f90c66f056602d594223c2535d98eb80e1fe",
+      "png": "129.png",
+      "png_sha256": "a447b03864a63b329b5d118feb2dca5651f43266f240f186070a8ea2e934e857",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 130,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0063_jpg.rf.9e8eaa4ee311f5d327c7bf6236d27dc2.jpg",
+      "source_sha256": "23ee63a82dea4902b0860e6f7d5772030e66742e2cba65b32b7826e775fa7e0d",
+      "png": "130.png",
+      "png_sha256": "7eab09c28169ba4e530df74e0ff8cc8e20ee7c3fb8871a66a0e20adfd3ea913a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 131,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0134_jpg.rf.8b93641db374cfbffdad0f17163209d8.jpg",
+      "source_sha256": "13e78e508742c7c25fbd154e5860b2cf0bc9134b1c179736a4a859730dea11a5",
+      "png": "131.png",
+      "png_sha256": "b8ca65670f842a1a40d2f73e7a9e1d3ef0b5ec980172ed5d81743fb8fe0c6ad0",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 132,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0201_jpg.rf.f3a6980f51c4586884a2aeeef89b043f.jpg",
+      "source_sha256": "b46ce24a9589716157a0041e808ef0ba94911e796c88ac87ae3e44ee8d00ecc6",
+      "png": "132.png",
+      "png_sha256": "e93dddac1f8bb54785ffda8d081d7281b13d504bd368f599873298d0e910780a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 133,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0107_jpg.rf.925ff40c25c6251e5b6055f1fb3aacaf.jpg",
+      "source_sha256": "ba4148f26617b2363b4ce7875c95cf22bdf238cbd3796ab47d2700279fde155f",
+      "png": "133.png",
+      "png_sha256": "c701eb259b0a391579c1a747b457712e764f8c196b27b95dc16cade02119c0c8",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 134,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0255_jpg.rf.b548bfb847103936326fcf42d6f2a54a.jpg",
+      "source_sha256": "f8756edeaa50845016b707161fae389883fa90d52e2eeaaa67c5633166023cb0",
+      "png": "134.png",
+      "png_sha256": "7c74539b3919d1cd3200e6ccfea6ced3eb17854f343c45d0faea1727e369fb36",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 135,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\1_mp4-0003_jpg.rf.35637f4ca25fe225b36307219fdae2e9.jpg",
+      "source_sha256": "66582b433a2df7a41b7fbf50757b7e138509089676eb355d066ccd185bebe345",
+      "png": "135.png",
+      "png_sha256": "22abc504d6ad8e0448eb691364d30f186204697bb7700933a02721676b65e5bf",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 136,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0187_jpg.rf.ef1de0901a6e30067f4a1d31ace643b3.jpg",
+      "source_sha256": "d15395df85dcb1f77e4876e7eb4e23119e692fdfd2870f165dee9649a8478630",
+      "png": "136.png",
+      "png_sha256": "8c9dbc7e91894dfe53865b59b2c20be8541594d10d5cd1ee83bdabe91714219d",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 137,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\1_mp4-0013_jpg.rf.a953c9c39fbc1f303cd1e03c65f5280c.jpg",
+      "source_sha256": "20646fa82bc2764bcb82aaf037d685e48774c50067e55e1168a78fd25530d631",
+      "png": "137.png",
+      "png_sha256": "e54da3cff6a60d9020bcbf7d8f1625dd11254e5c78acf3558a3bded7d32df15b",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 138,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0208_jpg.rf.7118355a0b926ecaebbed18a218e28a3.jpg",
+      "source_sha256": "d54f85a931a3bc246345a1c306e109d20b8f21ef1ab96713daf6cc0fb3381f0a",
+      "png": "138.png",
+      "png_sha256": "da8a13fd09569b72c4d288f5ebf4d734b58ea0bc56307dc108517f3b1e23b3d9",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 139,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\test\\images\\1_mp4-0002_jpg.rf.25c662341364100ebdc9a865d652033b.jpg",
+      "source_sha256": "fd10fb12b2fa4d15a211472ded6da2b0eea8393a1d00f90f1edf5bd94366652e",
+      "png": "139.png",
+      "png_sha256": "2c81f601a44a18b9097e014211783b2514bc5eb48915669bd53cdda6d9aabb05",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 140,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0185_jpg.rf.fc1277389959cf91ae8092fb961bedf2.jpg",
+      "source_sha256": "d26c8d9f68eedd9f850835ce8815047617e9b353337cbc442201fe53457ddf69",
+      "png": "140.png",
+      "png_sha256": "0ccf942ca4e42adde3a0c22e661c7df2d2938a80c7ae3393d74b515e83fed329",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 141,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\valid\\images\\2_mp4-0282_jpg.rf.15f236e83e887c4b1e980ad61171224e.jpg",
+      "source_sha256": "f4a0989deeb601569c6dda0cefe1cd2a680f0f334585427e54d8cf843897c367",
+      "png": "141.png",
+      "png_sha256": "237ff536ab7b24965f26296c970f66689e427955bb09b6c5307bd690b138fe76",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 142,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0215_jpg.rf.878e64173ec090189c3b81061d205984.jpg",
+      "source_sha256": "92b9c2d06926fd87226ab53aab8456c7d5e21608a87308a1071c762d8439b9ff",
+      "png": "142.png",
+      "png_sha256": "3c5030701bb6868ed6a777a6b8af19ccdf0a718fe24d662d7e0d3dc7b5a0dd51",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 143,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0007_jpg.rf.e1b49a43a475ad2e8c049cbc7517a7a6.jpg",
+      "source_sha256": "d8dff72e0777358a520e12aeb36fd25977d2d9d7c4da77e1005a0e3a84c7d068",
+      "png": "143.png",
+      "png_sha256": "6e89338d7dcb1e965dade495a3d94d1cf5d1988f51e537655f3e7ae4bf940ea7",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 144,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0251_jpg.rf.ceebe2818512ee904caf2bed26a076f5.jpg",
+      "source_sha256": "57ec631ff181f74b0c61a98157a0da62b1878b018b2c10605206a86290e9a19b",
+      "png": "144.png",
+      "png_sha256": "d6d2acad4a2171574ca9bab43093ad84b6e7a4b4c1e664b47b6ac4651c9da16a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 145,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0135_jpg.rf.3ec45aa35b77a8651e5e8b43fe8627af.jpg",
+      "source_sha256": "64369b38e03cf7801edffa010d7ddbab3cac8c1e82df0f7075a647f82e598fb4",
+      "png": "145.png",
+      "png_sha256": "dcab8795087be74950c0f649828b32f281e4950bdece79af4e088c24154a7826",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 146,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0209_jpg.rf.71be98c848af015e4ffe4166ced25aae.jpg",
+      "source_sha256": "3c46e9c278aa40dd9d4d838b219f8ec702471a149c977ef066c659e6b6e66d71",
+      "png": "146.png",
+      "png_sha256": "3224df95ea2a280841a92c104e185192b0977c4fb8f252d4e731482539b3920c",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 147,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0037_jpg.rf.6b9abe9e60d87f53a59b3492a14b3b9c.jpg",
+      "source_sha256": "2034d05eb09b5371435ba2a943d4414eed84f5673430e4cd6b5d12aa7a91ba21",
+      "png": "147.png",
+      "png_sha256": "b6aa4219dfd2c828602e4df5d7f21f603b7d41a0de5158ba0fb98767e954141c",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 148,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0111_jpg.rf.87e2826e6b3c11589f4ae98be8b27882.jpg",
+      "source_sha256": "074046a8c2ea015f51cc77a6c760f7eb8da1819ea45b23e9c67f2c1c46e0ef55",
+      "png": "148.png",
+      "png_sha256": "4b98f2702ebf218143839492e704eb975060368622105fd267d707909ec3614a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 149,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0128_jpg.rf.71f0fc506660841437dc99666551b34c.jpg",
+      "source_sha256": "016d5b5a4f51ee6ad9a59d5cac26eebf07d7a34c94d966d599d6dd4705b5759d",
+      "png": "149.png",
+      "png_sha256": "798e84fb33a22559fd3813e62579a65ccf51d0a30fe7cf33dda94555b3a57328",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 150,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0238_jpg.rf.abb53407294e4ee80cbd696627dfa161.jpg",
+      "source_sha256": "9db0af831b52ca433aeb149f6d26b4aed5d17152270a7bf0dd0ffa8fce2ab08e",
+      "png": "150.png",
+      "png_sha256": "752f61e8f556aa07c769cf01cdc34887db066b2ba6a1ee76c4c47fe0fff798c2",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 151,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0145_jpg.rf.3b4d2b8e3b362a9cd23d607d01b532e0.jpg",
+      "source_sha256": "7b4b6ce24b8890ac6a996ed535a138b5b132d8a0528f023721bc6feb89c75590",
+      "png": "151.png",
+      "png_sha256": "490155dcc5793a0089fc0471bdf531f5fb7d25ecff70effed11e98fd809a799f",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 152,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0060_jpg.rf.f7e28a0dcbe40ac3685b1d75b80fcae8.jpg",
+      "source_sha256": "3f4c7370aefb843f8f0ff42d066115d9f25741bd5e17b1fc9e60a59af9e4a3f8",
+      "png": "152.png",
+      "png_sha256": "78dbf7b0f1f1639abb3a7165f8b935df785c0935b7c3915af06c2578a137ebb5",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 153,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0155_jpg.rf.892652c3778d290f3fa723f63e223f3f.jpg",
+      "source_sha256": "59b8e62daac909e993aa3e15071d5e606ad0617ff42b6bc436911ead1798e9ee",
+      "png": "153.png",
+      "png_sha256": "eb91d8566fe0a4d3706b4484fe0686e8c381749690588f21127071ac767f1abf",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 154,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0060_jpg.rf.6dd51282cffbc2f700e7b54572045676.jpg",
+      "source_sha256": "d7287fc4d83a9e22f3eae9bf1f18a9367a7648926b5b6b3f369d8041c80cf9ef",
+      "png": "154.png",
+      "png_sha256": "e2d33994ec54b020e24baa8d992691adea8bebfb3a339a255490d6cfa63ef93b",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 155,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\1_mp4-0200_jpg.rf.31a406c16ae0a047b9088bf320a41d00.jpg",
+      "source_sha256": "7325fe7fdc5a024673b3e2fad2ba5fc68f3854a6570afcfe8be62f9bd0978731",
+      "png": "155.png",
+      "png_sha256": "73ede0e93c378c743caf43d1efef40a2cc32e21ee07c29aae650122429829e54",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 156,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0284_jpg.rf.cfb23d07394febb3a369e4bdeecd8bc5.jpg",
+      "source_sha256": "a8d2b84b4be74f66719452b4c04f71db775151ed134f34524e87bc465c351f4b",
+      "png": "156.png",
+      "png_sha256": "929625101c8a6e99896a101d27091b2cb7bec115f534886d248db169ba414c6a",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 157,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0303_jpg.rf.622d4617a9d235bd33e0e7722d9b8210.jpg",
+      "source_sha256": "e4249b535e86cfcb212393e0995c008ea0d8b7241ce64be540f590ef2d8bafce",
+      "png": "157.png",
+      "png_sha256": "e1a3b6f9992147a5331757a84c219c6c2ca61b6d0f4f7b90d8768d87f385e544",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 158,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0213_jpg.rf.1c48f16a5aec0c1b7ebed8f1e001e1c4.jpg",
+      "source_sha256": "c75afeaebb95d3def4978459ca232406b7634949e90ce2fa99dff9bb7ec39353",
+      "png": "158.png",
+      "png_sha256": "57a08e61880e5ea1dc5483d936d0e798ed2adfee44ce4ffd6b300815a6ee1285",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    },
+    {
+      "index": 159,
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\data\\train\\images\\2_mp4-0263_jpg.rf.5dc23903d708e8b9a97909ba789a8589.jpg",
+      "source_sha256": "4e3772d4266e158cc10ed5b7fd7589d7be2a8d48b2fb9522fbacec52c88a063a",
+      "png": "159.png",
+      "png_sha256": "16ca5089c9951ae0a83b435f6495ef8516cbe36d768439d55c745eb2bcb567a6",
+      "geometry": {
+        "original_WH": [
+          1920,
+          1080
+        ],
+        "target_WH": [
+          640,
+          640
+        ],
+        "resized_WH": [
+          640,
+          360
+        ],
+        "left": 0,
+        "top": 140,
+        "scale_xy": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "color": "RGB",
+        "pad": 114
+      }
+    }
+  ],
+  "dataset_sha256": "1297a40b3a1a2428471e6280ef0ca7233a05f25e15a81093eeb7c5ad9f699979"
+}

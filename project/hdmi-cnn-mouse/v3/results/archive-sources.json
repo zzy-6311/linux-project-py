@@ -1,0 +1,400 @@
+{
+  "purpose": "Archive of the 2026-11-13 multicore and memory-I/O experiments, plus freshly trained YOLO26n640.",
+  "source_data_unchanged": true,
+  "adapted_source_files": [
+    "src/board_benchmark.py",
+    "src/validate640.py",
+    "src/extract_video_inputs.py",
+    "src/io_smoke.py",
+    "src/preview_validation.py"
+  ],
+  "adaptation": "Paths and CLI only; recorded measurements belong to the original script SHA256 in result JSON. No training or board benchmarks were repeated during archiving.",
+  "copied": [
+    {
+      "path": "src/board_benchmark.py",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\board_benchmark.py",
+      "source_sha256": "64173629254d04c144ce8c0c277bce38e9f0eff90ba487cebbde4323097f0a63",
+      "bytes": 11985
+    },
+    {
+      "path": "src/io_variants.py",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\io_variants.py",
+      "source_sha256": "e21578b6f1fea6cd5990f41bb3ec1fecec0e896784deac98a71e2480237006fe",
+      "bytes": 10277
+    },
+    {
+      "path": "src/yolo_helpers.py",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\yolo_helpers.py",
+      "source_sha256": "e6363514add42a49f229a1dfa4aa0e66baae245d8f7734052bcccd56a0e8ac88",
+      "bytes": 2408
+    },
+    {
+      "path": "src/extract_video_inputs.py",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\extract_video_inputs.py",
+      "source_sha256": "b77f9f4f5975e01810b860328a8b4ada8f0d5a3debfe20c4763cf51cad1189b9",
+      "bytes": 4265
+    },
+    {
+      "path": "src/io_smoke.py",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\io_smoke.py",
+      "source_sha256": "844f84a44627e434d0e5b34a4dbbf81718751b8b0f651f47ce5d43a4ad79b4b4",
+      "bytes": 1911
+    },
+    {
+      "path": "src/rknn_runtime.py",
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\rtmdet\\rknn_runtime.py",
+      "source_sha256": "f968fd1d997659d60d88c18ef094980e72c2c068366845e1936542d2c4b03f34",
+      "bytes": 7435
+    },
+    {
+      "path": "src/rtmdet_postprocess.py",
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\rtmdet\\rtmdet_postprocess.py",
+      "source_sha256": "145f92b59980dffa95fe9b925ea52cebbef44878926e94bde300fb2206e8f597",
+      "bytes": 4388
+    },
+    {
+      "path": "src/validate640.py",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\board_validate.py",
+      "source_sha256": "2b9716b71e4b595d5cab5496004c62591fcb800951f72b981799f2687990c745",
+      "bytes": 4442
+    },
+    {
+      "path": "src/preview_validation.py",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\preview_validation.py",
+      "source_sha256": "7e469aadcf0963971e9c7d6290aee74563c42c53d564c26b3be27ece5bedfce7",
+      "bytes": 1143
+    },
+    {
+      "path": "data/video_frames.npz",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\video_frames.npz",
+      "source_sha256": "bc4b7d2b13a4e85f88c870c173dd696c13e4ae6e944aa17b6bf838756e1754fd",
+      "bytes": 14209921
+    },
+    {
+      "path": "data/video_frames.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\video_frames.json",
+      "source_sha256": "c321702ed74c378747db33ecf04dbc95c6e31586c438e40c99ba94dbeae1445d",
+      "bytes": 7524
+    },
+    {
+      "path": "data/validation640/references.npz",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\references.npz",
+      "source_sha256": "577740bc0d67846c1391cd2a2e1a06f96acf0c95af56659d5fc9a6065e0272f8",
+      "bytes": 10318288
+    },
+    {
+      "path": "data/validation640/references.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\references.json",
+      "source_sha256": "d7a6d50fe734311c754a32a11d4651f08af626169f16ee543f70d918502f2371",
+      "bytes": 47998
+    },
+    {
+      "path": "results/conversion640/calibration-manifest.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\calibration640\\manifest.json",
+      "source_sha256": "ddcf1f77b390c8b2280318acda3873edb3ffe86df70f023de2cbe8a9689388b6",
+      "bytes": 132364
+    },
+    {
+      "path": "weights/yolo26n-640x640/best.pt",
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\multicore640_20261113\\640x640\\weights\\best.pt",
+      "source_sha256": "271596d55de645e0aae01f2789a83d438d13ade6654350ea82c56e99bdd37527",
+      "bytes": 5453637
+    },
+    {
+      "path": "weights/yolo26n-640x640/model.onnx",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\yolo640x640.onnx",
+      "source_sha256": "70d6d503df2723aa947af0b97791197c5bf4c6964757ae49e7dff04abf45087e",
+      "bytes": 9648173
+    },
+    {
+      "path": "weights/yolo26n-640x640/model-int8.rknn",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\yolo640x640-int8.rknn",
+      "source_sha256": "7993b641fde1d9fba69d7c20333da636b26b6b572a743e8a02eda8483ddbccbd",
+      "bytes": 4518475
+    },
+    {
+      "path": "weights/yolo26n-320x192/model-int8.rknn",
+      "source": "G:\\linux-study\\linux\\codex\\rknn250-test-20261112\\yolo320x192-int8.rknn",
+      "source_sha256": "3011635986f967421f53e28ec5bcc7469a0cca1d730ecbede737147302ba4ec9",
+      "bytes": 4146121
+    },
+    {
+      "path": "weights/rtmdet-tiny-256x160/model-mmse-int8.rknn",
+      "source": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\rtmdet256x160-mmse-int8.rknn",
+      "source_sha256": "46df509a2e84dbbe931b716ec187bb123db25bd25fa7ce5d9ed964a816efff8e",
+      "bytes": 6979667
+    },
+    {
+      "path": "results/model-build/yolo320x192-int8.build.json",
+      "source": "G:\\linux-study\\linux\\codex\\rknn250-test-20261112\\yolo320x192-int8.build.json",
+      "source_sha256": "0b8922df564089f8f93563757eda8a0071b7070db92b5cc20248131830cefad9",
+      "bytes": 563
+    },
+    {
+      "path": "results/model-build/rtmdet256x160-mmse-int8.build.json",
+      "source": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\rtmdet256x160-mmse-int8.build.json",
+      "source_sha256": "3cd1167e7d2b3f96e0fa705c8b2b51d7ca091d32e5cb986f318680bd9645fa73",
+      "bytes": 839
+    },
+    {
+      "path": "results/model-build/rtmdet-diagnosis_summary.json",
+      "source": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\diagnosis_summary.json",
+      "source_sha256": "736f8b07eb905800965c033e1cc3dff796ec3efa325ff2b2634c19388a578c06",
+      "bytes": 14465
+    },
+    {
+      "path": "results/model-build/rtmdet-speed_accuracy_summary.json",
+      "source": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\speed_accuracy_summary.json",
+      "source_sha256": "363a612295eee0b17b06da1b1ec2c3732c3b533be7e35f685c48b8f9241503d8",
+      "bytes": 14073
+    },
+    {
+      "path": "results/model-build/rtmdet-gt_score_comparison.json",
+      "source": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\gt_score_comparison.json",
+      "source_sha256": "5531de6240eaf71ae3df6f2b6250b9d00f333fdde046c6d4596dc6c85a7443be",
+      "bytes": 14914
+    },
+    {
+      "path": "results/multicore-small/multicore-rtmdet256160.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\multicore-rtmdet256160.json",
+      "source_sha256": "ed147f39f0dbabc2cca59bc261a2f00f863e707f64abca041c8a7158ff647a88",
+      "bytes": 4519929
+    },
+    {
+      "path": "results/multicore-small/multicore-rtmdet256160.log",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\multicore-rtmdet256160.log",
+      "source_sha256": "ae37356e6b39d1600b48d3f070dc2d0c5a6ce34b1d937e0150b0b05d14d287c2",
+      "bytes": 8596
+    },
+    {
+      "path": "results/multicore-small/multicore-yolo320192.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\multicore-yolo320192.json",
+      "source_sha256": "8cbbb54a83293d3d4048d68efcdd06015ad603c8f752245c1527fdaa0e6d64aa",
+      "bytes": 6866259
+    },
+    {
+      "path": "results/multicore-small/multicore-yolo320192.log",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\multicore-yolo320192.log",
+      "source_sha256": "ebb9ccdae4bea47adfb74a13e6d64dd22b99eabf8211d1258e02c6cca9714c06",
+      "bytes": 8603
+    },
+    {
+      "path": "results/multicore-small/io-rtmdet256160.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\io-rtmdet256160.json",
+      "source_sha256": "1c1067f2508c0809543da721a1fdc55813e4204c0ad77e7cb4aaff6c4b05f56d",
+      "bytes": 9986211
+    },
+    {
+      "path": "results/multicore-small/io-rtmdet256160.log",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\io-rtmdet256160.log",
+      "source_sha256": "5d60b3c89e711574baaef88affb4526c8b20c5910ff218ce8393c9040d00b3a2",
+      "bytes": 12881
+    },
+    {
+      "path": "results/multicore-small/steady-rtmdet256160.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\steady-rtmdet256160.json",
+      "source_sha256": "f31d439a8a9e3995089d2d21e2cf7868be354f36796515746e0a9039e6a448eb",
+      "bytes": 14683240
+    },
+    {
+      "path": "results/multicore-small/steady-rtmdet256160.log",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\steady-rtmdet256160.log",
+      "source_sha256": "d90f0cfa5a8882422f37d0d2ad1266e4500d97b3268c9d26ea775f995cfe7413",
+      "bytes": 6000
+    },
+    {
+      "path": "results/multicore-small/steady-yolo320192.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\steady-yolo320192.json",
+      "source_sha256": "610dbfcd046f0d9e742cb2032eebe63c75ac00684515c85e6a6052de914519f8",
+      "bytes": 11069611
+    },
+    {
+      "path": "results/multicore-small/steady-yolo320192.log",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\steady-yolo320192.log",
+      "source_sha256": "e74b18d1a3471d2a2991ea076225a187f5daa5c91f1d92d8f9ea47025fbd6321",
+      "bytes": 4348
+    },
+    {
+      "path": "results/multicore-small/original-summary.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\summary.json",
+      "source_sha256": "f3c025ac9bf1a3d5e022568af8d742dcf01eac4e263323b58e53c918a2d58a17",
+      "bytes": 34704
+    },
+    {
+      "path": "results/multicore-small/final-board-state.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\final-board-state.json",
+      "source_sha256": "57c454bc83ce8df85d191b7829feee51fa4e0d59b527d6cbe1538ba7eeb5c5ac",
+      "bytes": 237
+    },
+    {
+      "path": "results/validation-io/io-validation-dma.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\io-validation-dma.json",
+      "source_sha256": "17b10f4f61160394249e962690e30072a3d7089a0f8bcaed36a96bb58ac10a61",
+      "bytes": 4658
+    },
+    {
+      "path": "results/validation-io/io-validation-prealloc.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\io-validation-prealloc.json",
+      "source_sha256": "7ed583be208a7e2962f424feadef68647f556ecca8c4e4a2c076b67664c76515",
+      "bytes": 4663
+    },
+    {
+      "path": "results/validation-io/io-validation-quantized.json",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\io-validation-quantized.json",
+      "source_sha256": "0fae96dbeb53e5610ed5426b86272148cfe124ab39d3f4d0a3da970516870d09",
+      "bytes": 4664
+    },
+    {
+      "path": "results/validation-io/io-validation.log",
+      "source": "G:\\linux-study\\linux\\codex\\npu-throughput-20261113\\io-validation.log",
+      "source_sha256": "d5a7df768da5cc1c45eddddaeaab2c886e45ffaa8e76bba112a97b4be1d3a37a",
+      "bytes": 212
+    },
+    {
+      "path": "results/multicore640/multicore640-baseline.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\multicore640-baseline.json",
+      "source_sha256": "96320b3aab0d15fdf02f6e055e304d86a77561cafd0ebbeab5efc43a0284be4c",
+      "bytes": 3611070
+    },
+    {
+      "path": "results/multicore640/multicore640-baseline.log",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\multicore640-baseline.log",
+      "source_sha256": "b67dc749feeffa5a36dc46352166965c04b4cfdf036f4060d28b2186b02bb0a3",
+      "bytes": 5466
+    },
+    {
+      "path": "results/multicore640/multicore640-reuse.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\multicore640-reuse.json",
+      "source_sha256": "646fb7fe90d108b46d76d1fad1553d8a739ce2925c3fc6499b28d16724579cf2",
+      "bytes": 5436394
+    },
+    {
+      "path": "results/multicore640/multicore640-reuse.log",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\multicore640-reuse.log",
+      "source_sha256": "4b18c5a40c595a2ea0f611d5fdf956502fa93019787641e3e448fdf5f4356760",
+      "bytes": 4381
+    },
+    {
+      "path": "results/multicore640/multicore640-io-pair.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\multicore640-io-pair.json",
+      "source_sha256": "be0b526a6a63d0ea7e22ddb3aded979724d2ea30d74639538f3cf5e3a869cb4e",
+      "bytes": 929832
+    },
+    {
+      "path": "results/multicore640/multicore640-io-pair.log",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\multicore640-io-pair.log",
+      "source_sha256": "d21bdcc54a031444f8e05ab6f797fd8a2ddf0a72ce3b75fd707f866ba701e6cf",
+      "bytes": 1506
+    },
+    {
+      "path": "results/multicore640/summary.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\summary.json",
+      "source_sha256": "72ce562b1d00e8bcf6187dc4f5075716f5ab188c94123e4f4ebd3b118b06b644",
+      "bytes": 76668
+    },
+    {
+      "path": "results/multicore640/comparison640.csv",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\comparison640.csv",
+      "source_sha256": "86f624dbd8a8992c61b818d758ade04e562818f0420d53cccf976a9b88e2d123",
+      "bytes": 2212
+    },
+    {
+      "path": "results/multicore640/final-board-state.log",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\final-board-state.log",
+      "source_sha256": "9b067b4da6d7906344c398db43dfcbeaf6b6d3549d294f9efa6bc3a1918ac478",
+      "bytes": 390
+    },
+    {
+      "path": "results/validation640/board-validation.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\board-validation.json",
+      "source_sha256": "78003f95eb42521e3df0867bffdc1b2614e4a14084a28ea9c4b9a74c0231a826",
+      "bytes": 40080
+    },
+    {
+      "path": "results/validation640/board-validation.log",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\board-validation.log",
+      "source_sha256": "06302904228f30d8c4eaa6b76eb1d7761a660c513fc028e6e2f9fde1a0671130",
+      "bytes": 516
+    },
+    {
+      "path": "results/validation640/validation-gt-audit.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\validation-gt-audit.json",
+      "source_sha256": "9e46f2c178f2fc83b9366c0d86dfd1e919886637e122defc4c05b6147e5f4ef6",
+      "bytes": 40502
+    },
+    {
+      "path": "results/validation640/validation-preview.jpg",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\validation-preview.jpg",
+      "source_sha256": "a7002eee3a5c23b3d2c844ff6ea56df7283299e34454aa8d3373ab8f2b1cad58",
+      "bytes": 324062
+    },
+    {
+      "path": "results/conversion640/export640.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\export640.json",
+      "source_sha256": "15062000a14a6dea470c464203f3d09fdfbfdf15d86a9d2e7153f3de4d72e223",
+      "bytes": 1499
+    },
+    {
+      "path": "results/conversion640/export640.log",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\export640.log",
+      "source_sha256": "6c15c78c3ac0941c6ab4a592824768ef2158ff2b8a646378ce13815e6e568255",
+      "bytes": 4826
+    },
+    {
+      "path": "results/conversion640/yolo640x640-int8.build.json",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\yolo640x640-int8.build.json",
+      "source_sha256": "8919323e2ae773b2b451d1513af9063b70ad0e85b7ccc1a93d90546d5aae8d84",
+      "bytes": 1073
+    },
+    {
+      "path": "results/conversion640/build640.log",
+      "source": "G:\\linux-study\\linux\\codex\\yolo640-multicore-20261113\\build640.log",
+      "source_sha256": "ed7cc176b7ee691e1126fdf79e9d36837fdde8c5df2eeae1eb6240223b9c8985",
+      "bytes": 53705
+    },
+    {
+      "path": "results/training640/experiment.json",
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\multicore640_20261113\\experiment.json",
+      "source_sha256": "2b3fc76198c1d1754d2a92a23e93d8f8306fd90546675c38eb6292263f8e5b6f",
+      "bytes": 841
+    },
+    {
+      "path": "results/training640/actual_shape.json",
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\multicore640_20261113\\640x640\\actual_shape.json",
+      "source_sha256": "db4363e065a33966df2e40549c8d8ac6fa151775c63df14ffef1efa26886b440",
+      "bytes": 175
+    },
+    {
+      "path": "results/training640/args.yaml",
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\multicore640_20261113\\640x640\\args.yaml",
+      "source_sha256": "574cd56c027a161bbe449a7c366614ef490bd5e650e6a6a81606d04d4d762627",
+      "bytes": 2100
+    },
+    {
+      "path": "results/training640/results.csv",
+      "source": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\multicore640_20261113\\640x640\\results.csv",
+      "source_sha256": "6d753db8ec0f75f878a9c6ad370436b49c6af11bcd10744cb099ae1afcca3fb1",
+      "bytes": 6092
+    }
+  ],
+  "additional_adapted_sources": [
+    {
+      "path": "src/train640.py",
+      "source": "G:/python-project/linux-project/project/linux-hdmi-preview/yolo/train640_multicore.py",
+      "source_sha256": "67d256a08e4a276c6c4b6b4b080ca18de507da7df513a209e01790e15452f9c9",
+      "note": "CLI/path relocation; training recipe and model conversion math preserved"
+    },
+    {
+      "path": "src/export640.py",
+      "source": "G:/linux-study/linux/codex/yolo640-multicore-20261113/export640.py",
+      "source_sha256": "b321af8002d0f2b1456c1f9764a14dc3c9fa00b07bce77c4b229edfa3f63aa09",
+      "note": "CLI/path relocation; training recipe and model conversion math preserved"
+    },
+    {
+      "path": "src/build640.py",
+      "source": "G:/linux-study/linux/codex/yolo640-multicore-20261113/build640.py",
+      "source_sha256": "7fb226b323e83b93c460275a8da96951ee706446cb80bce586eabd225f38c10c",
+      "note": "CLI/path relocation; training recipe and model conversion math preserved"
+    }
+  ]
+}

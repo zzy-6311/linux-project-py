@@ -1,0 +1,17 @@
+{
+  "kind": "yolo",
+  "shape_WH": "320x192",
+  "precision": "int8",
+  "toolkit": "2.5.0",
+  "onnx_sha256": "54f2ab8c722d60778d77d24b1304d857855e8605002a9045fa0a8f9189903c58",
+  "status": "built",
+  "disabled_fusion_rules": [
+    "fuse_exmatmul_add_mul_exsoftmax13_exmatmul_to_sdpa"
+  ],
+  "optimization_level": 3,
+  "graph_weights_modified": false,
+  "workaround_source": "https://github.com/airockchip/rknn-toolkit2/issues/581",
+  "bytes": 4146121,
+  "sha256": "3011635986f967421f53e28ec5bcc7469a0cca1d730ecbede737147302ba4ec9",
+  "seconds": 10.591766102000008
+}

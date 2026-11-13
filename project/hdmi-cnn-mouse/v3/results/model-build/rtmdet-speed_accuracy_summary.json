@@ -1,0 +1,394 @@
+{
+  "scope": "300 validation images, 877 annotated balls; paired static-image timing, three rounds, each 30 warmup + 200 measured. Not HDMI live FPS.",
+  "conclusion": "256x160 MMSE restores confidence/recall without measurable speed loss, but AP remains below FP32. 320x192 MMSE regresses accuracy; hybrid A/B offer partial confidence recovery at 5.28%/2.54% total-time overhead. Existing models not replaced.",
+  "candidates": [
+    {
+      "candidate": "256x160-MMSE",
+      "AP50_95": 0.6689562236032068,
+      "recall_score025": 0.9122006841505131,
+      "precision_score025": 0.9501187648456056,
+      "recall_score065": 0.6351197263397947,
+      "gt_mean_score": 0.6868292479186469,
+      "timings": {
+        "normal": {
+          "call_ms": {
+            "mean_ms": 6.410495835,
+            "median_ms": 6.4265835,
+            "p95_ms": 6.476022,
+            "min_ms": 4.819026,
+            "max_ms": 7.264706,
+            "fps_reciprocal_mean": 155.9941735770584
+          },
+          "rknn_run_ms": {
+            "mean_ms": 6.1595649266666666,
+            "median_ms": 6.175015500000001,
+            "p95_ms": 6.22344755,
+            "min_ms": 4.571979,
+            "max_ms": 6.232475,
+            "fps_reciprocal_mean": 162.3491288598469
+          },
+          "preprocess_ms": {
+            "mean_ms": 0.48660003166666665,
+            "median_ms": 0.485636,
+            "p95_ms": 0.4996506,
+            "min_ms": 0.473386,
+            "max_ms": 0.542221,
+            "fps_reciprocal_mean": 2055.0759040743865
+          },
+          "decode_ms": {
+            "mean_ms": 0.3941940116666667,
+            "median_ms": 0.392593,
+            "p95_ms": 0.40660755,
+            "min_ms": 0.384717,
+            "max_ms": 0.436051,
+            "fps_reciprocal_mean": 2536.8218958272946
+          },
+          "total_ms": {
+            "mean_ms": 7.345672828333333,
+            "median_ms": 7.3656255,
+            "p95_ms": 7.4159398,
+            "min_ms": 5.753839,
+            "max_ms": 8.430525,
+            "fps_reciprocal_mean": 136.1345683873714
+          }
+        },
+        "mmse": {
+          "call_ms": {
+            "mean_ms": 6.4091468250000005,
+            "median_ms": 6.4324165,
+            "p95_ms": 6.47574555,
+            "min_ms": 3.910755,
+            "max_ms": 7.223289,
+            "fps_reciprocal_mean": 156.02700754167853
+          },
+          "rknn_run_ms": {
+            "mean_ms": 6.159322338333333,
+            "median_ms": 6.1767655,
+            "p95_ms": 6.224017,
+            "min_ms": 3.666625,
+            "max_ms": 6.271268,
+            "fps_reciprocal_mean": 162.35552307051242
+          },
+          "preprocess_ms": {
+            "mean_ms": 0.4870107816666666,
+            "median_ms": 0.485636,
+            "p95_ms": 0.499053,
+            "min_ms": 0.473677,
+            "max_ms": 0.584805,
+            "fps_reciprocal_mean": 2053.3426315075867
+          },
+          "decode_ms": {
+            "mean_ms": 0.3967690016666667,
+            "median_ms": 0.394925,
+            "p95_ms": 0.4092316,
+            "min_ms": 0.385884,
+            "max_ms": 0.500803,
+            "fps_reciprocal_mean": 2520.3581827194234
+          },
+          "total_ms": {
+            "mean_ms": 7.354839646666666,
+            "median_ms": 7.3755425,
+            "p95_ms": 7.4204746,
+            "min_ms": 4.849944,
+            "max_ms": 13.237884,
+            "fps_reciprocal_mean": 135.9648949590922
+          }
+        }
+      },
+      "all_system_settings_restored": true,
+      "source_metrics": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\metrics-mmse\\summary.json",
+      "source_performance": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\performance\\paired-256x160.json"
+    },
+    {
+      "candidate": "320x192-MMSE",
+      "AP50_95": 0.7140409903590337,
+      "recall_score025": 0.9110604332953249,
+      "precision_score025": 0.9803680981595092,
+      "recall_score065": 0.61345496009122,
+      "gt_mean_score": 0.6620320353302319,
+      "timings": {
+        "normal": {
+          "call_ms": {
+            "mean_ms": 7.467586156666668,
+            "median_ms": 7.560755,
+            "p95_ms": 7.58002055,
+            "min_ms": 5.039823,
+            "max_ms": 8.367523,
+            "fps_reciprocal_mean": 133.91208069387358
+          },
+          "rknn_run_ms": {
+            "mean_ms": 7.20617636,
+            "median_ms": 7.304958,
+            "p95_ms": 7.313708,
+            "min_ms": 4.788401,
+            "max_ms": 7.325375,
+            "fps_reciprocal_mean": 138.7698482583349
+          },
+          "preprocess_ms": {
+            "mean_ms": 0.7402294033333334,
+            "median_ms": 0.739975,
+            "p95_ms": 0.7595617,
+            "min_ms": 0.716058,
+            "max_ms": 0.781685,
+            "fps_reciprocal_mean": 1350.9325561736555
+          },
+          "decode_ms": {
+            "mean_ms": 0.4097659983333333,
+            "median_ms": 0.408634,
+            "p95_ms": 0.422343,
+            "min_ms": 0.39901,
+            "max_ms": 0.438385,
+            "fps_reciprocal_mean": 2440.4172236529193
+          },
+          "total_ms": {
+            "mean_ms": 8.676782453333335,
+            "median_ms": 8.766824,
+            "p95_ms": 8.80166525,
+            "min_ms": 6.228975,
+            "max_ms": 9.772514,
+            "fps_reciprocal_mean": 115.25009476477457
+          }
+        },
+        "mmse": {
+          "call_ms": {
+            "mean_ms": 7.544391960000001,
+            "median_ms": 7.5625055,
+            "p95_ms": 7.58000505,
+            "min_ms": 5.585544,
+            "max_ms": 8.408066,
+            "fps_reciprocal_mean": 132.54878660890782
+          },
+          "rknn_run_ms": {
+            "mean_ms": 7.284554795000001,
+            "median_ms": 7.3078745000000005,
+            "p95_ms": 7.316625,
+            "min_ms": 5.328288,
+            "max_ms": 7.340833,
+            "fps_reciprocal_mean": 137.27674897666822
+          },
+          "preprocess_ms": {
+            "mean_ms": 0.7369636316666667,
+            "median_ms": 0.735308,
+            "p95_ms": 0.751059,
+            "min_ms": 0.722766,
+            "max_ms": 0.824269,
+            "fps_reciprocal_mean": 1356.9190622588367
+          },
+          "decode_ms": {
+            "mean_ms": 0.41006932,
+            "median_ms": 0.407759,
+            "p95_ms": 0.424093,
+            "min_ms": 0.400468,
+            "max_ms": 0.493219,
+            "fps_reciprocal_mean": 2438.612086366276
+          },
+          "total_ms": {
+            "mean_ms": 8.758862738333335,
+            "median_ms": 8.763908,
+            "p95_ms": 8.798922600000001,
+            "min_ms": 6.800654,
+            "max_ms": 14.922589,
+            "fps_reciprocal_mean": 114.17007320179599
+          }
+        }
+      },
+      "all_system_settings_restored": true,
+      "source_metrics": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\metrics-mmse320\\summary.json",
+      "source_performance": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\performance\\paired-320x192.json"
+    },
+    {
+      "candidate": "320x192-Hybrid-A",
+      "AP50_95": 0.777938911919204,
+      "recall_score025": 0.9304446978335233,
+      "precision_score025": 0.9866989117291415,
+      "recall_score065": 0.6818700114025086,
+      "gt_mean_score": 0.7095293989999724,
+      "timings": {
+        "normal": {
+          "call_ms": {
+            "mean_ms": 7.512592574999998,
+            "median_ms": 7.555796,
+            "p95_ms": 7.57563,
+            "min_ms": 5.027572,
+            "max_ms": 8.348855,
+            "fps_reciprocal_mean": 133.1098405799013
+          },
+          "rknn_run_ms": {
+            "mean_ms": 7.252334425000001,
+            "median_ms": 7.30029,
+            "p95_ms": 7.31722255,
+            "min_ms": 4.780525,
+            "max_ms": 7.412876,
+            "fps_reciprocal_mean": 137.88663641224736
+          },
+          "preprocess_ms": {
+            "mean_ms": 0.7313639283333333,
+            "median_ms": 0.729767,
+            "p95_ms": 0.7455315499999999,
+            "min_ms": 0.712266,
+            "max_ms": 0.772643,
+            "fps_reciprocal_mean": 1367.30834166083
+          },
+          "decode_ms": {
+            "mean_ms": 0.40841112833333343,
+            "median_ms": 0.4073215,
+            "p95_ms": 0.420593,
+            "min_ms": 0.398717,
+            "max_ms": 0.43401,
+            "fps_reciprocal_mean": 2448.5131051175194
+          },
+          "total_ms": {
+            "mean_ms": 8.710353695,
+            "median_ms": 8.751948,
+            "p95_ms": 8.791353149999999,
+            "min_ms": 6.202724,
+            "max_ms": 9.5698,
+            "fps_reciprocal_mean": 114.80590054271039
+          }
+        },
+        "hybrid-A": {
+          "call_ms": {
+            "mean_ms": 7.963796515,
+            "median_ms": 8.022182,
+            "p95_ms": 8.04057155,
+            "min_ms": 5.392747,
+            "max_ms": 8.751365,
+            "fps_reciprocal_mean": 125.56825103661001
+          },
+          "rknn_run_ms": {
+            "mean_ms": 7.705200465000001,
+            "median_ms": 7.766968,
+            "p95_ms": 7.78156655,
+            "min_ms": 5.138116,
+            "max_ms": 7.903471,
+            "fps_reciprocal_mean": 129.7824767236604
+          },
+          "preprocess_ms": {
+            "mean_ms": 0.7299692583333334,
+            "median_ms": 0.728308,
+            "p95_ms": 0.74405805,
+            "min_ms": 0.715766,
+            "max_ms": 0.824269,
+            "fps_reciprocal_mean": 1369.9207036241514
+          },
+          "decode_ms": {
+            "mean_ms": 0.4087047383333334,
+            "median_ms": 0.407176,
+            "p95_ms": 0.420593,
+            "min_ms": 0.39901,
+            "max_ms": 0.502553,
+            "fps_reciprocal_mean": 2446.754114175244
+          },
+          "total_ms": {
+            "mean_ms": 9.170412411666666,
+            "median_ms": 9.216,
+            "p95_ms": 9.25245905,
+            "min_ms": 6.592107,
+            "max_ms": 15.4406,
+            "fps_reciprocal_mean": 109.04634983785382
+          }
+        }
+      },
+      "all_system_settings_restored": true,
+      "source_metrics": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\metrics-hybrid-A\\summary.json",
+      "source_performance": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\performance\\paired-320x192-hybrid-A.json"
+    },
+    {
+      "candidate": "320x192-Hybrid-B",
+      "AP50_95": 0.779971526493692,
+      "recall_score025": 0.9258836944127709,
+      "precision_score025": 0.9902439024390244,
+      "recall_score065": 0.6522234891676169,
+      "gt_mean_score": 0.681767562493478,
+      "timings": {
+        "normal": {
+          "call_ms": {
+            "mean_ms": 7.424675898333334,
+            "median_ms": 7.5572545,
+            "p95_ms": 7.5887705500000004,
+            "min_ms": 5.029322,
+            "max_ms": 8.294605,
+            "fps_reciprocal_mean": 134.68601373219224
+          },
+          "rknn_run_ms": {
+            "mean_ms": 7.157823088333333,
+            "median_ms": 7.295915,
+            "p95_ms": 7.324791,
+            "min_ms": 4.772066,
+            "max_ms": 7.339666,
+            "fps_reciprocal_mean": 139.70728078344354
+          },
+          "preprocess_ms": {
+            "mean_ms": 0.7315457433333333,
+            "median_ms": 0.73035,
+            "p95_ms": 0.74755805,
+            "min_ms": 0.714891,
+            "max_ms": 0.761559,
+            "fps_reciprocal_mean": 1366.9685171612623
+          },
+          "decode_ms": {
+            "mean_ms": 0.41030506,
+            "median_ms": 0.409218,
+            "p95_ms": 0.42059205,
+            "min_ms": 0.401342,
+            "max_ms": 0.434593,
+            "fps_reciprocal_mean": 2437.2109863816936
+          },
+          "total_ms": {
+            "mean_ms": 8.624092361666667,
+            "median_ms": 8.752823,
+            "p95_ms": 8.8012702,
+            "min_ms": 6.228974,
+            "max_ms": 9.534508,
+            "fps_reciprocal_mean": 115.95423124697876
+          }
+        },
+        "hybrid-B": {
+          "call_ms": {
+            "mean_ms": 7.634049248333334,
+            "median_ms": 7.80926,
+            "p95_ms": 7.823858550000001,
+            "min_ms": 5.206368,
+            "max_ms": 8.628278,
+            "fps_reciprocal_mean": 130.9920813280475
+          },
+          "rknn_run_ms": {
+            "mean_ms": 7.367055911666666,
+            "median_ms": 7.546463,
+            "p95_ms": 7.55462905,
+            "min_ms": 4.946195,
+            "max_ms": 7.601298,
+            "fps_reciprocal_mean": 135.73943404126652
+          },
+          "preprocess_ms": {
+            "mean_ms": 0.729944445,
+            "median_ms": 0.727724,
+            "p95_ms": 0.744933,
+            "min_ms": 0.715183,
+            "max_ms": 0.820768,
+            "fps_reciprocal_mean": 1369.9672719613613
+          },
+          "decode_ms": {
+            "mean_ms": 0.41176876333333334,
+            "median_ms": 0.410384,
+            "p95_ms": 0.423218,
+            "min_ms": 0.401634,
+            "max_ms": 0.501678,
+            "fps_reciprocal_mean": 2428.5474981269626
+          },
+          "total_ms": {
+            "mean_ms": 8.843015496666666,
+            "median_ms": 9.003663,
+            "p95_ms": 9.03692755,
+            "min_ms": 6.403103,
+            "max_ms": 15.246929,
+            "fps_reciprocal_mean": 113.08359692199402
+          }
+        }
+      },
+      "all_system_settings_restored": true,
+      "source_metrics": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\metrics-hybrid-B\\summary.json",
+      "source_performance": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\performance\\paired-320x192-hybrid-B.json"
+    }
+  ]
+}

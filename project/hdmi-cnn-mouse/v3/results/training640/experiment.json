@@ -1,0 +1,22 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.9.1+cu128",
+  "data": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\resolution_compare_20261108_113852\\split\\data.yaml",
+  "initial_weights": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\weights\\yolo26n.pt",
+  "epochs": 50,
+  "shape_HW": [
+    640,
+    640
+  ],
+  "batch": 16,
+  "seed": 42,
+  "train_seconds": 992.8478693999932,
+  "best": "G:\\python-project\\linux-project\\project\\linux-hdmi-preview\\yolo\\runs\\multicore640_20261113\\640x640\\weights\\best.pt",
+  "metrics_fp32": {
+    "metrics/precision(B)": 0.9988568294287482,
+    "metrics/recall(B)": 0.9963059357299525,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.9758175956641566,
+    "fitness": 0.9758175956641566
+  }
+}

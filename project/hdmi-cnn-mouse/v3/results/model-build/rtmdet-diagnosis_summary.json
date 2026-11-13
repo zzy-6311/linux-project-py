@@ -1,0 +1,509 @@
+{
+  "date": "2026-11-13",
+  "question": "RTMDet RKNN INT8 confidence decrease",
+  "dataset": {
+    "images": 300,
+    "ground_truth_boxes": 877,
+    "validation_video": 3,
+    "calibration_images": 60,
+    "calibration_videos": [
+      1,
+      2
+    ]
+  },
+  "findings": [
+    "Native model and FP32 ONNX outputs agree; full ONNX AP matches the training validation reference.",
+    "All 240 calibration PNGs exactly match the intended preprocessing. Tested board and PC JPEG decode/RGB input arrays match pixel-for-pixel.",
+    "Foreground classification logits lose confidence inside the INT8 network before Python sigmoid/NMS. Output rounding alone is too small to explain the observed score drops.",
+    "Simulator layer analysis shows accumulated errors across backbone and classification layers. No single layer has been proven the unique cause.",
+    "One controlled 256x160 experiment changed only quantized_algorithm normal to mmse, preserving weights and the same 60 calibration images. Recall at score .25 recovered, but localization mAP remains below FP32.",
+    "FP16 RKNN has a separate small systematic box regression bias: approximately 1.9-2.6 original-image pixels per edge on 12 diagnostic images. This is not fully resolved by changing the INT8 calibration algorithm."
+  ],
+  "same_ball_example_256x160": {
+    "FP32_ONNX": 0.6902,
+    "FP16_RKNN": 0.7055,
+    "normal_INT8": 0.3049,
+    "MMSE_INT8": 0.4846
+  },
+  "metrics": [
+    {
+      "model": "rtmdet256x160",
+      "shape_WH": [
+        256,
+        160
+      ],
+      "precision": "FP32_ONNX",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.7151824513056798,
+        "AP50": 0.9440855953482716,
+        "AP75": 0.8550209464324485,
+        "AP_small": 0.0,
+        "AP_medium": 0.7231323128384677,
+        "AP_large": -1.0,
+        "AR1": 0.28973774230330673,
+        "AR10": 0.7639680729760547,
+        "AR100": 0.765564424173318,
+        "AR_small": 0.0,
+        "AR_medium": 0.7708381171067737,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 800,
+        "fp": 34,
+        "fn": 77,
+        "precision": 0.9592326139088729,
+        "recall": 0.9122006841505131
+      },
+      "at_conf065_iou050": {
+        "tp": 561,
+        "fp": 8,
+        "fn": 316,
+        "precision": 0.9859402460456942,
+        "recall": 0.6396807297605474
+      }
+    },
+    {
+      "model": "rtmdet256x256",
+      "shape_WH": [
+        256,
+        256
+      ],
+      "precision": "FP32_ONNX",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.7397460523372722,
+        "AP50": 0.9609396128245976,
+        "AP75": 0.8697187613298418,
+        "AP_small": 0.0,
+        "AP_medium": 0.7470880706413648,
+        "AP_large": -1.0,
+        "AR1": 0.29099201824401366,
+        "AR10": 0.7931584948688711,
+        "AR100": 0.7942987457240593,
+        "AR_small": 0.0,
+        "AR_medium": 0.7997703788748565,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 810,
+        "fp": 28,
+        "fn": 67,
+        "precision": 0.9665871121718377,
+        "recall": 0.9236031927023945
+      },
+      "at_conf065_iou050": {
+        "tp": 553,
+        "fp": 8,
+        "fn": 324,
+        "precision": 0.9857397504456328,
+        "recall": 0.6305587229190421
+      }
+    },
+    {
+      "model": "rtmdet320x192",
+      "shape_WH": [
+        320,
+        192
+      ],
+      "precision": "FP32_ONNX",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.8130203104422041,
+        "AP50": 0.9786324334045021,
+        "AP75": 0.9670536280058092,
+        "AP_small": 0.0,
+        "AP_medium": 0.8196606212819646,
+        "AP_large": -1.0,
+        "AR1": 0.3006841505131129,
+        "AR10": 0.8466362599771949,
+        "AR100": 0.8466362599771949,
+        "AR_small": 0.0,
+        "AR_medium": 0.8524684270952927,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 839,
+        "fp": 11,
+        "fn": 38,
+        "precision": 0.9870588235294118,
+        "recall": 0.9566704675028507
+      },
+      "at_conf065_iou050": {
+        "tp": 680,
+        "fp": 1,
+        "fn": 197,
+        "precision": 0.9985315712187959,
+        "recall": 0.7753705815279361
+      }
+    },
+    {
+      "model": "rtmdet320x320",
+      "shape_WH": [
+        320,
+        320
+      ],
+      "precision": "FP32_ONNX",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.7857445960823433,
+        "AP50": 0.983369809868444,
+        "AP75": 0.9649122627592449,
+        "AP_small": 0.0,
+        "AP_medium": 0.7924746024530654,
+        "AP_large": -1.0,
+        "AR1": 0.2936145952109464,
+        "AR10": 0.8228050171037629,
+        "AR100": 0.8229190421892817,
+        "AR_small": 0.0,
+        "AR_medium": 0.8285878300803674,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 841,
+        "fp": 18,
+        "fn": 36,
+        "precision": 0.9790454016298021,
+        "recall": 0.9589509692132269
+      },
+      "at_conf065_iou050": {
+        "tp": 591,
+        "fp": 0,
+        "fn": 286,
+        "precision": 1.0,
+        "recall": 0.6738882554161916
+      }
+    },
+    {
+      "model": "rtmdet256x160-fp16",
+      "shape_WH": "256x160",
+      "precision": "fp16",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.6837791262701671,
+        "AP50": 0.9454015634382678,
+        "AP75": 0.8597409650243255,
+        "AP_small": 0.0,
+        "AP_medium": 0.6895907641152307,
+        "AP_large": -1.0,
+        "AR1": 0.27297605473204106,
+        "AR10": 0.7410490307867732,
+        "AR100": 0.742417331812999,
+        "AR_small": 0.0,
+        "AR_medium": 0.7475315729047072,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 799,
+        "fp": 35,
+        "fn": 78,
+        "precision": 0.9580335731414868,
+        "recall": 0.9110604332953249
+      },
+      "at_conf065_iou050": {
+        "tp": 555,
+        "fp": 6,
+        "fn": 322,
+        "precision": 0.9893048128342246,
+        "recall": 0.6328392246294184
+      }
+    },
+    {
+      "model": "rtmdet256x160-int8",
+      "shape_WH": "256x160",
+      "precision": "int8",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.5971320119954426,
+        "AP50": 0.9104090922890251,
+        "AP75": 0.7233585255863125,
+        "AP_small": 0.0,
+        "AP_medium": 0.6063367876980967,
+        "AP_large": -1.0,
+        "AR1": 0.260091220068415,
+        "AR10": 0.6573546180159635,
+        "AR100": 0.6578107183580387,
+        "AR_small": 0.0,
+        "AR_medium": 0.6623421354764638,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 681,
+        "fp": 27,
+        "fn": 196,
+        "precision": 0.961864406779661,
+        "recall": 0.7765108323831242
+      },
+      "at_conf065_iou050": {
+        "tp": 336,
+        "fp": 5,
+        "fn": 541,
+        "precision": 0.9853372434017595,
+        "recall": 0.3831242873432155
+      }
+    },
+    {
+      "model": "rtmdet256x256-fp16",
+      "shape_WH": "256x256",
+      "precision": "fp16",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.6685059837591776,
+        "AP50": 0.9610893144938742,
+        "AP75": 0.8580413740586063,
+        "AP_small": 0.0,
+        "AP_medium": 0.6743535023746254,
+        "AP_large": -1.0,
+        "AR1": 0.2637400228050171,
+        "AR10": 0.7326111744583808,
+        "AR100": 0.7339794754846066,
+        "AR_small": 0.0,
+        "AR_medium": 0.7390355912743972,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 819,
+        "fp": 28,
+        "fn": 58,
+        "precision": 0.9669421487603306,
+        "recall": 0.9338654503990877
+      },
+      "at_conf065_iou050": {
+        "tp": 569,
+        "fp": 9,
+        "fn": 308,
+        "precision": 0.9844290657439446,
+        "recall": 0.6488027366020525
+      }
+    },
+    {
+      "model": "rtmdet256x256-int8",
+      "shape_WH": "256x256",
+      "precision": "int8",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.6535348619165762,
+        "AP50": 0.9532014763302304,
+        "AP75": 0.8355478792365554,
+        "AP_small": 0.0,
+        "AP_medium": 0.6600822859436093,
+        "AP_large": -1.0,
+        "AR1": 0.26248574686431014,
+        "AR10": 0.7167616875712658,
+        "AR100": 0.7182440136830104,
+        "AR_small": 0.0,
+        "AR_medium": 0.7231917336394948,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 761,
+        "fp": 24,
+        "fn": 116,
+        "precision": 0.9694267515923567,
+        "recall": 0.8677309007981756
+      },
+      "at_conf065_iou050": {
+        "tp": 377,
+        "fp": 4,
+        "fn": 500,
+        "precision": 0.989501312335958,
+        "recall": 0.4298745724059293
+      }
+    },
+    {
+      "model": "rtmdet320x192-fp16",
+      "shape_WH": "320x192",
+      "precision": "fp16",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.8318413057373378,
+        "AP50": 0.9858858862922834,
+        "AP75": 0.9673587658725717,
+        "AP_small": 0.0,
+        "AP_medium": 0.8371434878345553,
+        "AP_large": -1.0,
+        "AR1": 0.30501710376282787,
+        "AR10": 0.8610034207525656,
+        "AR100": 0.8610034207525656,
+        "AR_small": 0.0,
+        "AR_medium": 0.866934557979334,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 840,
+        "fp": 12,
+        "fn": 37,
+        "precision": 0.9859154929577465,
+        "recall": 0.9578107183580388
+      },
+      "at_conf065_iou050": {
+        "tp": 684,
+        "fp": 1,
+        "fn": 193,
+        "precision": 0.9985401459854014,
+        "recall": 0.7799315849486887
+      }
+    },
+    {
+      "model": "rtmdet320x192-int8",
+      "shape_WH": "320x192",
+      "precision": "int8",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.7792405554894557,
+        "AP50": 0.9779697100435547,
+        "AP75": 0.9543425262460158,
+        "AP_small": 0.0,
+        "AP_medium": 0.7860912958570498,
+        "AP_large": -1.0,
+        "AR1": 0.29395667046750285,
+        "AR10": 0.8224629418472065,
+        "AR100": 0.8229190421892818,
+        "AR_small": 0.0,
+        "AR_medium": 0.8285878300803674,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 809,
+        "fp": 8,
+        "fn": 68,
+        "precision": 0.9902080783353733,
+        "recall": 0.9224629418472063
+      },
+      "at_conf065_iou050": {
+        "tp": 540,
+        "fp": 0,
+        "fn": 337,
+        "precision": 1.0,
+        "recall": 0.6157354618015963
+      }
+    },
+    {
+      "model": "rtmdet320x320-fp16",
+      "shape_WH": "320x320",
+      "precision": "fp16",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.8319865212211187,
+        "AP50": 0.986983961564509,
+        "AP75": 0.9681759408098402,
+        "AP_small": 0.0,
+        "AP_medium": 0.8376922632905867,
+        "AP_large": -1.0,
+        "AR1": 0.3047890535917902,
+        "AR10": 0.8684150513112885,
+        "AR100": 0.8689851767388825,
+        "AR_small": 0.0,
+        "AR_medium": 0.8749712973593571,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 842,
+        "fp": 15,
+        "fn": 35,
+        "precision": 0.9824970828471412,
+        "recall": 0.9600912200684151
+      },
+      "at_conf065_iou050": {
+        "tp": 594,
+        "fp": 0,
+        "fn": 283,
+        "precision": 1.0,
+        "recall": 0.677309007981756
+      }
+    },
+    {
+      "model": "rtmdet320x320-int8",
+      "shape_WH": "320x320",
+      "precision": "int8",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.6959869731134706,
+        "AP50": 0.9753225714281992,
+        "AP75": 0.9207285277795848,
+        "AP_small": 0.0,
+        "AP_medium": 0.703052914195773,
+        "AP_large": -1.0,
+        "AR1": 0.2659064994298746,
+        "AR10": 0.7467502850627138,
+        "AR100": 0.7476624857468643,
+        "AR_small": 0.0,
+        "AR_medium": 0.7528128587830081,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 819,
+        "fp": 21,
+        "fn": 58,
+        "precision": 0.975,
+        "recall": 0.9338654503990877
+      },
+      "at_conf065_iou050": {
+        "tp": 502,
+        "fp": 2,
+        "fn": 375,
+        "precision": 0.996031746031746,
+        "recall": 0.572405929304447
+      }
+    },
+    {
+      "model": "rtmdet256x160-mmse-int8",
+      "shape_WH": "256x160",
+      "precision": "int8",
+      "num_images": 300,
+      "num_gt": 877,
+      "coco": {
+        "AP50_95": 0.6689562236032068,
+        "AP50": 0.9402154878351708,
+        "AP75": 0.8322491355872345,
+        "AP_small": 0.0,
+        "AP_medium": 0.6773984460842811,
+        "AP_large": -1.0,
+        "AR1": 0.27343215507411633,
+        "AR10": 0.7233751425313569,
+        "AR100": 0.7248574686431015,
+        "AR_small": 0.0,
+        "AR_medium": 0.7298507462686566,
+        "AR_large": -1.0
+      },
+      "at_conf025_iou050": {
+        "tp": 800,
+        "fp": 42,
+        "fn": 77,
+        "precision": 0.9501187648456056,
+        "recall": 0.9122006841505131
+      },
+      "at_conf065_iou050": {
+        "tp": 557,
+        "fp": 6,
+        "fn": 320,
+        "precision": 0.9893428063943162,
+        "recall": 0.6351197263397947
+      }
+    }
+  ],
+  "mmse_candidate": {
+    "path": "G:\\linux-study\\linux\\codex\\rtmdet-confidence-20261113\\rtmdet256x160-mmse-int8.rknn",
+    "sha256": "46df509a2e84dbbe931b716ec187bb123db25bd25fa7ce5d9ed964a816efff8e",
+    "scope": "only 256x160 tested; no existing model replaced; no HDMI/mouse application started"
+  },
+  "evidence": [
+    "layer-analysis/snapshot/error_analysis.txt",
+    "fp16_raw_comparison.json",
+    "logit_comparison.json",
+    "metrics/summary.json",
+    "metrics-mmse/summary.json"
+  ]
+}
